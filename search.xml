@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>群晖218j新机安装方法</title>
+      <link href="/2019/02/16/%E7%BE%A4%E6%99%96218j%E6%96%B0%E6%9C%BA%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
+      <url>/2019/02/16/%E7%BE%A4%E6%99%96218j%E6%96%B0%E6%9C%BA%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="群晖DS-218J家庭入门级Nas服务器安装教程"><a href="#群晖DS-218J家庭入门级Nas服务器安装教程" class="headerlink" title="群晖DS 218J家庭入门级Nas服务器安装教程"></a><center>群晖DS 218J家庭入门级Nas服务器安装教程</center></h2><blockquote><p>218j这个是型号是家庭或者个人入门级的Nas存储服务器<br>同样具备了数据备份和相片整理已经媒体中心的核心功能<br>家庭或者刚刚开始使用储存类型服务器的朋友都是不错的选择<br>因为其价格便宜功耗极低而被喜欢<br>r如果想玩docker或者虚拟机的玩家可以选择218+型号以上的版本</p></blockquote><center><br>  <video controls preload="none" width="100%" height="400"><br>      <source src="/video/DS218j.mp4" type="video/mp4"><br>  </video><br></center>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>docker命令大全</title>
+      <link href="/2019/02/02/docker%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/"/>
+      <url>/2019/02/02/docker%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</url>
+      
+        <content type="html"><![CDATA[<p><code>docker</code> 其实很强大用得好的很少</p><h2 id="docker命令集"><a href="#docker命令集" class="headerlink" title="docker命令集"></a>docker命令集</h2><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td>容器生命周期管理</td></tr><tr><td>run</td><td>创建一个新容器并运行</td></tr><tr><td>start</td><td>开启一个容器并使其在后台运行</td></tr><tr><td>stop</td><td>停止一个容器</td></tr><tr><td>restart</td><td>重启一个容器</td></tr><tr><td>kill</td><td>杀掉一个容器进程</td></tr><tr><td>rm</td><td>删除容器</td></tr><tr><td>pause</td><td>暂停容器</td></tr><tr><td>unpause</td><td>恢复暂停容器</td></tr><tr><td>create</td><td>从镜像中创建一个容器</td></tr><tr><td>exec</td><td>对一个容器执行shell命令</td></tr><tr><td>容器操作</td></tr><tr><td>ps</td><td>列出容器</td></tr><tr><td>inspect</td><td>获取容器或镜像的元数据</td></tr><tr><td>top</td><td>查看正在运行中的容器进程信息</td></tr><tr><td>attach</td><td>链接正在运行的容器</td></tr><tr><td>events</td><td>从docker服务器获取事件</td></tr><tr><td>logs</td><td>获取docker日志</td></tr><tr><td>wait</td><td>让一个容器进入等待，使其进入阻塞状态</td></tr><tr><td>export</td><td>讲一个容器的文件系统打包至tar</td></tr><tr><td>port</td><td>列出一个容器的端口映射情况</td></tr><tr><td>container</td><td>管理已经运行的容器的</td></tr><tr><td>deploy</td><td>部署新的堆栈或更新已有堆栈的</td></tr><tr><td>update</td><td>更新容器</td></tr><tr><td>rename</td><td>重命名容器</td></tr><tr><td>volume</td><td>卷管理</td></tr><tr><td>容器文件系统操作</td></tr><tr><td>commit</td><td>提交一个容器的文件系统，使之生成一个新的镜像</td></tr><tr><td>cp</td><td>向一个正在运行的容器复制文件，或将容器中的文件复制出来</td></tr><tr><td>diff</td><td>检查一个容器文件系统更改情况</td></tr><tr><td>镜像仓库操作</td></tr><tr><td>login</td><td>docker登入</td></tr><tr><td>logout</td><td>docker登出</td></tr><tr><td>pull</td><td>拉取镜像</td></tr><tr><td>push</td><td>推送镜像至服务器</td></tr><tr><td>search</td><td>在docker hub上查询镜像</td></tr><tr><td>镜像管理</td></tr><tr><td>images</td><td>列出镜像</td></tr><tr><td>rmi</td><td>删除镜像</td></tr><tr><td>tag</td><td>修改本地某一镜像的标记，使其镜像属于某一仓库</td></tr><tr><td>build</td><td>通过指定Dockerfile文件编译镜像</td></tr><tr><td>history</td><td>查看镜像历史</td></tr><tr><td>save</td><td>将制定镜像保存成tar文件</td></tr><tr><td>load</td><td>从tar中恢复镜像</td></tr><tr><td>import</td><td>从tar中创建一个新镜像</td></tr><tr><td>checkpoint</td><td>设置checkpoint，类似于恢复点，可以让镜像撤销到曾经设置的某一个checkpoint上</td></tr><tr><td>image</td><td>docker镜像管理</td></tr><tr><td>manifest</td><td>docker镜像清单管理</td></tr><tr><td>trust</td><td>docker可信镜像管理</td></tr><tr><td>集群管理</td></tr><tr><td>swarm</td><td>docker集群管理工具</td></tr><tr><td>node</td><td>docker集群节点控制</td></tr><tr><td>stack</td><td>docker集群堆栈管理</td></tr><tr><td>其他命令</td></tr><tr><td>info</td><td>查询docker信息</td></tr><tr><td>version</td><td>查询docker版本</td></tr><tr><td>system</td><td>docker系统管理</td></tr><tr><td>stats</td><td>docker容器资源使用统计</td></tr><tr><td>config</td><td>管理docker配置</td></tr><tr><td>network</td><td>docker网络管理</td></tr><tr><td>plugin</td><td>docker插件管理</td></tr><tr><td>secret</td><td>docker敏感信息管理</td></tr><tr><td>service</td><td>docker服务管理</td></tr></tbody></table><h2 id="run命令"><a href="#run命令" class="headerlink" title="run命令"></a>run命令</h2><blockquote><p>docker run命令是创建一个新容器并运行，若本地不存在该容器镜像会直接去镜像仓库中查找并自动下载。</p></blockquote><p><strong>语法：</strong></p><pre class=" language-shell"><code class="language-shell">docker run [OPTIONS] IMAGE [COMMAND] [ARG...]</code></pre><p><strong>命令参数说明：</strong></p><table><thead><tr><th>参数名</th><th>默认</th><th>说明</th><th>特殊示例</th></tr></thead><tbody><tr><td>–add-host</td><td>&amp;</td><td>为容器添加一个host to ip的映射关系，可以添加若干个，且容器重启后不会消失。若直接修改容器中的/etc/hosts文件，容器重启后会消失</td><td>docker run –add-host localhost:127.0.0.1 ubuntu:latest</td></tr><tr><td>-attach(-a)</td><td>&amp;</td><td>将容器的stdin,stdout,stderr【标准输入，标准输出，错误输出】关联到本地shell中，在执行docker run时，将所有输入输出指定到本地shell中，若执行时携带此参数，可以指定将stdin,stdout,stderr的某一个或某几个关联到本地shell</td><td>&amp;</td></tr><tr><td>–blkio-weight</td><td>0</td><td>限制容器读写权重，当宿主机有1个以上容器时，可以设置容器的读写优先权，权重值在10～1000之间，0为关闭权重（该参数默认为0）</td><td>&amp;</td></tr><tr><td>–blkio-weight-device</td><td>0</td><td>设置针对指定设备的权重，权重值在10～1000之间，且优先级高于blkio.weight</td><td>docker run –blkio-weight-device “/dev/sda:100” ubuntu:latest</td></tr><tr><td>–cap-add</td><td>&amp;</td><td>增强linux能力，在docker容器内限制了大部分的linux能力，在之前，需要开启这些功能需要结合–privileged开启特权模式才能使用这些参数，考虑到安全性，可以通过该参数来开启指定的linux功能【默认开启的功能及全部定义详见docker runc】，若参数为all则默认开启所有linux能力</td><td>&amp;</td></tr><tr><td>–cap-drop</td><td>&amp;</td><td>移除linux能力</td><td>&amp;</td></tr><tr><td>–cgroup-parent</td><td>&amp;</td><td>配置容器的控制组，继承该控制组的资源限制模式。扩展阅读:linux cgroup</td><td>&amp;</td></tr><tr><td>–cidfile</td><td>&amp;</td><td>创建一个容器，并将该容器的pid输出到某一文件中，若该文件存在，则会返回一个错误</td><td>docker run –cidfile /tmp/docker_test.cid ubuntu echo “test”</td></tr><tr><td>–cpu-count</td><td>0</td><td>设置容器cpu数量仅限Windows版本</td><td>&amp;</td></tr><tr><td>–cpu-percent</td><td>0</td><td>设置容器CPU使用百分比仅限Windows版本</td><td>&amp;</td></tr><tr><td>–cpu-period</td><td>0</td><td>与参数–cpu-quota配合使用，用于设定cpu从新分配资源的时间周期,时间周期结束后，会对cpu进行重新分配。</td><td>&amp;</td></tr><tr><td>–cpu-quota</td><td>0</td><td>与参数–cpu-period配合使用，用于设定该容器在资源分配周期内占用cpu的时间，若容器设定–cpu-quota=1000000 –cpu-period=500000，则该容器在这个时间周期内权重为50%，这两个参数主要是提升宿主机内某一容器的权重比，可以用来解决宿主机内若干容器的资源抢占导致重要容器cpu性能不足的场景。该模式应用于Linux 的CFS模式，扩展阅读：完全公平调度程序(CFS)</td><td>&amp;</td></tr><tr><td>–cpu-rt-period</td><td>0</td><td>–cpu-period的微秒版</td><td>&amp;</td></tr><tr><td>–cpu-rt-runtime</td><td>0</td><td>在一个cpu资源分配周期内，优先保证某容器的cpu使用的最大微秒数。例如，默认周期为 1000000 微秒（1秒），设置 –cpu-rt-runtime=950000 可确保使用实时调度程序的容器每 1000000 微秒可运行 950000 微秒，并保留至少 50000 微秒用于非实时任务。</td><td>&amp;</td></tr><tr><td>–cpu-shares(-c)</td><td>0</td><td>设置容器CPU权重，可以用于调整容器在单位分配周期内的资源优先使用比</td><td>&amp;</td></tr><tr><td>–cpus</td><td>&amp;</td><td>设置容器使用cpu的数量，该参数为1.3新增参数用于快速设置容器对于cpu的占用，例如示例，可以直接设置该容器使用多少cpu</td><td>docker run –cpus=”.5” ubuntu:latest</td></tr><tr><td>–cpuset-cpus</td><td>&amp;</td><td>设置容器允许在哪个cpu上执行该进程，譬如–cpuset-cpus=”1,3”为指定在cpu 1 和cpu 3上执行，–cpuset-cpus=”0-2”为指定在cpu0,cpu1,cpu2上执行</td><td>docker run –cpuset-cpus=”1,3” ubuntu:latest docker run –cpuset-cpus=”0-2” ubuntu:latest</td></tr><tr><td>–cpuset-mems</td><td>&amp;</td><td>同参数–cpuset-cpus，但该参数是作用于NUMA 架构的 CPU</td><td>docker run –cpuset-mems=”1,3” ubuntu:latest docker run –cpuset-mems=”0-2” ubuntu:latest</td></tr><tr><td>–detach(-d)</td><td>false</td><td>指定该容器运行于前台还是后台</td><td>&amp;</td></tr><tr><td>–detach-keys</td><td>&amp;</td><td>设置容器的键盘映射键位，在容器被链接到前台时，若宿主机的键盘键位与容器键位冲突，可以使用该指令对容器的键位进行重新映射</td><td>&amp;</td></tr><tr><td>–device</td><td>&amp;</td><td>将宿主机的设备映射至容器</td><td>&amp;</td></tr><tr><td>–device-cgroup-rule</td><td>&amp;</td><td>将宿主机的设备添加到cgroup规则列表中</td><td>&amp;</td></tr><tr><td>–device-read-bps</td><td>&amp;</td><td>以字节数/每秒的形式限制设备的读取速率</td><td>docker run –device-read-bps /dev/sda:100KB ubuntu:latest</td></tr><tr><td>–device-read-iops</td><td>&amp;</td><td>以每秒所执行IO操作的次数的形式限制设备的读取速率</td><td>docker run –device-read-iops /dev/sda:10 ubuntu:latest</td></tr><tr><td>–device-write-bps</td><td>&amp;</td><td>以字节数/每秒的形式限制设备的写入速率</td><td>&amp;</td></tr><tr><td>–device-write-iops</td><td>&amp;</td><td>以每秒所执行IO操作的次数的形式限制设备的写入速率</td><td>&amp;</td></tr><tr><td>–disable-content-trust</td><td>true</td><td>忽略镜像的校验</td><td>&amp;</td></tr><tr><td>–dns</td><td>&amp;</td><td>指定容器使用的DNS服务器，默认和宿主一致</td><td>&amp;</td></tr><tr><td>–dns-opt</td><td>&amp;</td><td>设置DNS选项，同修改/etc/resolv.conf文件</td><td>&amp;</td></tr><tr><td>–dns-option</td><td>&amp;</td><td>设置DNS选项，同修改/etc/resolv.conf文件</td><td>&amp;</td></tr><tr><td>–dns-search</td><td>&amp;</td><td>指定容器DNS搜索域名，默认和宿主一致</td><td>&amp;</td></tr><tr><td>–entrypoint</td><td>&amp;</td><td>覆盖Dockerfile中设置的entrypoint命令</td><td>&amp;</td></tr><tr><td>–env(-e)</td><td>&amp;</td><td>设置/新增环境变量</td><td>&amp;</td></tr><tr><td>–expose</td><td>&amp;</td><td>开放一个端口或一组端口</td><td>&amp;</td></tr><tr><td>–group-add</td><td>&amp;</td><td>为容器添加用户组</td><td>&amp;</td></tr><tr><td>–health-cmd</td><td>&amp;</td><td>执行一个健康检查命令</td><td>&amp;</td></tr><tr><td>–health-interval</td><td>0</td><td>配合–health-cmd参数，设置健康检查的执行的间隔时间（ms</td><td>s</td><td>m</td><td>h）</td><td>&amp;</td></tr><tr><td>–health-retries</td><td>0</td><td>配合–health-cmd参数，设置健康检查命令失败重试的次数</td><td>&amp;</td></tr><tr><td>–health-start-period</td><td>0</td><td>配合–health-cmd参数，设置健康检查的启动时间（ms</td><td>s</td><td>m</td><td>h）</td><td>&amp;</td></tr><tr><td>–health-timeout</td><td>0</td><td>配合–health-cmd参数，设置健康检查命令超时时间（ms</td><td>s</td><td>m</td><td>h）</td><td>&amp;</td></tr><tr><td>–help</td><td>false</td><td>帮助</td><td>&amp;</td></tr><tr><td>–hostname(-h)</td><td>&amp;</td><td>指定容器的hostname</td><td>&amp;</td></tr><tr><td>–init</td><td>false</td><td>使用tini工具在容器中新增一个守护进程，来预防该容器出现僵尸进程的可能性</td><td>&amp;</td></tr><tr><td>–interactive (-i)</td><td>false</td><td>以交互模式运行容器，并将容器的STDIN（标准输入）打开，通常与参数–tty (-t)配合使用</td><td>&amp;</td></tr><tr><td>–io-maxbandwidth</td><td>0</td><td>限制容器IO最大速率仅限Windows版本</td><td>&amp;</td></tr><tr><td>–io-maxiops</td><td>0</td><td>以每秒所执行IO操作的次数的形式限制设备的读取速率仅限Windows版本</td><td>&amp;</td></tr><tr><td>–ip</td><td>&amp;</td><td>设置容器的IPv4地址</td><td>&amp;</td></tr><tr><td>–ip6</td><td>&amp;</td><td>设置容器的IPv6地址</td><td>&amp;</td></tr><tr><td>–ipc</td><td>&amp;</td><td>启用ipc命名空间。在docker容器中进程交互采用了Linux常见的进程间交互方法(interprocess communication - IPC), 包括信号量、消息队列和共享内存等。容器的进程间交互实际上还是host上具有相同pid命名空间中的进程间交互，因此需要在IPC资源申请时加入命名空间信息，每个IPC资源有一个唯一的32位id。</td><td>&amp;</td></tr><tr><td>–isolation</td><td>&amp;</td><td>使用容器隔离。该参数拥有三个值(1)default 即与使用dockerd –exec-opt的参数默认效果相同(2)process 使用linux内核命名空间进行隔离，该参数不支持windows环境。（3）使用微软的Hyper-V虚拟技术进行隔离，该参数仅限windows环境</td><td>&amp;</td></tr><tr><td>–kernel-memory</td><td>0</td><td>限制该容器内核的内存使用</td><td>&amp;</td></tr><tr><td>–label (-l)</td><td>&amp;</td><td>设置该容器的元数据</td><td>&amp;</td></tr><tr><td>–label-file</td><td>&amp;</td><td>通过本地文件导入元数据至该容器</td><td>&amp;</td></tr><tr><td>–link</td><td>&amp;</td><td>指定容器间的关联，使用其他容器的IP、env等信息</td><td>&amp;</td></tr><tr><td>–link-local-ip</td><td>&amp;</td><td>设置本地链路地址（link-local address）ip</td><td>&amp;</td></tr><tr><td>–log-driver</td><td>&amp;</td><td>设置一个指定日志接受工具，用于动态收集日志。扩展阅读日志处理与log-driver实现</td><td>&amp;</td></tr><tr><td>–log-opt</td><td>&amp;</td><td>配合参数–log-driver使用，用于设置日志输出参数</td><td>&amp;</td></tr><tr><td>–mac-address</td><td>&amp;</td><td>设置该容器mac地址</td><td>&amp;</td></tr><tr><td>–memory -m</td><td>0</td><td>限制该容器内存使用</td><td>&amp;</td></tr><tr><td>–memory-reservation</td><td>0</td><td>软限制该容器的内存使用，当宿主机内存空闲时，该容器的内存使用可以一定比例超出限制，但当宿主机内存紧张时，会强制该容器内存使用限制在该参数之内</td><td>&amp;</td></tr><tr><td>–memory-swap</td><td>0</td><td>内存交换分区大小限制。配合参数–memory使用，且最小内存交换限制应该大于内存限制。该参数有4种情况：(1)不设置–memory与该参数:则该容器默认可以用完宿舍机的所有内存和 宿主机 swap 分区。 (2)设置–memory 50MB 不设置–memory-swap（默认为0）:则–memory-swap值等于限制内存大小，即该容器能够申请的最大内存为100MB。 (3)设置–memory 50MB –memory-swap为-1:则该容器最大可以申请的内存为50MB+宿主机swap分区大小 (4)设置–memory 50MB –memory-swap 100MB：则该容器可以申请的最大内存为100MB-50MB=50MB</td><td>&amp;</td></tr><tr><td>–memory-swappiness</td><td>-1</td><td>用于调整虚拟内存的控制行为，为0～100之间的整数。在linux内存管理中，将内存中不活跃的页交换至硬盘中，以缓解内存紧张，该参数设置为0则认定该容器所有内存中的内容均不允许交换至硬盘，用以保障最大性能，若设置为100，则认为该容器所有内存中的数据均可以交换至硬盘。扩展阅读Linux内存管理</td><td>&amp;</td></tr><tr><td>–mount</td><td>&amp;</td><td>将文件系统挂载附加到容器</td><td>&amp;</td></tr><tr><td>–name</td><td>&amp;</td><td>设置该容器的名称</td><td>&amp;</td></tr><tr><td>–net</td><td>&amp;</td><td>将容器连接到网络，支持bridge/host/none/container四种类型</td><td>&amp;</td></tr><tr><td>–net-alias</td><td>&amp;</td><td>设置该容器在网络上的别名</td><td>&amp;</td></tr><tr><td>–network</td><td>&amp;</td><td>将容器连接到网络，支持bridge/host/none/container四种类型</td><td>&amp;</td></tr><tr><td>–network-alias</td><td>&amp;</td><td>设置该容器在网络上的别名</td><td>&amp;</td></tr><tr><td>–no-healthcheck</td><td>false</td><td>禁止一切健康检查行为</td><td>&amp;</td></tr><tr><td>–oom-kill-disable</td><td>false</td><td>设置是否禁止oom kill行为，若该容器因为需要大量请求内存，导致宿主机内存不足或触发到内存限制，导致杀死该容器进程，若设置该参数为true则会关闭这个检查</td><td>&amp;</td></tr><tr><td>–oom-score-adj</td><td>0</td><td>调整主机的OOM首选项（从-1000到1000）此处需要注意的是，非专业人士docker官方是不建议用户修改–oom-score-adj–oom-kill-disable这两个参数的</td><td>&amp;</td></tr><tr><td>–pid</td><td>&amp;</td><td>自定义设置该容器的pid</td><td>&amp;</td></tr><tr><td>–pids-limit</td><td>0</td><td>该参数值为整数，为限制该容器所能创建的最大进程数。</td><td>&amp;</td></tr><tr><td>–privileged</td><td>false</td><td>在该容器上开启特权模式，让该容器拥有所有的linux能力</td><td>&amp;</td></tr><tr><td>–publish -p</td><td>&amp;</td><td>将容器的端口映射到宿主机上</td><td>docker run -p 8000:8000 ubuntu</td></tr><tr><td>–publish-all (-P)</td><td>false</td><td>将该容器的所有端口均随机映射至宿主机</td><td>&amp;</td></tr><tr><td>–read-only</td><td>false</td><td>设置该容器只读</td><td>&amp;</td></tr><tr><td>–restart</td><td>no</td><td>在退出该容器时重启该容器</td><td>&amp;</td></tr><tr><td>–rm</td><td>false</td><td>当退出该容器时自动删除该容器资源</td><td>&amp;</td></tr><tr><td>–runtime</td><td>&amp;</td><td>指定该容器关联一个runtime的容器，在使用该参数时注意runtime specified必须在dockerd –add-runtime注册过。扩展阅读什么是容器的runtime与Docker、Containerd、RunC之间的进程关系</td><td>&amp;</td></tr><tr><td>–security-opt</td><td>&amp;</td><td>设置安全属性，在windows上使用CredentialSpec模块来执行身份识别。</td><td>&amp;</td></tr><tr><td>–shm-size</td><td>0</td><td>设置/dev/shm/目录的大小</td><td>&amp;</td></tr><tr><td>–sig-proxy</td><td>true</td><td>代理进程所接收的所有字符,当指定–sig-proxy=false时，ctrl+c和ctrl+d 不会传递信号给docker进程而关闭容器。</td><td>&amp;</td></tr><tr><td>–stop-signal</td><td>SIGTERM</td><td>停止带有信号的容器，在linux环境下输入kill -l,就可以看到所有信号名称，可以指定容器发出某种信号时停止该容器，譬如SIGKILL</td><td>&amp;</td></tr><tr><td>–stop-timeout</td><td>0</td><td>设置容器调用命令超时后自动退出。该参数可以设置容器在调用命令时导致超时后多少秒退出，0为永远不退出，该参数单位为秒</td><td>&amp;</td></tr><tr><td>–storage-opt</td><td>&amp;</td><td>设定该容器的存储空间，可以分别指定dm.basesize、dm.loopdatasize、dm.loopmetadatasize等项,指定单个容器可用数据空间、docker可用数据空间、元数据可用数据空。</td><td>docker run –storage-opt dm.basesize=20G ubuntu</td></tr><tr><td>–sysctl</td><td>map[]</td><td>修改内核参数，对应修改容器中的/etc/sysctl.conf文件</td><td>&amp;</td></tr><tr><td>–tmpfs</td><td>&amp;</td><td>指定挂载一个tmpfs目录，tmpfs是一种虚拟内存文件系统。可以不经由镜像直接创建一个容器</td><td>docker run -d –tmpfs /run:rw,noexec,nosuid,size=65536k my_image</td></tr><tr><td>–tty (-t)</td><td>false</td><td>为容器重新分配一个伪输入终端，通常与参数–interactive (-i)同时使用</td><td>&amp;</td></tr><tr><td>–ulimit</td><td>&amp;</td><td>设置容器的ulimit选项，扩展阅读ulimit命令</td><td>&amp;</td></tr><tr><td>–user (-u)</td><td>&amp;</td><td>在该容器下添加新用户</td><td>&amp;</td></tr><tr><td>–userns</td><td>&amp;</td><td>指定该容器运行在指定host user namespace中</td><td>&amp;</td></tr><tr><td>–uts</td><td>&amp;</td><td>使用uts命名空间。扩展阅读Linux命名空间入门</td><td>&amp;</td></tr><tr><td>–volume (-v)</td><td>&amp;</td><td>在该容器下挂载新卷</td><td>&amp;</td></tr><tr><td>–volume-driver</td><td>&amp;</td><td>挂载一个卷容器，该卷可以是一个本地共享卷或者一个远程服务，配合docker volume create命令创建一个卷</td><td>&amp;</td></tr><tr><td>–volumes-from</td><td>&amp;</td><td>可以将任意文件夹反挂载到卷中，从而快速实现对该容器的备份与迁移。</td><td>docker run –rm –volumes-from dbstore -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /dbdata</td></tr><tr><td>–workdir (-w)</td><td>&amp;</td><td>指定容器的工作目录与Dockerfile中的WORKDIR作用相同</td><td>&amp;</td></tr></tbody></table><h2 id="start命令"><a href="#start命令" class="headerlink" title="start命令"></a>start命令</h2><blockquote><p>docker start是用于启动容器的命令</p></blockquote><p><strong>语法：</strong></p><pre><code>docker start [OPTIONS] CONTAINER [CONTAINER...]</code></pre><p><strong>命令参数说明：</strong></p><table><thead><tr><th>参数名</th><th>默认</th><th>说明</th><th>特殊示例</th></tr></thead><tbody><tr><td>–attach（-a）</td><td></td><td></td><td></td></tr><tr><td>–checkpoint</td><td></td><td></td><td></td></tr><tr><td>–checkpoint-dir</td><td></td><td></td><td></td></tr><tr><td>–detach-keys</td><td></td><td></td><td></td></tr><tr><td>–interactive（-i）</td><td></td><td></td><td></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nas </tag>
+            
+            <tag> 命令行 </tag>
+            
+            <tag> 终端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>利用nas构建自己的webIDE网页编辑器</title>
+      <link href="/2019/02/01/%E5%88%A9%E7%94%A8nas%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84webIDE%E7%BD%91%E9%A1%B5%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+      <url>/2019/02/01/%E5%88%A9%E7%94%A8nas%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84webIDE%E7%BD%91%E9%A1%B5%E7%BC%96%E8%BE%91%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<p>之前用很复杂的方式构建了各种编辑环境就是为了方便进行操作<br>通过不断的网络搜刮当然也有了更好的选择<br>当然是webIDE，国内原来有coding现在给了腾讯<br>很多好一点的教学站点都有自己的webIDE为了方便学员开发<br>配置环境真的是一件非常枯燥的事情<br>稍有不慎就得重新来过，有时候还不知道问题出在哪<br>关于webIDE我很早就开始使用了<br>只不过早期的webIDE都很简单只能写写代码然后连保存都没有<br>只是前端的代码试试效果而已<br>后来coding出了不错的webIDE集成了终端工具<br>可以直接搭建不同环境，而且在线就完成编码工作甚至于可以写小程序代码直接编译成界面<br>现在给腾讯以后也更为强大了，首先插件更加丰富<br>前段时间还举办了插件大赛<br>我要说但是了<br>但是代码补全我从16年提意见到19年代码补全他们还是没做<br>那么提高效率的事情都不做，乱七八糟事情的做了一堆<br>每个账号最多只能开五个服务<br>我估计到最后还是要收费毕竟腾讯代理<br>不冲点钱能叫腾讯<br>废话完了讲正题<br>正题非常简单一两张图就能解决<br>后续的使用思路才是真正需要补充的<br>这篇先讲搭建</p><h2 id="下载Cloud9编辑器"><a href="#下载Cloud9编辑器" class="headerlink" title="下载Cloud9编辑器"></a>下载Cloud9编辑器</h2><p>打开<code>docker</code>注册表中搜索<code>xczh/c9</code><br>不知道之前又没说错<br><code>docker</code>下的系统或多或少都有些限制<br>要想每种环境都搭建好是很麻烦的事情需要在参数里面设置过才行<br>搜索到就下载下来<br><img src="/images/pasted-109.png" alt="upload"></p><h2 id="映射端口"><a href="#映射端口" class="headerlink" title="映射端口"></a>映射端口</h2><p>我是映射了这几个端口<br>php的8080测试端口<br>hexo的4000测试后台端口<br>sshd端口22其实可以不用映射毕竟有了终端工具可以不用了<br>80端口是必须的要不然页面怎么访问<br><img src="/images/pasted-111.png" alt="upload"></p><h2 id="挂载文件夹"><a href="#挂载文件夹" class="headerlink" title="挂载文件夹"></a>挂载文件夹</h2><p>挂载到镜像根目录的<code>/workspace</code>就好<br>当然你想配置<code>c9</code>编辑器也可以映射出来额外配置初始化<br><img src="/images/pasted-110.png" alt="upload"></p><h2 id="设置登录"><a href="#设置登录" class="headerlink" title="设置登录"></a>设置登录</h2><p>ssh的账户和在配置环境下设置的账户是不一样的<br>虽然默认都是root但是ssh的是系统账户<br>编辑器的默认账户也是root要区分一下<br><img src="/images/pasted-112.png" alt="upload"></p><h2 id="扩展思路"><a href="#扩展思路" class="headerlink" title="扩展思路"></a>扩展思路</h2><p>有了环境有了挂载文件，那么就可以将这些文件同样挂到web服务器上面去<br>也就具备了之前两篇中讲到的<code>hexo</code>博客环境和<code>php</code>环境<br>不过呢，<code>composer</code>组件虽然已经集成好了但是不能用，主要还是<code>root</code>权限问题<br>还是要自己参考一下上两篇文章就可以装好</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> webIDE </tag>
+            
+            <tag> 编程 </tag>
+            
+            <tag> cloud9 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>centOS下配置hexo环境</title>
+      <link href="/2019/02/01/centOS%E4%B8%8B%E9%85%8D%E7%BD%AEhexo%E7%8E%AF%E5%A2%83/"/>
+      <url>/2019/02/01/centOS%E4%B8%8B%E9%85%8D%E7%BD%AEhexo%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<p><code>hexo</code>是一个非常好用的<code>blog</code>程序<br>本站就是基于hexo生成的静态页面<br>要知道<code>hexo</code>也是基于<code>node.js</code>来做出程序<br>那么<code>node</code>环境就一个必备的</p><p>在这里还是要使用到<code>docker</code>来构建<code>node</code>环境<br>这样就不会每次重装系统或者在外地想写东西的时候要搭建一次环境<br>之前我写过一篇使用<code>webIDE</code>来搭建<code>hexo</code>环境的文章<br>但是webIDE始终都是放置在别人的服务器上<br>难保有一天它也保不住，因为这webIDE我都已经看见换了两家老板<br>就算它保住了也避免不了各种广告要求<br>靠天吃饭虽然也要，但是自力更生才是王道</p><p>基于nas构建<code>hexo</code>环境<br>选择系统可以是<code>centOS</code>或者<code>Ubuntu</code>都可以，但是不推荐太精简版本的镜像<br>太精简的镜像，会导致你在扩展些其他的内容的时候出现各种莫名的问题</p><h2 id="下载node"><a href="#下载node" class="headerlink" title="下载node"></a>下载node</h2><p>ubuntu更新列表后下可以直接安装</p><pre><code>apt updateapt install nodejsnode --version</code></pre><p>centOS就曲线救国吧</p><pre><code>yum updateyum install epel-releaseyum install nodejsnode --version</code></pre><h2 id="下载hexo"><a href="#下载hexo" class="headerlink" title="下载hexo"></a>下载hexo</h2><pre><code>npm install hexo-cli -g</code></pre><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>先找一个适合的目录安装并启动一下看看</p><pre><code>hexo init blogcd blognpm installhexo s</code></pre><h2 id="远程访问思路"><a href="#远程访问思路" class="headerlink" title="远程访问思路"></a>远程访问思路</h2><p>首先远程访问你得有一台<code>nas</code>的服务器<br>不管是群晖的<code>nas</code>还是什么牌子的<code>nas</code>，只要支持<code>docker</code>就行<br>为什么说nas不说服务器呢？谁写个<code>blog</code>要往家里放服务器？<br>我当初往家里放服务器，不仅风扇吵得要命，电费也稀里哗啦</p><p>因为我要远程操作hexo所以要挂载一个文件夹路径给<code>docker</code>的<code>hexo</code>环境<br>主要是方便在外部修改hexo的主题文件和配置文件等等<br>如果你vim玩得溜也可不用挂载文件出来<br>但是一定一定要记得用远程仓库备份否则容器一删掉就没了<br><code>Linux</code>下安装<code>git</code>都很简单，除非你用的是精简版本的<code>Linux</code>，这也开头就建议不要使用太精简版本的原因<br>因为你要去下载好安装包再想办法传进容器中去，如果命令行还好操作一个mv进去了，<code>nas</code>上面的可视化界面就不好操作了<br>直接<code>wget</code>就好还传什么传？😂有些精简版本恐怕连<code>wget</code>都得想办法想传进去才能用</p><pre><code>apt install gityum install git</code></pre><p>hexo环境负责渲染静态页面和后台服务<br>群晖nas本身<code>web station</code>或者可以建立一个<code>docker</code>的web服务器对外发布<br>外网端口映射和<code>web station</code>的设置这里就不讲了我的其他文章里面有</p><p>这里还有一个先说的地方既然是远程写<code>blog</code><br>当然就是想写的时候就能写<br>所以<code>hexo</code>中的<code>hexo-admin</code>后台插件就必不可少<br>能进得了<code>nas</code>自然就能进得了后台插件写<code>blog</code>了<br>启用了后台插件那么测试服务器的<code>hexo s</code>的默认端口是<code>4000</code><br>就需要做一个外网转发和<code>docker</code>内部映射<br>另外这个端口是可以修改的在<code>hexo-server</code>里面的<code>index.js</code>里面修改<br><code>hexo-server</code>在node依赖组件文件夹里面</p><ol><li>docker终端中启动<code>hexo s</code></li><li>外网访问转发的<code>hexo-admin</code>后台写文章</li><li>docker终端中渲染页面 <code>hexo clean &amp;&amp; hexo g</code></li><li>如果要外挂仓库的静态页面加速 <code>hexo d</code> 前提是配置好<code>hexo</code>文件</li></ol><p>关于hexo的那些坑以后再说</p><p>差点忘记了 ，如果不传远端仓库做静态网页<code>webpages</code>的话<br>就把网页路径指向<code>hexo</code>下的<code>public</code>目录下<br>渲染前清除一次<code>hexo clean</code>之前的<code>hexo</code>版本<br>不清除渲染出来的还是之前的页面更新没有效果就是因为这样的坑</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centOS </tag>
+            
+            <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Docker下安装php的composer环境</title>
+      <link href="/2019/02/01/Docker%E4%B8%8B%E5%AE%89%E8%A3%85php%E7%9A%84composer%E7%8E%AF%E5%A2%83/"/>
+      <url>/2019/02/01/Docker%E4%B8%8B%E5%AE%89%E8%A3%85php%E7%9A%84composer%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<p>关于<code>composer</code>安装主要问题会集中在root账户和php环境上<br>解决root账户下拉取代码的问题其实官方虽然有解答但是并不好用<br>php的问题主要集中在版本太高无法拉取的错误比如最新的<code>7.3.1</code>环境拉取代码的时候偶尔会出现抽风情况<br>这里就废话一下<br>为什么要搭建这些环境<br>因为如果经常换电脑、经常使用不同的操作系统、经常重装系统、经常换不同的语言编程<br>你会知道配置一个环境是多么繁琐的一件事情<br>另外你也会知道不是谁的电脑上都让你装各种环境工具<br>搭建一个可以长期使用环境服务器只要用<code>ftp</code>来修改代码要方便许多许多</p><h2 id="Docker系统选择"><a href="#Docker系统选择" class="headerlink" title="Docker系统选择"></a>Docker系统选择</h2><p>首先如果是<code>群晖nas</code>不建议直接选择<code>composer</code>镜像或者是php镜像来用<br>因为有参数加入看composer镜像镜像的文档就知道要写<code>composer.json</code>文件来拉取代码<br>但是我们通常的编程过程中都是用到什么就拉取什么<br>很少为了拉取代码去编写<code>composer.json</code>文件然后还创建一个容器来拉取一小段代码完了再删除掉容器<br>免得太多容器自己都搞不清楚用那个容器了<br>直接用<code>php镜像</code>来构建<code>composer</code>环境你会发现<code>root</code>账户会是你的阻碍<br><code>php镜像</code>是用了精简版本的<code>Linux</code>环境不管是新增用户还是给用户权限都是很麻烦的<br>这里推荐使用<code>dockerhub</code>上的<code>centOS</code>或者<code>Ubuntu</code>创建非<code>root</code>用户来搭建php环境</p><h2 id="PHP版本选择"><a href="#PHP版本选择" class="headerlink" title="PHP版本选择"></a>PHP版本选择</h2><p>可以选择安装5.4版本以上到7.2版本以下<br>这样做起码稳定些不会在拉取数据的时候造成什么乱七八糟的问题</p><h2 id="PHP版本安装"><a href="#PHP版本安装" class="headerlink" title="PHP版本安装"></a>PHP版本安装</h2><p><code>centOS</code>使用默认版本即可目的主要是为了拉取代码而已<br>不用特地去搞各种没有必要的php组件<br>实在需要也可以去安装一下这些组件<br>起码比php镜像的那些<code>Linux</code>环境好办得多</p><pre><code>yum updateyum install git -yyum insatll php -y</code></pre><p><code>Ubuntu</code>也可以使用默认版本即可</p><pre><code>apt updateyum install git -yyum insatll php -y</code></pre><p>真实的使用生产环境可定不是这些开发环境<br>生产环境的时候可以使用最新版本的php搭配<code>集群nginx</code>、<code>集群数据库</code>或者某些集成环境等等<br><code>docker</code>的好处就在于你可以搭建很多的隔离环境来给自己的项目使用而不占用太多资源</p><h2 id="安装-Composer"><a href="#安装-Composer" class="headerlink" title="安装 Composer"></a>安装 Composer</h2><pre><code>php -r &quot;copy(&#39;https://install.phpcomposer.com/installer&#39;, &#39;composer-setup.php&#39;);&quot;php composer-setup.phpphp -r &quot;unlink(&#39;composer-setup.php&#39;);&quot;mv composer.phar /usr/local/bin/composer</code></pre><h2 id="新建用户"><a href="#新建用户" class="headerlink" title="新建用户"></a>新建用户</h2><pre><code># 新建用户 可以不用建立密码useradd -m username vi /etc/sudoers</code></pre><p>sudoers文件增加的内容为： username ALL=(ALL:ALL) ALL<br><code>:wq</code>保存退出</p><p>最后登录新建的账户<br>可以用版本命令查看了看一下是否报错</p><pre><code>su usernamecomposer --version</code></pre><h2 id="更新国内镜像"><a href="#更新国内镜像" class="headerlink" title="更新国内镜像"></a>更新国内镜像</h2><pre><code>su usernamecomposer config -g repo.packagist composer https://packagist.phpcomposer.com</code></pre><p>之后都可以使用普通账户来拉取数据<br>不必没到一台机器上都要配置一次<code>php</code>在配置<code>composer</code><br>远程终端操作就可以拉取到想要的代码<br>最后在绿色版本的<code>ftp</code>操作代码即可</p><p>当然也有例外比如有些强大的IDE工具自带环境光环就例外了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> centOS </tag>
+            
+            <tag> nas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖Nas下的Docker套件搭建宝塔面板</title>
+      <link href="/2019/01/31/%E6%99%96Nas%E4%B8%8B%E7%9A%84Docker%E5%A5%97%E4%BB%B6%E6%90%AD%E5%BB%BA%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+      <url>/2019/01/31/%E6%99%96Nas%E4%B8%8B%E7%9A%84Docker%E5%A5%97%E4%BB%B6%E6%90%AD%E5%BB%BA%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<p>其实有了<code>宝塔面板</code>以后我还是使用<code>web station</code><br>原因是<code>宝塔面板</code>耗费的资源可能要比<code>web station</code>多一些<br>如果单纯使用<code>docker</code>的<code>nginx、php</code>服务要比<code>web station</code>要好很多<br>而且可以备份镜像如果服务器出现了问题立刻就可以进行续航更换<br>这个放在以后的文章中再讲<br>先讲搭建搭建<code>宝塔</code>这种整合型的套件工具</p><h2 id="选择系统"><a href="#选择系统" class="headerlink" title="选择系统"></a>选择系统</h2><p>我这里建议选择<code>centOS</code><br>虽然我也习惯了<code>Ubuntu</code>的apt<br>但是搭建<code>宝塔</code>还是<code>centOS</code>好用而<code>Ubuntu</code>有坑而且不好填<br><code>Ubuntu</code>的最新版本是使用不冷<code>宝塔</code>的<code>FTP</code>的<br>为什么？我也还没有研究清楚，很多人已经反馈了<code>Ubuntu</code>使用不了<code>PureFTPd</code><br>应该是<code>PureFTPd</code>这边的问题，所以这个问题不深究了能用就行不管什么方法还是系统</p><h2 id="下载系统"><a href="#下载系统" class="headerlink" title="下载系统"></a>下载系统</h2><ol><li>注册表搜索<code>centos</code>下载<code>docker</code>官方的最新版本<br><img src="/images/pasted-100.png" alt="upload"></li><li>镜像设置<br><img src="/images/pasted-101.png" alt="upload"></li><li>设置挂载卷<br>这里要说明一下，一定要挂载到<code>wwwroot</code>下面去<br>如果图省事挂到www下，坑正在前方等着你<br>启动不了就看看是不是这个问题<br><img src="/images/pasted-102.png" alt="upload"></li><li>开放端口<br>这里重点讲一下<br>要想正常的用<code>FTP</code>从<code>3900</code>到<code>4000</code>开出任意个端口来<br>到时到配置文件中还要修改这些是被动端口可以不用转发到外网但是一定得开起来否则连不上<br><code>888</code>端口是数据库管理工具<code>phpmyadmin</code>要的端口<br><code>8888</code>是控制台的端口<br><code>443</code>是<code>https</code>的端口<br><code>21</code>是<code>FTP</code>的主动端口<br><code>80</code>是普通<code>http</code>默认端口<br>这些4个端口都是需要转发到外网的<br><img src="/images/pasted-103.png" alt="upload"><br>都弄完了以后<strong>下一步</strong> 启动就好</li></ol><h2 id="安装宝塔"><a href="#安装宝塔" class="headerlink" title="安装宝塔"></a>安装<code>宝塔</code></h2><p>到容器中找到刚刚配置的镜像<br><img src="/images/pasted-104.png" alt="upload"><br>右键找到<code>详情</code><br><img src="/images/pasted-105.png" alt="upload"><br>选择终端选卡<br><img src="/images/pasted-106.png" alt="upload"><br>看到就是<code>root</code>的权限账户登录了<br>如果是配置<code>php</code>开发环境这里的<code>root</code>还有坑以后再开一篇来将<br>既然用<code>宝塔</code>那么就是发布环境，有没有<code>composer</code>都无所谓了<br>接下来都是命令行的事情了</p><pre><code>yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</code></pre><p>这段代码下去就是安装宝塔了其中需要几个<code>yes</code>通过<br>装完了就可以可以从页面访问你的<code>宝塔</code>后台了</p><h2 id="其他补充"><a href="#其他补充" class="headerlink" title="其他补充"></a>其他补充</h2><p>后台地址就是你的Nas的IP<br>如果使用使用外网就是外网地址加端口号</p><p>后台现在有一个随机的路径<br>如果不记得了初始的账号密码可以使用命令<br><code>bt</code><br>会有全部的功能解释使用<code>14</code>就可以重新查看了<br><img src="/images/pasted-107.png" alt="upload"></p><p>这里需要说明的是每次启动这个容器<br>都必须重新启动一次面板服务，否则无法访问<br>每次重启后登录面板后台必须启动各种服务，否则站点无法访问<br>重启后这些服务都是关闭的<br>我尝试过用<code>Dokerfile</code>来重新构建命令的镜像但是没有成功<br>只能放到以后再来做了<br><code>dockerhub</code>上也有镜像不过都是这毛病甚至有更差的<br>我也传了一个<code>Ubuntu</code>系统的上去，不好用过段时间就删掉<br>还是自己搭建一下比较好，起码能熟悉一下安装流程<br>也知道哪里出来问题<br>好了，如果其他的坑以后再补充</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centOS </tag>
+            
+            <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> 宝塔面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>利用WebStation建站的一些坑</title>
+      <link href="/2019/01/27/%E5%88%A9%E7%94%A8WebStation%E5%BB%BA%E7%AB%99%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91/"/>
+      <url>/2019/01/27/%E5%88%A9%E7%94%A8WebStation%E5%BB%BA%E7%AB%99%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91/</url>
+      
+        <content type="html"><![CDATA[<p>其实使用<code>web station</code>来建站是非常方便<br>但是初次使用到朋友难免会觉得有些坑<br><code>web station</code>来建站的朋友多大选择<code>php</code>来做后端语言<br>因为<code>php</code>做web实在是方便了<br>其他的语言在<code>web station</code>上并不好设置所以就不讲了<br>开启步骤非常简单就不一一阐述了</p><p>下载<code>web station</code>套件，打开<br><img src="/images/pasted-98.png" alt="upload"><br><img src="/images/pasted-99.png" alt="upload"><br>建议使用7.0以上的<code>php</code></p><p>下面开始讲坑</p><h3 id="没用的nginx"><a href="#没用的nginx" class="headerlink" title="没用的nginx"></a>没用的nginx</h3><p><code>web station</code>的<code>nginx</code>是一个非常鸡肋的配置<br>因为无法进行修改<br>即使你在终端中修改了配置文件<br>重启后配置文件会被重置<br>如果用来<code>nginx</code>那么一些框架的<code>PATHINFO</code>路径就会无效<br>并且也实现不了逆向解析和直播推流的效果<br>所以<code>nginx</code>的强大之处在<code>web station</code>套件中一点卵用都没有</p><h3 id="没用的80端口"><a href="#没用的80端口" class="headerlink" title="没用的80端口"></a>没用的80端口</h3><p>纵然你有公网IP不是专网没有备案<br>那家宽带都不会给你80端口<br>不过是IPv4还是IPv6都别想了<br>有些443端口还是没有关闭的那么恭喜了<br>解决办法很多要么<code>ngrok</code>要么<code>花生壳</code>要么<code>外网盒子</code>那么80端口就有了<br>那种好，肯定<code>花生壳</code>最差，但是它<code>免费</code>，基于<code>ngrok</code>的各种服务免费的也差到不行<br>然而80端口其实也没什么卵用<br>443才是王道开发的都知道<code>https</code>差不多是接入<code>微信</code>等等接口的唯一路径</p><h3 id="没有配置的PHP"><a href="#没有配置的PHP" class="headerlink" title="没有配置的PHP"></a>没有配置的PHP</h3><p>一定要记住当你的代码放在服务器中各种报错的时候<br><code>php</code>的组件环境在<code>web station</code>中是没有搭建好的<br>要自己搭建组件环境，否则数据库什么的都访问不了<br>这个当然还不是让那个我觉得最坑的<br>最坑的是有一些优秀的组件在<code>web station</code>并没有继承进来<br>比如<code>swoole</code>这类的组件让<code>php</code>提高几个档次的组件居然是没有的</p><h3 id="解决思路"><a href="#解决思路" class="headerlink" title="解决思路"></a>解决思路</h3><p>坑讲完了<br>有没有解决办法<br>当然有<br>目前我用到就是<code>docker</code>来解决那些解决不了的问题<br>这篇文章主要讲坑<br>至于这么利用<code>docker</code>组件搭建所需要的环境<br>以后找机会再讲<br>感兴趣的朋友可以直接去<code>google</code>一下<br>现阶段的百度你基本找不到有价值的东西</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> webstation </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>adminer数据库管理程序3307端口登录</title>
+      <link href="/2019/01/21/adminer%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%A8%8B%E5%BA%8F3307%E7%AB%AF%E5%8F%A3%E7%99%BB%E5%BD%95/"/>
+      <url>/2019/01/21/adminer%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%A8%8B%E5%BA%8F3307%E7%AB%AF%E5%8F%A3%E7%99%BB%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p>安装了群晖Nas上的<code>MariaDB</code>数据库套件<br>对于数据库不是3306的端口走了些弯路<br>这里踏坑路程，其实是我想复杂了<br>虽然群晖上也有’phpMyAdmin’的套件<br>如果不是十分需要我不会去安装一个’phpMyAdmin’套件感觉上有些重了<br>临时调用h或者使用一下数据库我还是喜欢单文件管理工具<a href="https://www.adminer.org/" target="_blank" rel="noopener">adminer</a><br>简单也轻量随时也可以删除</p><hr><p>之前一直去找代码中哪里定义了端口<br>结果各种搜都没找到关于’3306’或者’port’端口的设置<br>什么都没找到<br>反而是最后仔细看页面，其实服务器的位置可以填入端口的<br><img src="/images/pasted-93.png" alt="upload"><br>那么问题就解决了直接IP+端口<br><img src="/images/pasted-94.png" alt="upload"><br>其实真的有时候不要把问题想得太复杂</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> PHP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows10如何接入加密的iSCSI服务</title>
+      <link href="/2019/01/10/Windows10%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%8A%A0%E5%AF%86%E7%9A%84iSCSI%E6%9C%8D%E5%8A%A1/"/>
+      <url>/2019/01/10/Windows10%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%8A%A0%E5%AF%86%E7%9A%84iSCSI%E6%9C%8D%E5%8A%A1/</url>
+      
+        <content type="html"><![CDATA[<p>之前弄过步骤上出来问题所以也算是个小坑吧<br>加密的<code>iSCSI</code>如何操作可以<a href="https://nas.kstu.vip/2018/12/30/%E7%BE%A4%E6%99%96iSCSI%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E4%BD%BF%E7%94%A8/">参考之前的文章</a><br><code>mac</code>下的载入很简单通过软件输入密码就可以了<br>加密的<code>win</code>下面试过没成功，因为没有细究所以就算了<br>机缘巧合下重新接入的时候发现了问题所在<br>其实很简单，只是之前一直弄错方向，我这里设置<code>单向密码</code>服务器方的<br>首先在<code>Nas</code>中设计的原本只是一个盘符，就不应该在门户的地方设置好<code>CHAP</code>密码项目</p><h3 id="进入iSCSI开启状态"><a href="#进入iSCSI开启状态" class="headerlink" title="进入iSCSI开启状态"></a>进入<code>iSCSI</code>开启状态</h3><p><img src="/images/pasted-91.png" alt="upload"><br><img src="/images/pasted-87.png" alt="upload"><br><img src="/images/pasted-89.png" alt="upload"><br><img src="/images/pasted-90.png" alt="upload"><br><img src="/images/pasted-92.png" alt="upload"><br>记得在对应的盘符里面发起<code>CHAP</code>就能顺利连上了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> iSCSI </tag>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>手机如何打开控制面板加密文件夹</title>
+      <link href="/2019/01/09/%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E5%8A%A0%E5%AF%86%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
+      <url>/2019/01/09/%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E5%8A%A0%E5%AF%86%E6%96%87%E4%BB%B6%E5%A4%B9/</url>
+      
+        <content type="html"><![CDATA[<p>使用<code>谷歌浏览器</code>或者<code>360手机浏览器</code>设置为电脑模式打开页面<br>就可以用平时网页打开后台界面一样的操作方式<br>加载加密文件夹<br>然后就可以使用<code>DS file</code>之类的文件管理软件打开加密文件夹里面当内容了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 手机端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微信如何访问分享视频</title>
+      <link href="/2019/01/09/%E5%BE%AE%E4%BF%A1%E5%A6%82%E4%BD%95%E8%AE%BF%E9%97%AE%E5%88%86%E4%BA%AB%E8%A7%86%E9%A2%91/"/>
+      <url>/2019/01/09/%E5%BE%AE%E4%BF%A1%E5%A6%82%E4%BD%95%E8%AE%BF%E9%97%AE%E5%88%86%E4%BA%AB%E8%A7%86%E9%A2%91/</url>
+      
+        <content type="html"><![CDATA[<p>几乎所有第三方网页分享出来的视频站点<br>打开这个视频链接需要点下方的<code>访问原网页</code>这行小文字，而且是两次以上的点击确认<br><img src="/images/pasted-85.png" alt="非微信网页"><br><img src="/images/pasted-86.png" alt="非标准端口"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 分享 </tag>
+            
+            <tag> 视频 </tag>
+            
+            <tag> 微信 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖创建video视频的时效共享并且进行微信分享</title>
+      <link href="/2019/01/09/%E7%BE%A4%E6%99%96%E5%88%9B%E5%BB%BAvideo%E8%A7%86%E9%A2%91%E7%9A%84%E6%97%B6%E6%95%88%E5%85%B1%E4%BA%AB%E5%B9%B6%E4%B8%94%E8%BF%9B%E8%A1%8C%E5%BE%AE%E4%BF%A1%E5%88%86%E4%BA%AB/"/>
+      <url>/2019/01/09/%E7%BE%A4%E6%99%96%E5%88%9B%E5%BB%BAvideo%E8%A7%86%E9%A2%91%E7%9A%84%E6%97%B6%E6%95%88%E5%85%B1%E4%BA%AB%E5%B9%B6%E4%B8%94%E8%BF%9B%E8%A1%8C%E5%BE%AE%E4%BF%A1%E5%88%86%E4%BA%AB/</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建分享视频："><a href="#创建分享视频：" class="headerlink" title="创建分享视频："></a>创建分享视频：</h2><p>将视频放置到播放列表下<br>在左下角的+符号可以新增或者加入新的列表当中<br><img src="/images/pasted-77.png" alt="upload"><br><img src="/images/pasted-79.png" alt="upload "><br>也同时可以增加共享的时效控制<br>再回到播放列表当中点击<br><img src="/images/pasted-80.png" alt="upload"><br><img src="/images/pasted-81.png" alt="upload"><br><img src="/images/pasted-82.png" alt="upload"></p><h2 id="分享视频链接："><a href="#分享视频链接：" class="headerlink" title="分享视频链接："></a>分享视频链接：</h2><p>微信分享操作十分简单，但是讲起来牵涉到一些知识，还是讲清楚的好</p><p>第一种方式：<br>先要在<code>应用程序门户</code>开发一个别名给你的video套件（前提条件开发了443端口的公网IP才能这么干）<br>这一步其实可以省略只不过是为了让链接后面不算接有端口号的<code>url</code>地址更好看些而已<br>一般分享视频都会分享给自己熟悉的人<br>所以有没有端口号其实都是无所谓的啦<br><img src="/images/pasted-83.png" alt="upload"><br><img src="/images/pasted-84.png" alt="upload"><br>因为无论怎么改都避免不了被微信标注为需要转换的手机预览模式<br><img src="/images/pasted-85.png" alt="非微信网页"><br><img src="/images/pasted-86.png" alt="非标准端口"><br>这里就有很重要的一步就是告诉你要分享的人<br>打开这个视频链接需要点下方的<code>访问原网页</code>这行小文字，而且是两次以上的点击确认<br>（由此看到微信这种公司对其他公司的排斥有多大了吧！或者说要有多么的麻烦！为什么要构建自己的私有云，就因为避免了这些麻烦事，其实只不过是一件很小很简单的分享，如果要走他们的流程需要注册公众号还要企业认证，完了还有使用他们公司的管理后台，发布视频不能大于多少多少，如果大的话就要传到他们的视频网站，接收他们两分多钟的广告时间，不想接受广告还得买他们的会员，视频还不能是侵权的如果涉及到私人的分享不想太多人知晓的内容，还得公开视频或者加密视频才能给分享权限。）</p><p>第二种方式：<br>直接复制已经分享的带端口的链接<br>发给自己的微信好友或者微信群<br>同样重要的是一定要告诉你要分享的人<br>打开个这视频的链接需要点下方的<code>访问原网页</code>这行小文字，而且是两次以上的点击确认</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+          <category> 微信技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 分享 </tag>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 视频 </tag>
+            
+            <tag> 微信 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>windows下建立可以访问的nas盘符</title>
+      <link href="/2019/01/07/windows%E4%B8%8B%E5%BB%BA%E7%AB%8B%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%9A%84nas%E7%9B%98%E7%AC%A6/"/>
+      <url>/2019/01/07/windows%E4%B8%8B%E5%BB%BA%E7%AB%8B%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%9A%84nas%E7%9B%98%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<p>其实有很多刚刚入手的朋友都会问一个问题<br>为什么每次进Nas的盘符都要做文件夹的地址栏敲<code>\\Nas名称\</code>输入账号密码才能进去很麻烦<br>不能想网络邻居共享盘一样点点就进去了吗？<br>其实群晖<code>Nas</code>中稍微设置就能出现局域网的盘符了<br>首先找到<code>控制面板</code>再找到<code>文件服务</code>切换到<code>高级设置</code>选卡<br>找到它勾上即可<br><img src="/images/pasted-76.png" alt="upload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖Nas手机播放视频的一些技巧</title>
+      <link href="/2019/01/06/%E7%BE%A4%E6%99%96Nas%E6%89%8B%E6%9C%BA%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/"/>
+      <url>/2019/01/06/%E7%BE%A4%E6%99%96Nas%E6%89%8B%E6%9C%BA%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<p>这里主要是讲如何在手机端播放<br>能不能看基本取决于网络质量和视频格式<br>格式怎么看?其实就看所下载视频的后缀</p><ul><li>软件登录的时候不要勾选https选项 有时候可能会无法播放视频</li><li>如果手机端设置了视频转码就算在局域网内也未必能播放得了</li><li>另外如果不事先进行视频转码那么就要依赖手机上的视频播放器支持的视频格式</li></ul><h3 id="所以有两种形式"><a href="#所以有两种形式" class="headerlink" title="所以有两种形式"></a>所以有两种形式</h3><p><strong>如果不进行视频转码在https选项取消勾选的情况下不要设置视频转码那么你就要下载一个好用的播放器在手机里面<br>如果进行链视频转码在https选项取消勾选的情况下不要设置视频转码那么你就可以使用默认的播放器进行播放</strong></p><p>我是这样做的下载一个好点的播放器在手机里边<br>平时使用得比较多的是我使用KMPlayer播放器和威动影音<br>如果播放不了的视频我再转码<br>如果能播放就不用转码了，https照样勾选，不设置手机端的视频转码选项<br>首先不用费时间去了解那视频是需要转码的只要能播放就可以了<br>不能播放的就视频转码一下再播放就可以了</p><blockquote><p>有些手机上需要设置默认播放器才能调用你下载的播放器来播放视频<br>不然还是使用默认播放器<br>默认播放器会有什么问题？</p><ul><li>拿魅族的来说就是会莫名的中断视频而且没有浏览的记录</li><li>拿锤子来说莫名的mp4有些视频都不支持播放</li><li>拿小米6的来说莫名的短暂花屏<br>然而第三方的播放器完全没有这些垃圾问题</li></ul></blockquote><h5 id="拿魅族的安卓手机自带的播放器来说"><a href="#拿魅族的安卓手机自带的播放器来说" class="headerlink" title="拿魅族的安卓手机自带的播放器来说"></a>拿魅族的安卓手机自带的播放器来说</h5><ul><li>mp4格式 支持</li><li>rmvb格式 支持 </li><li>mkv格式 支持 其中多音频的格式不支持</li></ul><h5 id="拿小米8手机自带播放器来说"><a href="#拿小米8手机自带播放器来说" class="headerlink" title="拿小米8手机自带播放器来说"></a>拿小米8手机自带播放器来说</h5><ul><li>mp4格式 支持</li><li>rmvb格式 支持 </li><li>mkv格式 支持</li></ul><h5 id="拿苹果手机自带播放器来说"><a href="#拿苹果手机自带播放器来说" class="headerlink" title="拿苹果手机自带播放器来说"></a>拿苹果手机自带播放器来说</h5><ul><li>mp4格式 支持</li><li>rmvb格式 不支持</li><li>mkv格式 支持 其中多音频的格式不支持</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 视频电影 </tag>
+            
+            <tag> 手机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重大泄露事件播报</title>
+      <link href="/2019/01/05/%E9%87%8D%E5%A4%A7%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6%E6%92%AD%E6%8A%A5/"/>
+      <url>/2019/01/05/%E9%87%8D%E5%A4%A7%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6%E6%92%AD%E6%8A%A5/</url>
+      
+        <content type="html"><![CDATA[<h3 id="请多多关注安全问题："><a href="#请多多关注安全问题：" class="headerlink" title="请多多关注安全问题："></a>请多多关注安全问题：</h3><center>在互联网的时代生活的你千万别漠视不管</center><blockquote><p>2019年安全泄露事件</p></blockquote><p><code>2019年1月14日</code><br><strong>泄密数量：</strong> 2.02亿求职用户<br><strong>事件回顾：</strong><br>安全研究人员在网上发现有超过2.02亿的中国求职者的详细信息存在于数据库MongoDB中，这是一个NoSQL高性能和跨平台的面向文档的数据库，由美国服务器托管公司托管。内容包括：姓名，出生日期，电话号码，电子邮件地址，婚姻状况和驾驶执照信息，安全人员分析表示，这些信息是由一种名为”数据导入”简历抓取工具收集来的，这些简历来自不同的中国分类网站，如58同城。<br>58同城表示泄漏的数据并非来自其网站，但暗示它可能是从收集许多CV网站数据的第三方泄露出来的。</p><blockquote><p>2018年安全泄露事件</p></blockquote><h5 id="国内重大泄露事件"><a href="#国内重大泄露事件" class="headerlink" title="国内重大泄露事件"></a>国内重大泄露事件</h5><p><code>2018年12月28日</code><br><strong>12306火车售票</strong><br><strong>泄密数量：</strong>410万名旅客<br><strong>事件回顾：</strong><br>国内互联网安全新媒体Freebuf爆料称 12306 网站平台疑遭脱库， 410万名旅客信息在暗网被兜售。从其截图显示，被泄露的数据包括用户ID、手机号、密码，姓名、身份证、邮箱、验证问题及答案等。<br>12306随后在回应中表示：泄露的用户信息系经其他网站渠道流出;也即否认与这次泄密有关。<br>12月26日中午，中国铁路官方微博表示，铁路公安机关于2014年12月25日晚，将涉嫌窃取并泄露他人电子信息的犯罪嫌疑人抓获。<br>事件出来后，一时间网络上到处都是14M文件地址，更有相关开发者将数据制作成用户信息泄露查询工具，方便大家查询自己的账号是否泄露。<br>截至2014-12-29，国内安全机构知道创宇确认12306数据泄露事件为“撞库攻击”。所谓撞库攻击，简单来说，就是拿其他地方泄露的用户名和密码来12306试，如果用户名和密码都一样，就撞开了，最终获得身份证号码、手机号等信息。</p><p><code>2018年6月19日</code><br><strong>圆通</strong><br><strong>事件回顾：</strong><br>6月19日，一位ID为“f666666”的用户在暗网上开始兜售圆通10亿条快递数据，该用户表示售卖的数据为2014年下旬的数据，数据信息包括寄（收）件人姓名，电话，地址等信息，10亿条数据已经经过去重处理，数据重复率低于20%，并以1比特币打包出售。<br>并且该用户还支持用户对数据真实性进行验货，但验货费用为0.01比特币（约合431.98元），验货数据量为100万条。此验货数据是从10亿条数据里随机抽选的，每条数据完全不同，也就是说用户只要花430元人民币即可购买到100万条圆通快递的个人用户信息，而10亿条数据则需要43197元人民币。</p><p><code>2018年6月14日</code><br><strong>AcFun A站</strong><br><strong>泄密数量：</strong>800 万条<br><strong>事件回顾：</strong><br>6月14日凌晨，国内著名网站弹幕视频网站 AcFun（A 站）在官网发布 《关于AcFun 受黑客攻击致用户数据外泄的公告》称，该网站曾遭遇黑客攻击，近千万条用户数据已发生外泄，其中包括用户ID、昵称以及加密存储的密码等数据均遭泄露。<br>其实早在今年 3 月份，暗网论坛中就有人公开出售 AcFun 的一手用户数据，数量高达 800 万条，而价格仅为12000元，平均 1 元能买到 800 条。而在AcFun 发布此次数据泄露公告之前，暗网中也早有人兜售其 Shell 和内网权限，主要卖点就是数据量大以及日流量高</p><p><code>2018.9.10，但泄露最早时间可追溯至2014年</code><br><strong>受害人数：</strong>5亿<br><strong>泄露对象：</strong>万豪旗下喜达屋酒店消费者<br><strong>泄露内容：</strong>姓名、电子邮箱、邮寄地址、电话号码、护照号码、账户信息、出生日期、性别、旅行信息、住宿信息、信用卡信息等。<br><strong>事件经过：</strong><br>11月底，万豪酒店宣布，旗下喜达屋酒店(Starwood Hotel)的一个顾客预订数据库被黑客入侵，可能有多达5亿人次预订喜达屋酒店客人的详细个人信息遭到泄露。据悉，黑客入侵早在2014年就已经开始，但公司直到2018年9月才第一次收到警报。该消息公布后，万豪国际酒店股价一度下跌逾5%。<br>同时，相关人士对万豪酒店发起集体诉讼，索赔125亿美元。</p><p><code>2018.8.28</code><br><strong>受害人数：</strong>1.3亿<br><strong>泄露对象：</strong>华住酒店集团的消费者<br><strong>泄露内容：</strong>卡号、姓名、手机号、邮箱、身份证号、登录密码、入住时间、离开时间、酒店 id 号、房间号、消费金额<br><strong>事件经过：</strong>8日，暗网中文论坛出现一个帖子，声称售卖华住集团旗下所有酒店数据，包括华住官网注册资料、酒店入住登记身份信息、开房记录。本次数据泄露涵盖汉庭、美爵、禧玥、漫心、诺富特、美居、CitiGO、桔子、全季、星程、宜必思尚品、宜必思、怡莱和海友14个酒店品牌。经过测试，泄露数据为真实数据。华住集团发布声明称“我集团非常重视，已在内部迅速开展核查，确保客人信息安全;我集团已经第一时间报警，公安机关正在开展调查。”</p><h5 id="国外重大泄露事件"><a href="#国外重大泄露事件" class="headerlink" title="国外重大泄露事件"></a>国外重大泄露事件</h5><p><code>2017.8—2018.1</code><br><strong>泄露内容：</strong> 号码、姓名、电子邮箱、住址、电话号码及照片<br><strong>事件经过：</strong><br>Aadhaar是世界上最庞大最复杂的生物身份识别系统，该项目2010年9月在印度启动。该项目针对印度公民实施生物识别数据采集，包括照片、十指指纹和虹膜扫描等。并且，Aadhaar号码与印度公民的银行账户、手机号码、保险账户、永久性账号卡以及其他服务绑定起来。<br>2018年1月4日，印度乡村企业家 Bharat Bhushan Gupta爆料说，有人在移动社交工具WhatsApp上向他推销Aadhaar数据库，购买之后，Aadhaar数据库确实为他提供了大量意想不到的用户信息。</p><p><code>2018.6</code><br><strong>受害人数：</strong>3.4亿(2.3亿消费者数据，1.1亿企业数据)<br><strong>泄露对象：</strong>互联网个人和企业用户<br><strong>泄露内容：</strong>数据种类超400类，包括电话号码、电子邮箱、邮寄地址、兴趣爱好、年龄、宗教信仰、宠物情况等<br><strong>事件经过：</strong><br>Exactis采集了大约3.4亿条记录，大小2TB，可能涵盖2.3亿人，几乎是全美的上网人口。Exactis此次的信息泄露并不是黑客撞库引起或者其它恶意攻击，而是他们自己的服务器没有防火墙加密，直接暴露在公共的数据库查找范围内。</p><p><code>2018.2</code><br><strong>受害人数：</strong>1.5亿<br><strong>泄露对象：</strong>MyFitnessPal用户<br><strong>泄露内容：</strong>姓名、电子邮箱、加密密码<br><strong>事件经过：</strong><br>3月份，美国著名运动装备品牌Under Armour称有1.5亿MyFitnessPal用户数据在上个月被泄露。MyFitnessPal是一款Under Armour旗下的食物和营养主题应用，允许用户跟踪每天消耗的卡路里、设置运动目标、集成来自其他运动设备的数据，还可以分享运动成果到类似Facebook这样的社交平台上。<br>3月25日，该公司发现此次数据泄露事件，并开始通知受影响用户。此次声明，让公司股票价格下跌2.4%。Under Armour正和一家数据安全公司一起协作调查此次事件，有关监管部门也参与到了其中。</p><p><code>2018.12.3公开泄露事件</code><br><strong>受害人数：</strong>1亿<br><strong>泄露对象：</strong>Quora用户<br><strong>泄露内容：</strong>姓名、电子邮箱、加密密码、个人资料<br><strong>事件经过：</strong>12月3日，美国知名问答社区 Quora 发公告称，1亿用户数据因为第三方黑客恶意攻击而遭到泄露，其中包括用户的邮箱、姓名和被加密的密码，以及他们在网站上分享的内容。<br>Quora已经向可能受到影响的1亿用户发送了提醒邮件，并提醒用户重置密码。Quora CEO Adam D’Angelo还建议用户，如果在不同的网站使用了相同的密码，最好也做出修改。</p><p><code>2018.6公开</code><br><strong>受害人数：</strong>9200万<br><strong>泄露对象：</strong>MyHeritage用户<br><strong>泄露内容：</strong>邮箱地址、加密密码<br><strong>事件经过：</strong>MyHeritage 是一家提供家族历史调查服务的公司，能通过 DNA 分析，帮用户重建族谱。该公司网站现在有约 9600 万注册用户，接受过基因检测服务的用户有 140 万人。<br>网络安全研究人员于2018年6月对MyHeritage发出安全警告，发现外部服务器上存有敏感的MyHeritage信息。该公司确认信息真实性后立即发布通告，提醒用户立即更改密码，所有在2017年10月26日之前注册的帐户都存在泄露风险。</p><p><code>2018.3</code><br><strong>受害人数：</strong>8700万<br><strong>泄露对象：</strong>Facebook用户<br><strong>泄露内容：</strong>账户名称、性别、关系状况、好友情况等<br><strong>事件经过：</strong>3月中旬，《纽约时报》等媒体揭露称一家服务特朗普竞选团队的数据分析公司Cambridge Analytica获得了Facebook数千万用户的数据，并进行违规滥用。4月5日，Facebook首席技术官博客文章称，Facebook上约有8700万用户受影响。<br>据悉，Cambridge Analytica在2016年美国总统大选前获得了5000万名Facebook用户的数据。这些数据最初由亚历山大·科根通过一款名为“thisis your digital life”的心理测试应用程序收集。通过这款应用，Cambridge Analytica不仅从接受科根性格测试的用户处收集信息，还获得了他们好友的资料，涉及数千万用户的数据。</p><p><code>2018.11.14</code><br><strong>受害人数：</strong>8200万(5700万个人用户数据 2600万企业数据)<br><strong>泄露对象：</strong>用户信息与商业交易<br><strong>泄露内容：</strong>个人信息包括姓名、电子邮件、邮寄地址、电话号码、IP地址、就职单位、职位;企业信息包括单位名称、公司详细信息、邮政编码、地址、经纬度、电话、网址、电子邮件地址、员工数量、营业额等。<br><strong>事件经过：</strong>11月底，网络安全公司Hacken的网络风险研究主管Bob Diachenko发现，他表示ElasticSearch服务器共泄漏了超过73GB的数据，并且几个数据库被缓存在服务器的内存中。而其中一个数据库就包含有美国公民的个人信息共计56,934,021份。<br>ElasticSearch是一个基于Lucene的全文搜索引擎，被众多程序员追捧的神器之一。由于缺乏定期的数据库安全审计，导致有心人士趁机复制和窃取所有数据。有网络安全专家认为，他们已经将无人防守的数据库的来源追溯到一家数据管理公司，但据说该公司已经关闭。</p><p><code>2018.8.14-2018.9.18</code><br><strong>受害人数：</strong>5000万<br><strong>泄露对象：</strong>Newegg在线消费者<br><strong>泄露内容：</strong>信用卡账号<br><strong>事件经过：</strong>Newegg是美国知名的在线零售商，2016年营收26.5亿美元，旗下平台月独立访问用户达4500多万。有安全研究人员发现，黑客将15行银行卡盗刷代码植入新蛋网支付页面，从8月14月-9月18日，代码一直存在。这种恶意代码从用户手中窃取信用卡数据，传输到由黑客控制的服务器。<br>这些事情的发生，说明数据安全和保护面临着越来越严峻的挑战。同时，Commvault亚太区企业解决方案架构师李可认为，“个人和企业数据面临的威胁越来越大，数据保护和快速恢复的要求随着云时代的到来变得更加迫切;同时，对个人隐私和敏感数据的管理要求更高，面临的法规监管也更加严格。”<br>对企业来说，“企业数据资产的分布和管理更加复杂，对非结构化的数据管理要求越来越高。”他说。更重要的是，企业应加强多云环境下对多种类型数据应用的统一管理，并且给企业提供可自服务、自定义管理流程的数据管理框架，让其成为数据安全管理的最后一道防线。<br>对普通消费者来说，既要警惕银行和保险公司的可疑短信和邮件，又要养成一个良好的密码设置习惯，提高个人网络安全意识，尽最大努力保护个人数据安全。</p><blockquote><p>2017年国内外重大数据泄露事件</p></blockquote><p>　2017年，全球数据泄露事件数量呈现爆发式增长，而且其涉及的行业也更广泛。据美国威瑞森电信公司（Verizon）的《2017年数据泄露调查报告》显示，金融行业依然首当其冲，24%的数据泄露事件和金融机构有关；其次是医疗保健行业15%。从泄露信息数量来看，《2017政企机构信息泄露形势分析报告》显示，金融行业、通信运营商网站可能泄露信息数量最多，远高于其他行业。特别是金融、教育、医疗行业数据附加值逐渐提高，加上行业监管严厉的特点，数据泄露带来的损失也更大，其数据泄露成本远高于公共部门、科研等行业。盘点2017年发生的数据泄露事件，可见各行业数据泄露事件的概貌。</p><p>　　一、政府相关机构</p><p>　　★黑客入侵FBI网站并公开FBI.gov用户敏感信息</p><p>　　2017年1月，黑客CyberZeist（@cyberzeist2）成功入侵美国联邦调查局的官方网站FBI.gov，并将该网站的部分数据发布在Pastebin网站，泄露的数据包括FBI.gov的用户账号信息等。</p><p>　　★五角大楼分包商泄露机密的军事人员数据</p><p>　　2017年1月，五角大楼的分包商泄露大量在职军事医疗保健专业人士的高度敏感信息，数据泄露的受害者是美国特种作战司令部的工作人员，包括陆军、海军和空军等军方分支机构的前雇员，其中一些信息拥有最高机密的安全许可。</p><p>　　★新加坡国防部850名用户数据泄露</p><p>　　2017年2月，新加坡国防部的I-net系统遭到网络攻击，被盗的数据包括850名受害人的身份证号码、电话号码和出生日期等信息。新加坡国防部要求所有受影响的员工必须更改I-net系统中的密码。</p><p>　　★NSA黑客部队超过75%黑客工具被窃取</p><p>　　2017年2月，前美国国家安全局承包商雇员马丁窃取了NSA超过50 TB的高度敏感数据，这些数据包含特定情报行动办公室超过75%的黑客工具。马丁拿走的“数千页”机密资料中许多具有“特殊处理说明”，涵盖“国防”机密。</p><p>　　★美国中央情报机关“最高机密”泄露</p><p>　　2017年3月，美国中央情报局数千份“最高机密”文档泄露，不仅暴露了全球窃听计划，还包括一个可入侵全球网络节点和智能设备的庞大黑客工具库，其中包括可以远程攻破全球约70% Windows机器的漏洞利用工具。</p><p>　　★黑客利用El Machete窃取全球超过100G数据</p><p>　　2017年3月，某黑客组织使用能够逃避传统反病毒软件检测的定制恶意软件El Machete发起攻击，窃取超过100G数据。该黑客组织的网络攻击瞄准“高价值”目标，包括情报机构、军事和政府组织机构等。</p><p>　　★美军泄露“安全通关文件”的“圣杯”</p><p>　　2017年3月，因美国空军网络系统与互联网连接的备份驱动器没有密码保护，造成数以千计的美国空军文件泄露，包括高级官员的高度敏感的人事档案，以及4000多名官员的姓名和地址、职级和社会安全号码等。</p><p>　　★CIA泄露网络武器Grasshopper</p><p>　　2017年4月，维基解密公布了Vault7系列名为Grasshopper的美国中央情报局网络工具相关文档。这些文件对基于受害者客户端的恶意软件开发设计做出说明，其包含的信息揭露了CIA的网络攻击入侵手段。</p><p>　　★两亿美国选民的个人资料被数据公司意外泄露</p><p>　　2017年6月，美国共和党全国委员会承包商营销公司Deep Root Analytics托管在AWS S3上超过1.98亿美国公民1.1TB的资料数据库泄露，约占投票人口的61％，还包括大量来自共和党超级政治行动委员会的绝密资料。</p><p>　　★美国防承包商博思艾伦泄露五角大楼相关敏感文件</p><p>　　2017年6月，UpGuard发现，美国国家地理空间情报局（NGA）某军方项目将超过6万份敏感文件存储于Amazon云存储服务器上，且无需任何身份验证即可访问，甚至涉及本应受到高度保护的五角大楼系统管理访问权限的主凭证。</p><p>　　★美国9州选民登记数据在暗网销售</p><p>　　2017年7月，威胁情报公司LookingGlass Cyber Solutions称，美国近千万选民记录在暗网上仅售4美元，包括美国9个州超过4000万选民的被窃信用卡数据和登录凭证在地下论坛进行交易。</p><p>　　★英国爱丁堡超过11万公民个人信息流入暗网</p><p>　　2017年7月，黑客在暗网出售逾11万条爱丁堡公民个人信息。伦敦数据公司 C6 在对事件展开调查后发现，与 EH1、EH4 邮编有关的公民身份信息窃取案例共计 115333 宗，是骗局中受影响程度最严重的部分。</p><p>　　★韩国加密货币交易所被黑客攻击   3万客户数据泄露</p><p>　　2017年7月，韩国最大的加密货币交易所Bithumb遭到黑客入侵袭击，有3万左右的个人用户数据被窃取泄露，约占总数的3%。信息泄露后，黑客使用个人用户数据盗窃账号里的金钱，并电话伪装交易所人员进行电话诈骗。</p><p>　　★亚马逊服务器信息泄露   180万选民信息</p><p>　　2017年8月，美国一家选票计算机公司泄露了180多万伊利诺伊州居民的个人信息，原因是一台未受密码保护的亚马逊网络服务（AWS）设备上的漏洞。被泄露的数据来自为至少42个州提供选票计算机和服务的公司。</p><p>　　★美军事数据库遭泄网络监控数据曝光</p><p>　　2017年9月，安全公司UpGuard在亚马逊可公开访问的数据库存储仓库中发现了美国陆军及NSA情报平台绝密文件，包含47个文件和目录。这些内容高度敏感，暴露了国家安全数据，包括一些明显机密的数据。</p><p>　　★印度国家互联网注册机构IRINN遭入侵</p><p>　　2017年10月，安全研究人员发现，有黑客在暗网论坛兜售印度国家互联网注册机构IRINN的数据库信息。事件涉及包括印度国家身份识别管理局、国防研究与发展组织、印度国家银行等6000多家政府机构和私营企业的信息。</p><p>　　★南非发生史上最大的数据泄露事件</p><p>　　2017年10月，南非发生史上最大的数据泄露事件，共三千万公民ID号及其他个人信息和财务信息被泄露，甚至包括总统祖马和多位部长。据网站iafrikan.com介绍，泄露数据的来源是Dracore Data Sciences 的 GoVault平台。</p><p>　　★首例盗用总统信息阿根廷总统成“毒贩”</p><p>　　2017年10月，阿根廷安全部接到举报，当地一网店大肆贩卖禁止零售的精神类药品和大麻、可卡因等制品。警方发现，该网店注册人信息显示的是阿根廷总统马克里。安全部门通过注册的IP地址和用于交易的联系电话锁定犯罪嫌疑人并抓获涉案兄弟二人，查获大批制毒原料和作案工具。</p><p>　　★印度中央政府和邦政府210个网站公民个人信息</p><p>　　2017年11月，隶属于印度中央政府和邦政府包括教育部门的210个网站公开暴露了部分印度公民的个人信息，包括他们的姓名、地址、Aadhaar号码和其他信息。其中，最引人关注的是Aadhaar号码。</p><p>　　★五角大楼服务器配置错误暴露18亿公民信息</p><p>　　2017年11月，美国五角大楼意外暴露了美国国防部的分类数据库，其中包含美国当局在全球社交媒体平台中收集的18亿用户的个人信息，原因是配置错误导致架在亚马逊的三台S3服务器信息“可公开下载”。</p><p>　　二、金融行业</p><p>　　★日本10万条信用卡信息泄露</p><p>　　2017年3月，日本支付服务提供商GMOPayment Gateway公司证实，黑客利用应用框架中的Apache Structs 2漏洞发起网络攻击，导致该公司两大客户东京都政府和日本住宅金融支援机构网站的近10万条信用卡信息数据被窃。</p><p>　　★黑客联手窃取澳大利亚多家银行约18万美元</p><p>　　2017年3月，亚美尼亚国家安全委员会发布消息称，一个由俄罗斯与亚美尼亚公民组建的网络犯罪集团成员总计从澳大利亚银行客户的账户中窃取约18万美元。由于实施了广泛调查与情报追踪举措，犯罪集团相关行为得到遏制。</p><p>　　★信贷公司Wonga数十万客户数据被泄</p><p>　　2017年4月，英国发薪日贷款公司Wonga确定遭遇数据泄露，并发表声明通知客户联系银行。黑客可能非法访问了数十万账户的个人信息，关系到总计高达27万客户数量的个人信息，包括客户姓名、银行卡账号等。</p><p>　　★内鬼窃取华尔街金融服务公司核心交易算法</p><p>　　2017年4月，一名曾在华尔街工作的某高级系统管理员被FBI指控，涉嫌窃取KCG业务核心的超过300万个机密和专有文件，原因是这名男子开发恶意软件窃取了有价值的源代码和加密密钥，且直接访问了核心业务数据文件。</p><p>　　★黑客入侵100多万部安卓手机盗取5000多万卢布</p><p>　　2017年5月，俄罗斯成功打击了一个专门盗取银行账户资金的黑客组织。该组织通过恶意软件Cron感染俄罗斯100多万部 Android 手机，向受害者银行发送短信，要求其向每个受害者转账，总计盗取银行客户超过5000多万卢布。</p><p>　　★富国银行发错电子邮件导致5万客户信息泄露</p><p>　　2017年7月，前理财顾问加里·辛德布兰德对美国富国银行一名员工提起诽谤诉讼。他原本会收到与本案相关的电子邮件等文件，而富国银行却发送了1.4GB包含5万名高净值客户信息的数据，受影响客户的投资资产达数百亿美元。</p><p>　　★信用机构Equifax遭攻击 1.43亿用户信息泄露</p><p>　　2017年9月，美国信用机构Equifax遭到黑客攻击，导致约1.43亿信用和信息服务用户数据遭到泄露。事件曝光后，Equifax股票暴跌30%，相当于蒸发掉50亿美元市值。这是史上罕见大型数据泄露事件之一。</p><p>　　★澳洲信用卡系统8500名员工数据泄露</p><p>　　2017年11月，澳大利亚社会服务部向8500名在职和前任雇员发通知称，他们的个人数据被泄，包括信用卡信息、员工姓名、用户名、工作电话、工作邮箱、系统密码、澳大利亚政府服务号、公共服务类别和组织单位。</p><p>　　★支付管理公司遭黑客入侵 160万用户信息泄露</p><p>　　2017年12月，PayPal公司收购的支付管理公司TIO Networks遭遇网络攻击。攻击者访问了160万用户存储信息的服务器。这些信息可能不仅包含TIO Networks用户的账户和密码，还包含个人身份信息（PII）和财务细节。</p><p>　　三、交通运输行业</p><p>　　★纽约机场敏感数据遭泄露机场安全故障目录曝光</p><p>　　2017年2月，美国纽约州北部机场发生重大信息泄露事件。数据曝光泄露的敏感文件显示，机场系统出现过几个重大安全漏洞，包括2010年机场工作人员在一段时间内无法屏蔽美国政府禁止在其领空飞行的恐怖分子嫌疑人的名单。</p><p>　　★1000万辆汽车VIN识别码数据被泄</p><p>　　2017年6月，囊括美国本土出售的上千万辆汽车以及相关购买者的个人信息的汽车数据库被泄露，受影响的汽车经销商有Acura、BMW、Chrysler等，包含车辆细节信息、销售细节信息和客户细节信息。</p><p>　　★遗弃U盘里竟有英国机场安保机密</p><p>　　2017年10月，一男子在伦敦找到USB闪存盘，里面有地图、视频和文件，涉及希思罗机场安全保障和反恐行动，其中，某文件中有预防恐袭的机场巡逻路线，另一份文件涉及英国女王伊丽莎白二世抵达机场的路线以及安保措施。</p><p>　　★Uber被指曾花10万美元平息黑客盗号风波</p><p>　　2017年11月，Uber公司被爆曾被黑客攻击，致使5700多万用户和司机账号被盗。Uber对外隐瞒了这一事件，并支付10万美元要求黑客删除数据。两名黑客通过外部代码托管网站GitHub获得Uber工程师在AWS上的账号和密码。</p><p>　　★有165年历史航运巨头数据遭到泄露</p><p>　　2017年12，英国航运巨头克拉克森承认遭受黑客攻击，致使数据泄露，但没有说明被窃取信息的类型及数据量，只说它是“保密级”的数据，同时“采取措施保护信息的机密性，律师随时都在待命状态以应对可能发生的状况。”</p><p>　　★加拿大日产被黑 110万客户数据泄露</p><p>　　2017年12，日产加拿大分部的车辆融资部门被黑客入侵，多达113万名客户的个人信息被黑客窃取，被泄露的数据至少包括客户姓名、地址、车辆制造商和型号、车辆识别号（VIN）、信用评分、贷款金额和每月付款金额等。</p><p>　　四、医疗教育行业</p><p>　　★英国学生化身黑客窃取考试答案被发现</p><p>　　2017年2月，英国埃尔市一所高中的五名学生，在考试前通过黑客手段窃取老师邮箱的用户名和密码，进入邮箱拿到数学考试的答案，被发现。学校和老师对此事展开调查，将几名“黑客”抓获。</p><p>　　★黑客窃取数千名医院工作人员的个人数据</p><p>　　2017年3月，黑客窃取了数千名英国国家医疗服务体系（NHS）医疗专业人员的信息。黑客渗透到由IT供应商Landauer运营的数据服务器，窃取数千名医疗工作人员的姓名、出生日期、辐射剂量和国家保险人数等信息。</p><p>　　★Anthem同意支付1.15亿美元解决集体诉讼</p><p>　　2017年6月，美国最大的医疗保险公司Anthem同意支付1.15亿美元解决2015年数据泄露带来的集体诉讼。2015年，针对Anthem的网络袭击泄露了7880万条用户记录，但不包括保险人的财务信息和医疗记录。</p><p>　　★浙江判决特大侵犯公民信息案</p><p>　　2017年9月，浙江省松阳县人民法院判决一起特大侵犯公民个人信息案，该案涉及7亿条公民隐私信息被泄露，8000余万条公民信息被贩卖。涉案人入侵某部委医疗服务信息系统，私自将该系统内的部分公民个人信息出售。</p><p>　　★黑客入侵英国整形医院数据库盗取大量私照</p><p>　　2017年10月，黑客组织Dark Overlord宣称他们攻入了全球知名整形美容医院London Bridge Plastic Surgery的数据库，获取了大量的隐秘信息，除了普通人，还有英皇室成员和明星艺人，容量高达TB级。</p><p>　　五、通讯传媒机构</p><p>　　★枪支零售商气枪GI的论坛65,000个账户泄露</p><p>　　2017年2月，黑客声称入侵了枪支零售商Airsoft GI的官方网络论坛，并上传了Dropbox的数据。被盗的数据包括注册用户的个人信息，涉及40,521个Gmail账户、3,261个雅虎账户、2,760个Outlook和2,760个Hotmail账户。</p><p>　　★黑客通过麦克风窃取乌克兰超600G数据</p><p>　　2017年2月，工业网络安全公司CyberX发现一次大规模网络攻击，该行动入侵了乌克兰70个目标，涉及关键基础设施、媒体和科学研究机构，被泄露的600G敏感信息包括对话录音、屏幕截图、文件和密码。</p><p>　　★道琼斯220万客户信息外泄</p><p>　　2017年7月，据UpGuard报告，道琼斯公司持有的一套云文件存储库存在配置错误，包含来自数百万家企业客户的个人及财务敏感信息以半公开形式接受网络访问，至少有220万客户受到影响。</p><p>　　★1400万Verizon客户个人信息泄露</p><p>　　2017年7月，美国电信公司Verizon因为错误设定云服务器的安全设置，造成超过1400万客户个人信息外泄到网络，这些数据包含用户的姓名、电话号码以及可能被用于访问其Verizon账户的PIN码。</p><p>　　★黑客盗走HBO上千份公司内部文件</p><p>　　2017年8月，HBO遭遇网络攻击，黑客偷走包括这家公司上千份内部文件在内的1.5TB数据，公布《投手》等剧本以及要等到下一年才会播出的剧集《巴里》。黑客还泄露了一名高管的个人信息，包含数十个网络账号登录信息。</p><p>　　★14亿账号密码数据库在reddit论坛被公开</p><p>　　2017年12月，reddit论坛上公开了一份长期在暗网中心交易的数据文件，这些数据包含14亿用户的用户名和密码。这些泄露的用户名和密码可能导致用户的账号被窃取，账号内的个人信息与资产也受到威胁。</p><p>　　★英国移动运营商Three再曝客户数据泄露事件</p><p>　　2017年3月，英国移动运营商Three的客户数据再次被泄。某些登录客户能查看其他用户的个人数据和通话记录，但是未泄露任何财务数据。2016年11月，Three证实遭遇大型网络安全事件，近13.3万用户的个人数据被泄。</p><p>　　六、餐旅娱乐业</p><p>　　★ABTA网站遭黑客攻击影响 4.3万人</p><p>　　2017年3月，“外部渗透者”使用英国旅行社协会网络服务器中的一个漏洞访问其成员和一些成员客户提供的数据。该事件影响43,000个人，大约1000个访问的文件可能包括与英国旅行代理商协会（ABTA）成员的客户有关的个人身份信息。</p><p>　　★洲际酒店集团二度遭遇数据泄露</p><p>　　2017年4月，洲际酒店集团公布，该集团旗下逾1000家酒店遭遇信用卡数据泄露。客户在受影响酒店进行信用卡支付后，该恶意程序从信用卡磁条中读取记录数据。这是洲际酒店第二次发生信用卡数据泄露。</p><p>　　★近40家Shoney’s餐厅信用卡信息泄露</p><p>　　2017年4月，黑客在数十家Shoney’s餐厅的支付处理系统上均远程安装了恶意软件，恶意软件感染设备后，成功窃取近40家全美家庭式餐厅Shoney’s餐厅的信用卡数据，包括持卡人的姓名、卡号、到期日期和内部验证码等数据。</p><p>　　★必胜客官网遭入侵支付卡信息可能泄露</p><p>　　2017年10月，美国必胜客通知，由于网站遭到入侵，顾客的支付卡信息等可能被盗，使用必胜客网站或移动应用预订订单的用户可能会受影响。这一漏洞很快被发现并得到解决，受到这一事件影响的有不到1%的网站和大约6万人。</p><p>　　★凯悦酒店被黑客攻击住客信息再遭泄露</p><p>　　2017年10月，全球11个国家的41家凯悦酒店支付系统被黑客入侵，大量数据外泄。中国共有18家凯悦酒店受影响，是这次事件中受影响最大、数量最多的国家。导致这次事件的原因，是来自第三方含有恶意软件代码的卡片。</p><p>　　★墨尔本国际射击俱乐部数据库被黑</p><p>　　2017年11月，澳大利亚警方调查，有黑客攻破了墨尔本国际射击俱乐部的数据库，其中包括超过1500支半自动手枪的信息记录，分属于540名俱乐部会员。数据记录了每位会员姓名、家庭住址、联系方式以及拥有的枪械数量、类型和存放地点。警方更担心这些枪械持有者的人身安全。</p><p>　　七、互联网企业</p><p>　　★康师傅饮料瓶盖编码泄露</p><p>　　2017年1月，流入黑市的超过10万个乐视会员兑换码遭到泄露，被黑产从业者在几个平台和QQ群中倒卖。据调查，乐视会员兑换码的泄露源于康师傅、乐视联合举办的“开盖赢好礼天天开新机”活动。</p><p>　　★泰迪熊泄露数以百万计的语音信息和密码</p><p>　　2017年2月，“云宠物”品牌智能玩具的超过82万个账户被泄露，其中包括220万条语音信息，原因是用户数据被储存在不需要身份认证和密码就可以访问的云端数据库所致。随后出现对“云宠物”用户的敲诈勒索，要求用户付钱赎回被犯罪分子恶意储存的语音文件。</p><p>　　★京东内部员工涉嫌窃取50亿条用户数据</p><p>　　2017年3月，京东与腾讯的安全团队联手协助公安部破获一起特大窃取贩卖公民个人信息案，其主要犯罪嫌疑人乃京东内部员工。这名尚处于试用期的员工盗取涉及交通、物流、医疗等个人信息50亿条，在网络黑市贩卖。</p><p>　　★58同城数据遭遇爬虫软件</p><p>　　2017年3月，多家新闻网站曝“58同城陷数据泄露：700元可采集网站全部简历信息”。在淘宝等电商平台，有公开出售特殊的爬虫软件，可以自动抓取58同城网站上的简历数据、本地商户信息、汽车过户信息等多类信息。</p><p>　　★雅虎泄露3200万账户数据</p><p>　　2017年3月，入侵者通过Cookie伪造攻击，造成雅虎3200万账户信息泄露。攻击者在无需输入密码的情况下，就能访问受害者账户，只需伪造一个Web浏览器诱使相信雅虎用户已经登录。11月，雅虎就账户泄露事件致歉。</p><p>　　★美国求职网站AJL泄露480万笔求职者信息</p><p>　　2017年3月，美国求职网站America’s JobLink爆发重大数据泄露事件，影响美国十个州的求职者。一名黑客利用网站应用程序的一个漏洞窃取480万笔求职者的数据，包括求职者姓名、生日和身份识别号码等。</p><p>　　★高达52GB的邓白氏数据流至地下黑市</p><p>　　2017年3月，一份多达52GB的数据库资料被曝光，内容包含近3400万美国人的个人身份信息，数据的来源为世界商业信息服务公司巨头邓白氏（Dun ＆Bradstreet）。泄露的数据不仅包含普通公民的信息，还包含超过10万条美国国防部的人员资料。</p><p>　　★优酷上亿条数据千元售卖</p><p>　　2017年4月，黑客CosmicDark在网上售卖从优酷窃取约的1亿用户账号，售价约2000元人民币。该数据库包含大量账号的电子邮箱和解密的MD5、SHA1哈希密码。而且，样本数据提供的加密密码已被解密，并被公开于互联网。</p><p>　　★台湾1.7亿笔个人资料外泄</p><p>　　2017年5月，台湾警方破获一起盗取并倒卖个人资料重大案件。该案件致使大约1.7亿多笔、超两千万人的200GB个人资料泄露，甚至不排除台湾地区领导人蔡英文的个人资料。犯罪集团以每套15至20万元新台币高价兜售资料。</p><p>　　★DaFont网站遭黑客攻击近700,000账户被泄</p><p>　　2017年5月，提供文字编辑字体服务网站DaFont.com宣布遭到黑客入侵，被以明文形式暴露近700,000用户账户的数据，不仅包含用户信息，还有从论坛收集的数据和用户对话，以及来自美国和英国的政府机构及公司账户信息。</p><p>　　★50名跨境电商小红书用户被骗88万</p><p>　　截至2017年5月31日，先后有50名受害者因在手机应用跨境电商“小红书”网购后遭遇假冒客服的退款电话而被骗，累计受骗金额高达近88万元人民币。小红书涉入信息泄露的原因是“被指其后台没有保密性”。</p><p>　　★8成智能摄像头存隐患</p><p>　　2017年6月，国家质检总局官网发布关于智能摄像头的质量安全风险警示称，已检测的40批次中，32批次样品存在质量安全隐患，可能导致用户监控视频被泄露，或智能摄像头被恶意控制等危害。</p><p>　　★游戏《Cyberpunk 2077》文件遭黑客窃取</p><p>　　2017年6月，巫师游戏开发商CD的《Cyberpunk 2077》文件和概念设计被黑客窃取并被用以勒索。黑客称，如果赎金要求得不到满足，就在网上公开游戏开发资料。因窃取事件所涉及的文件是老版本，CD的开发人员似乎并不担心。</p><p>　　★Hadoop服务器配置不当使5120TB数据泄露</p><p>　　2017年6月，据Shodan的分析，配置Hadoop分布式文件系统的近4500台服务器，暴露超过5120TB的数据。大多数HDFS服务器主要位于美国（1900台）和中国（1426台），其次是德国（129台）和韩国（115台）。</p><p>　　★快递员泄露客户信息被判刑</p><p>　　2017年6月，深圳中院对一起侵犯公民个人信息案做出二审判决，一名在某速运公司工作的员工宋某向他人出售公司内部账号密码，导致二十万余个公民个人信息遭泄露，宋某因此获刑一年三个月。</p><p>　　★Google论坛配置错误导致机密数据在线曝光</p><p>　　2017年7月，Google Groups在线服务出现配置错误，导致数百家企业机密数据曝光，包括企业员工电子邮件地址、员工薪酬补偿、销售渠道数据、客户密码、姓名与家庭地址等信息，被泄露的在线信息可供全球用户任意查看。</p><p>　　★瑞典网络托管公司遭黑客“拖库”</p><p>　　2017年8月，瑞典大型网站托管公司Loopia遭黑客“拖库”，客户数据外泄，包括Loopia Kundzon的个人资料、联系信息和加密（哈希）密码。Loopia信用卡等支付信息未泄露，客户的托管网站和电子邮件服务未遭受攻击。</p><p>　　★客户敏感文件泄露影响财富1000强公司</p><p>　　2017年8月，美国安全公司Carbon Black提供的端点检测和响应解决方案出现重大问题，泄露客户数万份敏感文件，包括云密钥、应用商店密钥及其他敏感商业机密。造成这种结果的原因是该公司对第三方多频扫描器服务的依赖。</p><p>　　★微软储存内部漏洞秘密数据库被黑客偷走</p><p>　　2017年10月，5名微软前员工透露，微软储存自家软件内部漏洞的秘密数据库早在4年前被黑客盗走，数据库包含一批软件的关键未修复漏洞。同年6月，部分微软Windows10源代码被泄露到追踪Windows版本的爱好者网站Beta Archive上，这些代码主要提供OEM合作伙伴使用。</p><p>　　★埃森哲服务器未加密引发敏感信息泄露</p><p>　　2017年10月，因不小心任由大量私密数据存放在四台未加保护的云服务器上，直接导致埃森哲公司高度敏感的密码和解密密钥遭泄露。这些服务器托管在亚马逊S3存储服务上，若知其Web地址，不用密码就可以下载这些数据。</p><p>　　★Imgur承认遭黑客攻击 170万账号信息被窃</p><p>　　2017年11月，全球知名图片分享网站 Imgur 承认，2014 年该网站曾经受到黑客攻击，170万包含邮箱地址和密码的账户信息被窃取。由于网站并不需要用户提交真实姓名、地址或者手机号码，因此被窃取的信息中并不包含私人信息。</p><p>　　★趣店数百万学生数据泄露或遭内部员工报复</p><p>　　2017年11月，趣店百万学生的数据疑似外泄，泄露的数据出包括借款金额、滞纳金等金融数据外，甚至还包括学生父母电话、男女朋友电话、学信网账号密码等隐私信息。据称，此次数据泄露事件可能是内鬼所为，为报复行为。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 站点公告 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 安全 </tag>
+            
+            <tag> 漏洞 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何选择适合自己的Nas</title>
+      <link href="/2019/01/05/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84Nas/"/>
+      <url>/2019/01/05/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84Nas/</url>
+      
+        <content type="html"><![CDATA[<h2 id="选择说明："><a href="#选择说明：" class="headerlink" title="选择说明："></a>选择说明：</h2><p>轻量级用户: 1~2盘位<br>此级别的用户需要备份客户机(台式机/笔记本/手机)上的小规模的文件, 将NAS作为备份服务器(相当于苹果的时间胶囊). 当客户机的文件被误删, 或者因为系统中毒中马, 硬盘/闪存故障等原因文件损坏时, 可以从备份服务器恢复先前备份过的文件. 记得先清毒杀马, 修复硬盘/闪存.</p><p>中量级用户: 3~4盘位<br>此级别的用户除了需要备份客户机的文件外, 还需要存放照片音乐视频等资料文件, 存放的文件需要有容错恢复措施. 3个或以上盘位可以使用RAID5模式组合硬盘, 4盘位推荐使用RAID10.</p><p>重量级用户: 5位盘以上<br>到了这个级别已经超出普通家庭的使用范围了, 已经靠近企业用量了. 我是用不到了. 也许那些PT高级会员, 小姐姐收藏家, 数据相关的SOHO工作者需要用到吧. 由于选择使用的场景太多, 适用的范围也太广, 本文就不作讨论了.</p><p>多媒体用户: 1盘以上<br>NAS中收藏了自己心爱的照片视频音乐等资源, 如何播放收看收听呢? 除了最基本的用电脑打开NAS里的资源外, 家用NAS几乎都提供了DLNA, 网页或APP形式的播放方式, 让用户无论使用什么样的客户端, 都能获得非常好的收看收听体验.</p><p>专业相关用户: 1盘以上<br>从事或爱好技术开发相关或SOHO工作的用户通常会需要一台小型服务器来为自己提供相关的服务, 比如在家自搭一个网站, 博客, 网盘. 或者搭个智能家电服务器, 邮件服务器, 虚拟专用网服务器, 源代码管理服务器. 甚至使用虚拟机或Docker容器自制任何Linux相关的功能. </p><h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><p>Docker容器目前只能在 x86 CPU 的系统上使用 (虽然Docker已经开始支持 ARM, 但我不觉得会有厂商用上), 目前市面上在售机型中下列可以支持Docker功能.</p><p>安全与隐私.<br>备份是NAS的必备功能:<br>NAS储存着大量重要数据, 它的意义不仅仅是一个”连着网线的硬盘盒”, 你花钱花精力弄回来这么一台机器可不愿意看到某天一个什么故障带走你多年前的回忆或收藏. 光盘坏U盘坏闪存卡坏硬盘坏相信很多人都经历过. 特别是硬盘坏时, 你付给电脑公司帮你做数据恢复的钱可能够你买台群晖了, 而且数据不是100%能恢复过来的. 所以请必备在NAS上设置好定时的自动备份.</p><p>RAID是NAS的特色功能:<br>多个硬盘可以组合磁盘阵列 (RAID), RAID可以提升读写速度, 或者在有硬盘损坏的情况下让数据仍然可用, 或者两者兼顾. 常用的RAID有0/1/5/6几种模式:</p><p>RAID0: 将多个硬盘当成一个用, 可用空间为N, 每个硬盘上存放1/N的数据, 这样可以达到N倍的读写速度. 缺点是坏1个硬盘数据就全挂.<br>RAID1: 将多个 (一般是两个) 硬盘中的一个作数据盘, 其它作镜像盘, 可用空间为1, 数据盘写入文件的同时每个镜像盘也是写入相同的文件. 这样不论几个硬盘坏掉, 只有其中一个没坏, 数据就全在. 把坏盘取出新盘加入, 又能快速恢复成RAID1模式. 缺点可用容量只有1/N.<br>RAID5: 将三块或以上的硬盘当作一个用, 可用空间为N-1, 每块盘都会额外存放部分其它盘上的数据. 优点是读取速度接近N-1倍. 缺点是写比单盘慢, 坏盘不能超过一块, 不用硬RAID卡恢复数据”生不如死”.<br>RAID6: 与RAID5相同, 空间变成N-2, 坏盘可能有2个, 优缺点也和RAID5一样.<br>RAID10: RAID1与RAID0的组合, 四个或以上硬盘可用. 优点是读写速度为N/M (M为RAID1盘数, 通常为2) 倍, 恢复快速方便, 缺点是可用空间为N/M.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 站点公共 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nas </tag>
+            
+            <tag> 购物选择 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是Nas？</title>
+      <link href="/2019/01/05/%E4%BB%80%E4%B9%88%E6%98%AFNas%EF%BC%9F/"/>
+      <url>/2019/01/05/%E4%BB%80%E4%B9%88%E6%98%AFNas%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="你是否需要一台NAS"><a href="#你是否需要一台NAS" class="headerlink" title="你是否需要一台NAS?"></a>你是否需要一台NAS?</h2><blockquote><p>在众多电子设备中 手机 电脑 平板 数码相机 打印机 高清摄像头 电子书 你是否命中缺Nas？<br>普通家庭一般都有需要长期保存的照片和视频, 某些个人爱好或工作中还会需要保存各种文档稿件.<br>存电脑上手机上 数据可能因为硬件故障而丢失, 手动备份费时费力, 手机和本本还可能遗失或被盗.</p></blockquote><p>存网盘上 受到网速限制, 隐私数据泄漏, 服务商跑路, 国内网盘陆续关停, 国外网盘不是慢就是无法访问. 你在网盘上日积月累的”宝贝”怎么办呢？<code>&quot;毕竟是你的东西放别人家里，人家拆房子的时候顶多就告诉你一声。我拆了你的东西拿走！&quot;</code></p><p><strong>除了基本的存储功能和网络文件协议访问外, NAS厂商通常加入多种网络服务功能. 例如:</strong></p><ul><li>内容提供服务: 网络相册, 音乐库, 影视库, 云笔记, 电子书库等.</li><li>网络协议服务: 邮件服务, DNS服务, 认证服务, 虚拟专用网络服务, 目录服务, 代理服务等.</li><li>网络应用服务: 网站服务, 博客系统, 内容管理系统, 数据库, 源代码管理, 下载服务等.</li><li>其它服务: 虚拟机, Docker容器, 杀毒, 监控等.</li></ul><h4 id="我们来举例几个场景："><a href="#我们来举例几个场景：" class="headerlink" title="我们来举例几个场景："></a><strong>我们来举例几个场景：</strong></h4><blockquote><ol><li>微信和QQ上的沟通内容，很多不和谐的语言和图片资料是不能够被发放出来的，动辄违规封群封号。是否想要一个私有的沟通环境，你的地盘你做主。</li><li>先不说是不是当博客写暴露自己隐私的问题，目前日志文章一定会放置到第三方的服务器上你才能随时访问，你真的放心在这个使用人数众多的服务器上保存自己的日记？是否想要把这些日志一个放在自己触手可及的地方，而它只是你和你的家人在访问。</li><li>你喜欢的小姐姐敢放在各种云盘上吗？里面变成十秒教育公益广告，Nas里随心设置权限控制访问。</li><li>百度贴吧，试试发帖看的懂的广告，立马让你体验秒删的滋味，那么为什么不自己建立个贴吧呢？</li><li>有一份表格需要多人同时完成，你一份我一份，你改动了哪里我还得找费时费力。不如同一份文件同时一起改，改错了还能还原，保留着每一个更改的版本！</li><li>每年撑满相片的手机，是不是得复制到上电脑硬盘上，等待的时间和操作就不说了，电脑要是坏了还得修复以后才能找回硬盘上的文件，要是硬盘也坏了呢？Nas能帮你应对硬件损坏带来损失，坏了就换数据还在。</li><li>一直以来各种大公司从未停止过泄露隐私的情况，可能你的信息早已经暴露在外，只是等到时机成熟之时才被收割，难道你还在笑看人生？<br><a href="https://nas.kstu.vip/2019/01/05/%E9%87%8D%E5%A4%A7%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6%E6%92%AD%E6%8A%A5/">重大泄露事件就发生不就之前</a></li></ol></blockquote><h4 id="数据安全之外的网络安全"><a href="#数据安全之外的网络安全" class="headerlink" title="数据安全之外的网络安全"></a><strong>数据安全之外的网络安全</strong></h4><p>当我们需要从外网访问家中的NAS时, 无论是用公网IP直连还是通过VPN/代理穿透, 务必使用SSL连接, 并且改用非标准端口.也是群晖Nas免费提供的方案之一。<br>SSL可以保证你的网络通讯数据不被别人破解识别. 比如你用外面的公共WIFI或者使用蒲公英等VPN服务连入家中的NAS, 公共WIFI和蒲公英服务器虽然能截取到你的数据包, 但是SSL加密能保证他们看不到你提交的密码和传输的真实数据.</p><h2 id="品牌选择"><a href="#品牌选择" class="headerlink" title="品牌选择"></a>品牌选择</h2><p>如果你还在挑选品牌<br>其实那款好用自己对比一下看了就明白</p><p><a href="https://www.synology.com/en-us/dsm/live_demo" target="_blank" rel="noopener">群晖在线试用</a><br><a href="https://www.synology.com/en-us/dsm/live_demo" target="_blank" rel="noopener">威联通在线试用</a> 账号: qnap 密码: qnap<br><a href="http://terramaster.tnas.link/3.0/index.php?user/login" target="_blank" rel="noopener">铁威马在线试用</a> 账号: terramaster 密码: Terramaster2017</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 站点公告 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nas </tag>
+            
+            <tag> 采购选择 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>二月热销价格</title>
+      <link href="/2019/01/05/%E7%83%AD%E9%94%80%E4%BB%B7%E6%A0%BC/"/>
+      <url>/2019/01/05/%E7%83%AD%E9%94%80%E4%BB%B7%E6%A0%BC/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>热门产品并不是全部群晖Nas的产品型号<br>需要其他型号的请联系：15678609494<br>需要<code>docker</code>功能建议选购<code>ds218+</code>以上的型号产品</p></blockquote><h2 id="Nas产品"><a href="#Nas产品" class="headerlink" title="Nas产品"></a>Nas产品</h2><ul><li>ds119: 750.00元</li><li>ds218j: 1250.00元</li><li>ds218play：1800.00元</li><li>ds218+：2680.00元</li><li>ds718+:3500.00元</li><li>ds918+: 4400.00元</li><li>ds1517+：6000.00元（即将断货停产，先到先得）</li><li>ds1819+: 7900.00元</li></ul><h2 id="授权产品"><a href="#授权产品" class="headerlink" title="授权产品"></a>授权产品</h2><ul><li>Docker DSM 授权码（按年收费）</li><li>Mail Plus 授权码 （永久授权）</li><li>监控授权码（永久授权）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 站点公告 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 价格 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用群晖Nas的git拉取远程仓库代码</title>
+      <link href="/2019/01/04/%E4%BD%BF%E7%94%A8%E7%BE%A4%E6%99%96Nas%E7%9A%84git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%BB%A3%E7%A0%81/"/>
+      <url>/2019/01/04/%E4%BD%BF%E7%94%A8%E7%BE%A4%E6%99%96Nas%E7%9A%84git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%BB%A3%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<p>用群晖<code>Nas</code>做站点，可以从远端拉取数据到<code>Nas</code>上<br><code>Mac</code>上操作非常简单，用终端工具进到Nas需要拉取的目录<code>git pull</code>拉取就行了<br>但是如果在<code>Windows</code>上操作，也非常简单不过需要安装个工具<br><code>git</code>工具到命令真的非常强大，感觉上让<code>Windows</code>像Linux一样用命令行，虽然那时不可能错觉也挺好<br>直接进到需要拉取的文件夹中，右键选择<code>Git Bash Here</code>git的命令行工具就拉取<code>git pull</code>就行了<br><img src="/images/pasted-75.png" alt="upload"><br>但是有时候这样的操作在Nas外拉取数据然后再存入Nas里面，当数据较多的时候<br>会出现一下严重的卡顿，不如直接在Nas里面拉取数据来得更快些</p><p>那么打开群晖Nas的ssh功能，安装<code>git server</code>套件给予权限，使用命令行用管理组账号登录Nas<br>使用命令</p><pre><code>git config --global user.name “用户名”git config --global user.email “邮箱”</code></pre><p>在使用命令<br><code>ssh-keygen -t rsa</code><br>生成公匙文件<br>访问登录用户的公匙文件</p><pre><code>cat /var/services/homes/用户名/.ssh/id_rsa.pub</code></pre><p>将公匙文件放置到远程仓库的公匙列表中<br>这样就可以随时进入Nas拉取远程服务器的代码到Nas中完成部署站点</p><p>如果出现权限的问题<br><code>chmod 755 .ssh</code><br>改变.ssh的权限即可正常使用<code>git clone</code>命令</p><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>只要是使用ssh都会有安全风险，要记得随用随关就好</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SSL证书没有绿锁您与此网站建立的连接并非完全安全解决办法</title>
+      <link href="/2019/01/04/SL%E8%AF%81%E4%B9%A6%E6%B2%A1%E6%9C%89%E7%BB%BF%E9%94%81%E6%82%A8%E4%B8%8E%E6%AD%A4%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%8B%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%B9%B6%E9%9D%9E%E5%AE%8C%E5%85%A8%E5%AE%89%E5%85%A8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+      <url>/2019/01/04/SL%E8%AF%81%E4%B9%A6%E6%B2%A1%E6%9C%89%E7%BB%BF%E9%94%81%E6%82%A8%E4%B8%8E%E6%AD%A4%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%8B%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%B9%B6%E9%9D%9E%E5%AE%8C%E5%85%A8%E5%AE%89%E5%85%A8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>一部分朋友在使用群晖Nas搭建站点的时候可能会出现<br>申请好证书并且配置好<code>https</code>服务，到浏览器中可以使用<code>https</code>访问了。<br>但是没有绿色的锁标，点看查看提示：与此网站建立的连接并非完全安全解决办法。</p><p>主要是因为页面中加载了其他的<strong><code>http</code>资源，去掉以后就正常了。</strong></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖Nas报“发生网络错误。请检查DNS和网络设置”的解决方法</title>
+      <link href="/2019/01/03/%E7%BE%A4%E6%99%96Nas%E6%8A%A5%E2%80%9C%E5%8F%91%E7%94%9F%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF%E3%80%82%E8%AF%B7%E6%A3%80%E6%9F%A5DNS%E5%92%8C%E7%BD%91%E7%BB%9C%E8%AE%BE%E7%BD%AE%E2%80%9D%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+      <url>/2019/01/03/%E7%BE%A4%E6%99%96Nas%E6%8A%A5%E2%80%9C%E5%8F%91%E7%94%9F%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF%E3%80%82%E8%AF%B7%E6%A3%80%E6%9F%A5DNS%E5%92%8C%E7%BD%91%E7%BB%9C%E8%AE%BE%E7%BD%AE%E2%80%9D%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>这种情况一般发生在很多新买的玩家设置了<code>QuickConnect</code>以后<br>在外网环境中使用<code>QuickConnect</code>ID登录发现链接总是出错<br>看<code>控制面板</code>中的<code>QuickConnect</code>出现警告错误信息点哪也点不开<br>或者设置了群晖的<code>ddns</code>也一样报错信息<br>其实往往原因都很简单和普通电脑的路由器局域网环境下主动设置一下<code>DNS</code>即可<br>自动的往往都变成网关之类内网的<code>DNS</code>当然是解析不互联网的数据的</p><h2 id="步骤一：找符合的DNS"><a href="#步骤一：找符合的DNS" class="headerlink" title="步骤一：找符合的DNS"></a>步骤一：找符合的DNS</h2><p>每个运营商和每个地域的<code>DNS</code>都是不相同的<br>我这里举例一下电信的<code>DNS</code><br>其他运营商可以自己打电话去问一下给自己装机的师傅<br>记得问<code>运维师傅</code>别问客服，客服一般都跟傻子差不多，只会念电脑上面的那些东西<br>自己找对应省份，如果嫌太长，Windows按快捷键CTRL+F 输入你省份的名称找，一般找两个就可以了</p><p>电信省份DNS</p><pre><code>中国电信 辽宁省 沈阳市DNS 59.46.69.66中国电信 辽宁省 大连市DNS 59.44.126.20中国电信 青海省 西宁市DNS 202.100.138.68中国电信 新疆 乌鲁木齐市DNS 61.128.114.133中国电信 新疆 乌鲁木齐市DNS 61.128.114.166中国电信 新疆 乌鲁木齐市DNS 61.128.114.85中国电信 新疆 乌鲁木齐市DNS 61.128.114.70中国电信 新疆 乌鲁木齐市DNS 61.128.99.133中国电信 新疆 乌鲁木齐市DNS 61.128.99.134中国电信 陕西省           124.115.214.58中国电信 陕西省           124.115.4.91中国电信 陕西省           61.150.82.68中国电信 陕西省           61.150.82.65中国电信 陕西省           61.150.82.69中国电信 陕西省           124.115.5.52中国电信 陕西省           61.134.55.252中国电信 陕西省           124.115.211.42中国电信 陕西省 咸阳市DNS 61.185.39.206中国电信 陕西省 咸阳市DNS 219.145.105.47中国电信 陕西省 西安市DNS 219.144.222.162中国电信 陕西省 西安市DNS 218.30.19.40中国电信 陕西省 西安市DNS 218.30.19.50中国电信 陕西省 西安市DNS 218.30.82.31中国电信 陕西省 西安市DNS 61.134.1.4中国电信 陕西省 西安市DNS 61.150.69.6中国电信 陕西省 西安市DNS 124.115.170.4中国电信 陕西省 榆林市DNS 61.134.60.148中国电信 陕西省 榆林市DNS 61.134.60.149中国电信 陕西省 榆林市DNS 61.150.114.130中国电信 上海市DNS 上海市DNS 58.34.8.36中国电信 上海市DNS 上海市DNS 202.96.197.1中国电信 上海市DNS 上海市DNS 222.73.226.119中国电信 上海市DNS 上海市DNS 61.152.248.83中国电信 上海市DNS 上海市DNS 202.96.247.194中国电信 上海市DNS 上海市DNS 61.129.72.11中国电信 上海市DNS 上海市DNS 202.101.10.135中国电信 上海市DNS 上海市DNS 202.109.117.200中国电信 上海市DNS 上海市DNS 61.152.117.9中国电信 上海市DNS 上海市DNS 202.109.14.12中国电信 上海市DNS 上海市DNS 202.109.117.203中国电信 上海市DNS 上海市DNS 202.109.116.116中国电信 上海市DNS 上海市DNS 222.73.75.110中国电信 上海市DNS 上海市DNS 61.129.66.79中国电信 上海市DNS 上海市DNS 202.96.199.132中国电信 上海市DNS 上海市DNS 202.96.209.149中国电信 上海市DNS 上海市DNS 202.96.209.17中国电信 上海市DNS 上海市DNS 202.96.209.19中国电信 上海市DNS 上海市DNS 202.96.209.22中国电信 上海市DNS 上海市DNS 116.228.218.74中国电信 上海市DNS 上海市DNS 222.69.242.61中国电信 上海市DNS 上海市DNS 61.152.82.18中国电信 上海市DNS 上海市DNS 61.129.88.123中国电信 上海市DNS 上海市DNS 202.96.209.148中国电信 上海市DNS 上海市DNS 202.96.209.147中国电信 上海市DNS 上海市DNS 202.96.209.140中国电信 上海市DNS 上海市DNS 202.96.209.16中国电信 上海市DNS 上海市DNS 202.96.209.11中国电信 上海市DNS 上海市DNS 202.96.209.12中国电信 上海市DNS 上海市DNS 202.96.209.13中国电信 上海市DNS 上海市DNS 202.96.209.137中国电信 上海市DNS 上海市DNS 202.96.209.138中国电信 上海市DNS 上海市DNS 202.96.209.139中国电信 上海市DNS 上海市DNS 202.96.209.14中国电信 上海市DNS 上海市DNS 202.96.209.141中国电信 上海市DNS 上海市DNS 61.129.78.10中国电信 上海市DNS 上海市DNS 61.129.73.196中国电信 上海市DNS 上海市DNS 218.83.245.26中国电信 上海市DNS 上海市DNS 222.66.120.179中国电信 上海市DNS 上海市DNS 61.152.219.51中国电信 上海市DNS 上海市DNS 124.74.238.91中国电信 上海市DNS 上海市DNS 61.172.245.96中国电信 上海市DNS 上海市DNS 61.129.93.83中国电信 上海市DNS 上海市DNS 114.80.88.6中国电信 上海市DNS 上海市DNS 61.172.196.100中国电信 上海市DNS 上海市DNS 116.225.147.12中国电信 上海市DNS 上海市DNS 116.233.170.179中国电信 上海市DNS 上海市DNS 218.1.115.99中国电信 上海市DNS 上海市DNS 222.73.207.166中国电信 上海市DNS 上海市DNS 61.172.252.103中国电信 上海市DNS 上海市DNS 124.74.243.10中国电信 上海市DNS 上海市DNS 61.152.241.141中国电信 上海市DNS 上海市DNS 222.73.27.15中国电信 上海市DNS 上海市DNS 202.101.8.18中国电信 上海市DNS 上海市DNS 116.228.160.4中国电信 上海市DNS 上海市DNS 61.129.64.3中国电信 上海市DNS 上海市DNS 116.231.108.224中国电信 上海市DNS 上海市DNS 218.80.219.58中国电信 上海市DNS 上海市DNS 202.101.10.10中国电信 上海市DNS 上海市DNS 222.66.131.226中国电信 上海市DNS 上海市DNS 61.129.39.70中国电信 上海市DNS 上海市DNS 61.129.39.72中国电信 上海市DNS 上海市DNS 114.80.108.60中国电信 上海市DNS 上海市DNS 222.66.15.227中国电信 上海市DNS 上海市DNS 222.73.127.66中国电信 上海市DNS 上海市DNS 222.70.146.159中国电信 上海市DNS 上海市DNS 222.66.115.99中国电信 上海市DNS 上海市DNS 222.73.75.109中国电信 上海市DNS 上海市DNS 202.96.209.15中国电信 上海市DNS 上海市DNS 202.96.209.143中国电信 上海市DNS 上海市DNS 202.96.199.133中国电信 上海市DNS 上海市DNS 114.80.98.2中国电信 上海市DNS 上海市DNS 202.101.6.2中国电信 上海市DNS 上海市DNS 114.80.88.5中国电信 上海市DNS 上海市DNS 61.172.0.26中国电信 上海市DNS 上海市DNS 222.66.79.188中国电信 四川省           218.6.145.111中国电信 四川省           61.139.39.73中国电信 四川省 乐山市DNS 218.89.0.124中国电信 四川省 乐山市DNS 61.139.50.67中国电信 四川省 乐山市DNS 218.89.0.116中国电信 四川省 凉山州 61.139.54.66中国电信 四川省 攀枝花市DNS 221.236.79.18中国电信 四川省 攀枝花市DNS 221.236.77.83中国电信 四川省 攀枝花市DNS 221.236.80.18中国电信 四川省 内江市DNS 61.139.46.90中国电信 四川省 成都市DNS 125.70.244.39中国电信 四川省 成都市DNS 222.209.210.88中国电信 四川省 成都市DNS 125.71.217.212中国电信 四川省 成都市DNS 218.6.192.242中国电信 四川省 成都市DNS 202.98.130.139中国电信 四川省 成都市DNS 125.71.117.0中国电信 四川省 成都市DNS 125.70.254.244中国电信 四川省 成都市DNS 125.70.254.243中国电信 四川省 成都市DNS 125.70.254.241中国电信 四川省 成都市DNS 125.70.254.242中国电信 四川省 自贡市DNS 61.139.44.68中国电信 山西省           219.149.190.60中国电信 山西省           59.48.133.60中国电信 山东省           219.146.165.18中国电信 山东省 青岛市DNS 222.173.95.53中国电信 山东省 青岛市DNS 222.173.107.2中国电信 山东省 日照市DNS 222.175.240.70中国电信 山东省 东营市DNS 222.174.100.6中国电信 山东省 东营市DNS 222.174.117.50中国电信 山东省 东营市DNS 222.174.112.156中国电信 山东省 东营市DNS 222.174.115.44中国电信 山东省 济南市DNS 219.146.0.253中国电信 山东省 济南市DNS 218.98.195.243中国电信 山东省 济宁市DNS 222.175.169.91中国电信 山东省 淄博市DNS 222.173.235.42中国电信 山东省 淄博市DNS 222.173.245.130中国电信 山东省 淄博市DNS 58.57.109.14中国电信 山东省 淄博市DNS 222.173.249.162中国电信 山东省 淄博市DNS 222.173.245.42中国电信 山东省 淄博市DNS 222.173.252.210中国电信 山东省 淄博市DNS 222.173.245.122中国电信 山东省 淄博市DNS 222.173.245.46中国电信 山东省 淄博市DNS 222.173.243.222中国电信 山东省 淄博市DNS 222.173.252.226中国电信 山东省 淄博市DNS 222.173.249.22中国电信 山东省 淄博市DNS 222.173.245.54中国电信 山东省 淄博市DNS 222.173.235.146中国电信 天津市DNS 天津市DNS 221.238.23.102中国电信 天津市DNS 天津市DNS 221.238.23.104中国电信 天津市DNS 天津市DNS 221.238.23.101中国电信 西藏           202.98.224.68中国电信 西藏           202.98.239.78中国电信 西藏           202.98.224.69中国电信 西藏 日喀则市DNS 202.98.234.35中国电信 浙江省           202.96.102.3中国电信 浙江省           61.175.111.61中国电信 浙江省           61.175.111.60中国电信 浙江省           61.175.231.157中国电信 浙江省           61.175.111.59中国电信 浙江省           202.96.103.36中国电信 浙江省           61.153.198.227中国电信 浙江省           61.153.198.226中国电信 浙江省 衢州市DNS 202.96.113.122中国电信 浙江省 衢州市DNS 202.107.245.11中国电信 浙江省 衢州市DNS 202.96.113.123中国电信 浙江省 衢州市DNS 202.96.113.124中国电信 浙江省 丽水市DNS 61.174.95.146中国电信 浙江省 丽水市DNS 61.175.243.2中国电信 浙江省 丽水市DNS 61.174.95.147中国电信 浙江省 丽水市DNS 61.174.95.148中国电信 浙江省 绍兴市DNS 220.187.246.18中国电信 浙江省 绍兴市DNS 202.107.225.78中国电信 浙江省 温州市DNS 125.109.134.86中国电信 浙江省 温州市DNS 61.153.30.140中国电信 浙江省 温州市DNS 60.190.78.226中国电信 浙江省 温州市DNS 61.175.207.22中国电信 浙江省 温州市DNS 61.153.33.179中国电信 浙江省 温州市DNS 61.164.99.26中国电信 浙江省 温州市DNS 60.190.84.110中国电信 浙江省 温州市DNS 61.175.208.80中国电信 浙江省 温州市DNS 61.164.136.154中国电信 浙江省 温州市DNS 61.164.128.42中国电信 浙江省 温州市DNS 60.190.79.90中国电信 浙江省 温州市DNS 60.190.76.6中国电信 浙江省 温州市DNS 61.164.129.123中国电信 浙江省 温州市DNS 218.75.31.206中国电信 浙江省 温州市DNS 61.164.98.218中国电信 浙江省 温州市DNS 61.164.105.222中国电信 浙江省 温州市DNS 61.164.104.62中国电信 浙江省 温州市DNS 218.75.26.70中国电信 浙江省 温州市DNS 218.75.28.78中国电信 浙江省 温州市DNS 202.107.223.178中国电信 浙江省 宁波市DNS 61.153.81.85中国电信 浙江省 宁波市DNS 218.75.80.26中国电信 浙江省 宁波市DNS 61.153.81.86中国电信 浙江省 宁波市DNS 61.153.81.82中国电信 浙江省 宁波市DNS 61.153.81.83中国电信 浙江省 宁波市DNS 61.153.81.84中国电信 浙江省 宁波市DNS 60.190.27.38中国电信 浙江省 宁波市DNS 60.190.34.70中国电信 浙江省 宁波市DNS 60.190.36.106中国电信 浙江省 宁波市DNS 61.130.96.30中国电信 浙江省 宁波市DNS 122.246.188.78中国电信 浙江省 舟山市DNS 61.153.215.194中国电信 浙江省 杭州市DNS 60.191.123.53中国电信 浙江省 杭州市DNS 122.224.140.131中国电信 浙江省 杭州市DNS 202.96.96.236中国电信 浙江省 杭州市DNS 202.101.173.130中国电信 浙江省 杭州市DNS 61.164.59.162中国电信 浙江省 杭州市DNS 202.101.173.135中国电信 浙江省 杭州市DNS 61.164.63.33中国电信 浙江省 杭州市DNS 202.101.172.142中国电信 浙江省 杭州市DNS 60.191.70.203中国电信 浙江省 杭州市DNS 122.224.70.238中国电信 浙江省 杭州市DNS 211.155.235.188中国电信 浙江省 杭州市DNS 202.101.173.131中国电信 浙江省 杭州市DNS 202.107.224.162中国电信 浙江省 杭州市DNS 202.107.204.34中国电信 浙江省 杭州市DNS 218.75.37.230中国电信 浙江省 杭州市DNS 60.191.123.52中国电信 浙江省 杭州市DNS 202.101.173.132中国电信 浙江省 杭州市DNS 202.96.122.86中国电信 浙江省 杭州市DNS 60.190.232.99中国电信 浙江省 杭州市DNS 122.224.70.253中国电信 浙江省 湖州市DNS 122.225.96.117中国电信 浙江省 湖州市DNS 61.130.219.132中国电信 浙江省 湖州市DNS 61.130.219.131中国电信 浙江省 湖州市DNS 61.130.219.130中国电信 浙江省 嘉兴市DNS 220.189.120.198中国电信 浙江省 嘉兴市DNS 220.189.120.195中国电信 浙江省 嘉兴市DNS 125.123.0.170中国电信 浙江省 嘉兴市DNS 218.75.56.26中国电信 浙江省 嘉兴市DNS 220.189.120.196中国电信 浙江省 嘉兴市DNS 220.189.120.197中国电信 浙江省 嘉兴市DNS 61.153.224.8中国电信 浙江省 嘉兴市DNS 60.190.154.226中国电信 浙江省 嘉兴市DNS 61.174.79.14中国电信 浙江省 嘉兴市DNS 220.191.220.10中国电信 浙江省 嘉兴市DNS 220.189.127.34中国电信 浙江省 嘉兴市DNS 60.190.139.10中国电信 浙江省 金华市DNS 60.191.208.110中国电信 浙江省 金华市DNS 60.191.249.235中国电信 浙江省 金华市DNS 125.112.124.204中国电信 浙江省 金华市DNS 60.191.236.170中国电信 浙江省 金华市DNS 202.96.125.106中国电信 浙江省 金华市DNS 125.112.124.203中国电信 浙江省 金华市DNS 125.112.124.205中国电信 浙江省 金华市DNS 125.112.124.202中国电信 浙江省 金华市DNS 61.164.183.134中国电信 浙江省 金华市DNS 202.96.119.202中国电信 浙江省 金华市DNS 122.227.12.212中国电信 浙江省 金华市DNS 60.191.241.30中国电信 浙江省 金华市DNS 122.227.44.178中国电信 浙江省 金华市DNS 60.191.249.238中国电信 浙江省 金华市DNS 125.112.124.206中国电信 浙江省 金华市DNS 60.191.249.236中国电信 浙江省 金华市DNS 60.191.249.234中国电信 浙江省 金华市DNS 60.191.199.22中国电信 浙江省 金华市DNS 60.191.249.237中国电信 云南省           60.161.79.210中国电信 云南省           60.161.14.90中国电信 云南省 昆明市DNS 116.53.237.85中国电信 内蒙古           222.74.242.189中国电信 内蒙古 包头市DNS 222.74.39.50中国电信 内蒙古 包头市DNS 222.74.49.22中国电信 重庆市DNS 重庆市DNS 61.128.192.99中国电信 重庆市DNS 重庆市DNS 119.85.59.106中国电信 重庆市DNS 重庆市DNS 61.128.128.82中国电信 重庆市DNS 重庆市DNS 61.128.128.67中国电信 重庆市DNS 重庆市DNS 61.128.192.69中国电信 重庆市DNS 重庆市DNS 61.128.128.85中国电信 重庆市DNS 重庆市DNS 61.128.192.73中国电信 重庆市DNS 重庆市DNS 61.128.192.76中国电信 重庆市DNS 重庆市DNS 61.128.192.97中国电信 重庆市DNS 重庆市DNS 61.128.128.80中国电信 重庆市DNS 重庆市DNS 61.128.128.75中国电信 重庆市DNS 重庆市DNS 61.128.128.71中国电信 重庆市DNS 重庆市DNS 222.177.11.53中国电信 重庆市DNS 重庆市DNS 219.153.20.171中国电信 重庆市DNS 重庆市DNS 61.128.128.66中国电信 重庆市DNS 重庆市DNS 61.128.128.69中国电信 安徽省           60.170.27.24中国电信 安徽省           202.102.200.101中国电信 安徽省 芜湖市DNS 202.102.199.93中国电信 安徽省 芜湖市DNS 202.102.199.92中国电信 安徽省 芜湖市DNS 202.102.199.87中国电信 安徽省 芜湖市DNS 202.102.199.88中国电信 安徽省 芜湖市DNS 202.102.199.82中国电信 安徽省 阜阳市DNS 202.102.192.74中国电信 安徽省 阜阳市DNS 202.102.192.75中国电信 安徽省 阜阳市DNS 202.102.192.73中国电信 安徽省 阜阳市DNS 202.102.192.72中国电信 安徽省 合肥市DNS 61.191.16.138中国电信 安徽省 合肥市DNS 220.178.32.98中国电信 安徽省 合肥市DNS 220.178.101.58中国电信 安徽省 合肥市DNS 61.191.22.150中国电信 安徽省 合肥市DNS 218.22.11.67中国电信 安徽省 合肥市DNS 220.178.99.240中国电信 安徽省 合肥市DNS 218.22.20.242中国电信 安徽省 合肥市DNS 61.190.49.139中国电信 安徽省 合肥市DNS 220.178.41.106中国电信 安徽省 合肥市DNS 61.132.132.10中国电信 安徽省 合肥市DNS 220.178.45.148中国电信 安徽省 合肥市DNS 220.178.75.134中国电信 北京市DNS 北京市DNS 219.238.239.155中国电信 北京市DNS 北京市DNS 219.142.76.3中国电信 北京市DNS 北京市DNS 219.141.244.2中国电信 北京市DNS 北京市DNS 219.234.181.239中国电信 北京市DNS 北京市DNS 218.30.103.185中国电信 北京市DNS 北京市DNS 60.195.248.7中国电信 北京市DNS 北京市DNS 219.234.181.249中国电信 北京市DNS 北京市DNS 219.141.210.3中国电信 北京市DNS 北京市DNS 219.141.185.2中国电信 北京市DNS 北京市DNS 211.147.4.36中国电信 北京市DNS 北京市DNS 219.141.231.161中国电信 北京市DNS 北京市DNS 124.207.219.130中国电信 北京市DNS 北京市DNS 124.193.221.177中国电信 北京市DNS 北京市DNS 218.249.31.119中国电信 北京市DNS 北京市DNS 218.249.201.133中国电信 北京市DNS 北京市DNS 219.142.98.250中国电信 北京市DNS 北京市DNS 219.142.41.58中国电信 北京市DNS 北京市DNS 218.249.47.125中国电信 北京市DNS 北京市DNS 219.142.41.3中国电信 北京市DNS 北京市DNS 220.181.30.35中国电信 北京市DNS 北京市DNS 218.30.108.179中国电信 北京市DNS 北京市DNS 218.30.108.198中国电信 北京市DNS 北京市DNS 218.30.111.254中国电信 北京市DNS 北京市DNS 218.249.108.104中国电信 北京市DNS 北京市DNS 219.141.185.129中国电信 北京市DNS 北京市DNS 219.142.202.200中国电信 北京市DNS 北京市DNS 219.141.216.253中国电信 北京市DNS 北京市DNS 210.75.99.11中国电信 北京市DNS 北京市DNS 219.141.148.39中国电信 北京市DNS 北京市DNS 219.141.148.38中国电信 北京市DNS 北京市DNS 219.141.148.37中国电信 北京市DNS 北京市DNS 219.141.140.10中国电信 北京市DNS 北京市DNS 211.100.30.41中国电信 北京市DNS 北京市DNS 211.100.30.29中国电信 北京市DNS 北京市DNS 219.143.38.232中国电信 北京市DNS 北京市DNS 218.249.94.190中国电信 北京市DNS 北京市DNS 218.247.141.66中国电信 北京市DNS 北京市DNS 211.103.158.124中国电信 北京市DNS 北京市DNS 211.167.237.204中国电信 北京市DNS 北京市DNS 124.205.178.26中国电信 北京市DNS 北京市DNS 124.207.215.71中国电信 北京市DNS 北京市DNS 219.142.29.222中国电信 北京市DNS 北京市DNS 202.97.7.17中国电信 北京市DNS 北京市DNS 202.96.18.1中国电信 北京市DNS 北京市DNS 202.97.7.6中国电信 北京市DNS 北京市DNS 220.181.24.53中国电信 北京市DNS 北京市DNS 218.30.26.68中国电信 北京市DNS 北京市DNS 218.249.23.68中国电信 北京市DNS 北京市DNS 211.103.241.168中国电信 北京市DNS 北京市DNS 219.239.88.90中国电信 北京市DNS 北京市DNS 220.192.0.130中国电信 北京市DNS 北京市DNS 218.247.244.2中国电信 北京市DNS 北京市DNS 218.30.26.70中国电信 北京市DNS 北京市DNS 211.147.6.3中国电信 北京市DNS 北京市DNS 211.103.158.182中国电信 北京市DNS 北京市DNS 218.249.60.66中国电信 甘肃省           61.178.152.40中国电信 甘肃省 兰州市DNS 202.100.64.77中国电信 甘肃省 兰州市DNS 61.178.0.93中国电信 甘肃省 兰州市DNS 61.178.102.28中国电信 甘肃省 兰州市DNS 61.178.40.8中国电信 甘肃省 庆阳市DNS 61.178.172.2中国电信 福建省           202.101.115.55 中国电信 福建省 泉州市DNS 218.85.152.108中国电信 福建省 泉州市DNS 218.85.152.106中国电信 福建省 泉州市DNS 218.85.152.109中国电信 福建省 泉州市DNS 218.85.152.105中国电信 福建省 泉州市DNS 222.79.244.34中国电信 福建省 泉州市DNS 61.131.46.245中国电信 福建省 泉州市DNS 202.101.107.35中国电信 福建省 泉州市DNS 218.85.152.104中国电信 福建省 泉州市DNS 202.101.107.55中国电信 福建省 泉州市DNS 61.131.46.251中国电信 福建省 泉州市DNS 218.85.152.103中国电信 福建省 泉州市DNS 61.131.46.250中国电信 福建省 泉州市DNS 218.85.152.102中国电信 福建省 泉州市DNS 218.85.152.101中国电信 福建省 泉州市DNS 218.85.152.107中国电信 福建省 泉州市DNS 61.131.46.246中国电信 福建省 厦门市DNS 202.101.103.54中国电信 福建省 厦门市DNS 222.76.243.28中国电信 福建省 厦门市DNS 202.101.103.53中国电信 福建省 厦门市DNS 202.101.103.55中国电信 福建省 厦门市DNS 218.5.76.201中国电信 福建省 漳州市DNS 202.101.112.55中国电信 福建省 莆田市DNS 202.101.111.55中国电信 福建省 莆田市DNS 202.101.138.8中国电信 福建省 莆田市DNS 202.101.110.55中国电信 广西省 南宁市DNS 124.227.192.102中国电信 广西省 桂林市DNS 202.103.244.172中国电信 广西省 河池市DNS 202.103.221.39中国电信 广东省           220.192.32.103中国电信 广东省           121.14.88.71中国电信 广东省           202.103.180.28中国电信 广东省           125.89.152.17中国电信 广东省           119.147.6.208中国电信 广东省 茂名市DNS 202.103.176.22中国电信 广东省 汕头市DNS 61.141.22.62中国电信 广东省 汕头市DNS 121.11.69.194中国电信 广东省 汕头市DNS 61.141.21.102中国电信 广东省 汕头市DNS 121.11.69.7中国电信 广东省 深圳市DNS 61.145.163.34中国电信 广东省 深圳市DNS 219.133.34.182中国电信 广东省 深圳市DNS 121.15.143.129中国电信 广东省 深圳市DNS 218.18.193.137中国电信 广东省 深圳市DNS 202.96.154.133中国电信 广东省 深圳市DNS 219.133.59.141中国电信 广东省 深圳市DNS 219.133.38.93中国电信 广东省 深圳市DNS 219.133.38.92中国电信 广东省 深圳市DNS 202.103.190.8中国电信 广东省 深圳市DNS 61.144.234.232中国电信 广东省 深圳市DNS 202.96.136.216中国电信 广东省 深圳市DNS 121.35.243.1中国电信 广东省 深圳市DNS 58.60.188.173中国电信 广东省 深圳市DNS 116.30.112.59中国电信 广东省 深圳市DNS 219.133.0.2中国电信 广东省 深圳市DNS 219.133.59.142中国电信 广东省 深圳市DNS 119.145.71.129中国电信 广东省 深圳市DNS 202.96.174.66中国电信 广东省 深圳市DNS 202.96.174.67中国电信 广东省 深圳市DNS 121.15.139.129中国电信 广东省 深圳市DNS 61.144.222.154中国电信 广东省 深圳市DNS 116.25.242.182中国电信 广东省 深圳市DNS 113.106.194.226中国电信 广东省 深圳市DNS 61.144.227.5中国电信 广东省 深圳市DNS 113.106.194.232中国电信 广东省 深圳市DNS 61.141.158.3中国电信 广东省 深圳市DNS 119.145.29.50中国电信 广东省 深圳市DNS 202.96.134.173中国电信 广东省 深圳市DNS 202.96.171.114中国电信 广东省 深圳市DNS 116.7.75.233中国电信 广东省 湛江市DNS 219.132.16.194中国电信 广东省 潮州市DNS 61.140.11.223中国电信 广东省 潮州市DNS 61.140.11.226中国电信 广东省 东莞市DNS 202.96.172.218中国电信 广东省 东莞市DNS 125.93.188.250中国电信 广东省 东莞市DNS 59.36.102.188中国电信 广东省 东莞市DNS 218.16.97.149中国电信 广东省 东莞市DNS 218.247.54.1中国电信 广东省 东莞市DNS 211.148.156.199中国电信 广东省 东莞市DNS 202.96.172.198中国电信 广东省 东莞市DNS 59.39.176.10中国电信 广东省 东莞市DNS 218.16.110.151中国电信 广东省 东莞市DNS 218.16.87.87中国电信 广东省 东莞市DNS 61.142.15.14中国电信 广东省 东莞市DNS 121.13.250.10中国电信 广东省 东莞市DNS 119.128.181.126中国电信 广东省 东莞市DNS 202.96.172.168中国电信 广东省 东莞市DNS 119.128.95.181中国电信 广东省 东莞市DNS 121.12.154.130中国电信 广东省 佛山市DNS 61.142.131.3中国电信 广东省 佛山市DNS 202.103.188.28中国电信 广东省 佛山市DNS 61.142.131.2中国电信 广东省 广州市DNS 219.137.167.168中国电信 广东省 广州市DNS 219.135.147.22中国电信 广东省 广州市DNS 61.145.119.23中国电信 广东省 广州市DNS 202.96.128.86中国电信 广东省 广州市DNS 219.136.249.153中国电信 广东省 广州市DNS 59.41.132.6中国电信 广东省 广州市DNS 61.144.40.92中国电信 广东省 广州市DNS 59.42.177.226中国电信 广东省 广州市DNS 219.137.58.214中国电信 广东省 广州市DNS 59.42.126.250中国电信 广东省 广州市DNS 61.145.116.81中国电信 广东省 广州市DNS 61.144.17.107中国电信 广东省 广州市DNS 121.33.207.186中国电信 广东省 广州市DNS 218.30.64.97中国电信 广东省 广州市DNS 218.20.227.1中国电信 广东省 惠州市DNS 59.33.249.3中国电信 广东省 惠州市DNS 119.146.77.162中国电信 广东省 惠州市DNS 119.146.73.66中国电信 广东省 惠州市DNS 59.33.252.212中国电信 广东省 惠州市DNS 59.39.145.178中国电信 广东省 揭阳市DNS 61.143.154.42中国电信 广东省 揭阳市DNS 61.143.153.103中国电信 广东省 江门市DNS 125.92.39.163中国电信 贵州省           119.1.42.35中国电信 贵州省           202.98.198.167中国电信 贵州省           219.141.116.227中国电信 贵州省 贵阳市DNS 202.98.192.67中国电信 河南省           222.88.212.186中国电信 河南省           222.88.209.22中国电信 河南省 郑州市DNS 222.88.49.150中国电信 河南省 开封市DNS 219.150.150.150中国电信 河北省 廊坊市DNS 124.238.251.165中国电信 河北省 廊坊市DNS 124.238.253.131中国电信 黑龙江省 齐齐哈尔市DNS 219.147.198.242中国电信 海南省           202.100.209.123中国电信 海南省 海口市DNS 218.77.186.132中国电信 湖南省           220.168.208.6中国电信 湖南省           220.168.208.3中国电信 湖南省           218.76.192.101中国电信 湖南省 湘潭市DNS 218.75.247.245中国电信 湖南省 永州市DNS 218.76.248.100中国电信 湖南省 永州市DNS 218.76.248.6中国电信 湖南省 益阳市DNS 220.168.128.2中国电信 湖南省 株洲市DNS 61.187.98.6中国电信 湖南省 株洲市DNS 61.187.98.3中国电信 湖南省 长沙市DNS 220.168.44.60中国电信 湖南省 长沙市DNS 222.246.129.107中国电信 湖南省 长沙市DNS 222.246.129.106中国电信 湖南省 长沙市DNS 202.103.64.139中国电信 湖南省 长沙市DNS 222.246.129.108中国电信 湖南省 长沙市DNS 61.187.72.22中国电信 湖南省 长沙市DNS 222.246.129.101中国电信 湖南省 长沙市DNS 61.187.64.115中国电信 湖南省 长沙市DNS 222.246.129.105中国电信 湖南省 长沙市DNS 222.246.129.104中国电信 湖南省 长沙市DNS 61.187.72.6中国电信 湖南省 长沙市DNS 61.186.100.30中国电信 湖南省 长沙市DNS 61.187.72.23中国电信 湖南省 长沙市DNS 61.187.72.24中国电信 湖南省 长沙市DNS 222.246.129.102中国电信 湖南省 长沙市DNS 222.246.129.103中国电信 湖南省 长沙市DNS 61.187.72.8中国电信 湖南省 长沙市DNS 220.168.55.172中国电信 湖南省 长沙市DNS 202.103.100.100中国电信 湖南省 长沙市DNS 61.187.72.7中国电信 湖南省 衡阳市DNS 59.51.78.238中国电信 湖南省 衡阳市DNS 59.51.78.237中国电信 湖南省 衡阳市DNS 59.51.78.231中国电信 湖南省 衡阳市DNS 59.51.78.236中国电信 湖南省 衡阳市DNS 59.51.78.235中国电信 湖南省 衡阳市DNS 220.170.64.68中国电信 湖南省 衡阳市DNS 59.51.78.234中国电信 湖南省 衡阳市DNS 59.51.78.233中国电信 湖南省 衡阳市DNS 59.51.78.232中国电信 湖南省 吉首市DNS 218.76.64.138中国电信 湖北省           58.51.197.194中国电信 湖北省           61.136.178.230中国电信 湖北省           58.54.252.94中国电信 湖北省 十堰市DNS 58.53.147.250中国电信 湖北省 咸宁市DNS 202.103.19.34中国电信 湖北省 襄樊市DNS 61.136.152.73中国电信 湖北省 襄樊市DNS 219.139.191.240中国电信 湖北省 武汉市DNS 202.103.0.106中国电信 湖北省 武汉市DNS 202.103.0.68中国电信 湖北省 武汉市DNS 219.140.192.118中国电信 湖北省 武汉市DNS 221.232.129.35中国电信 湖北省 武汉市DNS 202.103.44.5中国电信 湖北省 武汉市DNS 202.103.17.2中国电信 湖北省 武汉市DNS 61.183.8.100中国电信 湖北省 武汉市DNS 61.183.132.1中国电信 湖北省 武汉市DNS 221.232.141.194中国电信 湖北省 宜昌市DNS 202.103.6.46中国电信 吉林省 长春市DNS 219.149.194.56中国电信 江苏省           222.191.251.125中国电信 江苏省           218.91.253.51中国电信 江苏省           58.221.242.144中国电信 江苏省           222.184.230.190中国电信 江苏省 徐州市DNS 218.3.243.4中国电信 江苏省 徐州市DNS 58.218.152.254中国电信 江苏省 苏州市DNS 61.155.18.145中国电信 江苏省 苏州市DNS 221.224.62.50中国电信 江苏省 苏州市DNS 117.80.242.45中国电信 江苏省 苏州市DNS 58.211.158.221中国电信 江苏省 苏州市DNS 222.92.72.106中国电信 江苏省 苏州市DNS 58.211.219.150中国电信 江苏省 苏州市DNS 218.4.148.59中国电信 江苏省 苏州市DNS 58.211.33.198中国电信 江苏省 苏州市DNS 222.92.107.238中国电信 江苏省 苏州市DNS 218.4.184.221中国电信 江苏省 苏州市DNS 61.155.20.195中国电信 江苏省 苏州市DNS 61.177.1.6中国电信 江苏省 苏州市DNS 221.224.198.91中国电信 江苏省 苏州市DNS 58.211.26.146中国电信 江苏省 苏州市DNS 58.211.158.12中国电信 江苏省 苏州市DNS 218.4.157.173中国电信 江苏省 宿迁市DNS 218.93.202.125中国电信 江苏省 无锡市DNS 58.215.88.10中国电信 江苏省 无锡市DNS 218.90.175.166中国电信 江苏省 无锡市DNS 58.215.84.1中国电信 江苏省 无锡市DNS 58.215.76.163中国电信 江苏省 无锡市DNS 218.90.147.102中国电信 江苏省 无锡市DNS 218.90.175.165中国电信 江苏省 扬州市DNS 61.177.182.153中国电信 江苏省 扬州市DNS 58.220.235.10中国电信 江苏省 盐城市DNS 202.102.11.141中国电信 江苏省 南京市DNS 202.102.24.34中国电信 江苏省 南京市DNS 202.102.24.35中国电信 江苏省 南京市DNS 58.213.147.37中国电信 江苏省 南京市DNS 222.190.124.180中国电信 江苏省 南京市DNS 221.226.15.99中国电信 江苏省 南京市DNS 218.94.97.18中国电信 江苏省 南京市DNS 121.229.134.220中国电信 江苏省 南京市DNS 218.94.97.21中国电信 江苏省 南京市DNS 58.213.92.98中国电信 江苏省 南京市DNS 61.132.73.245中国电信 江苏省 南京市DNS 58.213.167.100中国电信 江苏省 常州市DNS 218.93.20.103中国电信 江苏省 常州市DNS 218.93.116.245中国电信 江苏省 常州市DNS 222.185.235.196中国电信 江苏省 常州市DNS 58.216.143.70中国电信 江西省           218.64.119.55中国电信 江西省           202.101.234.193中国电信 江西省           218.65.49.133中国电信 江西省 南昌市DNS 218.87.20.2中国电信 江西省 南昌市DNS 218.65.89.130中国电信 江西省 南昌市DNS 202.101.224.69中国电信 江西省 南昌市DNS 220.175.13.35中国电信 江西省 南昌市DNS 220.175.15.220中国电信 江西省 南昌市DNS 202.109.129.8中国电信 江西省 南昌市DNS 202.101.208.3中国电信 江西省 南昌市DNS 218.87.6.206中国电信 江西省 南昌市DNS 202.101.224.68深圳DNS地址：202.96.128.86202.96.128.166202.96.134.133202.96.134.188202.96.154.8202.96.154.15河南DNS地址：202.102.227.68202.102.245.12202.102.224.68广西DNS地址：202.96.128.68202.103.224.68202.103.225.68福建DNS地址：218.85.157.99202.101.115.55厦门DNS地址：202.101.103.55202.101.103.54湖南DNS地址：202.103.0.68202.103.96.68202.103.96.112江苏DNS地址：202.102.15.162202.102.29.3202.102.3.141202.102.24.35陕西DNS地址：202.100.13.11202.100.4.16西安DNS地址：202.100.4.15202.100.0.68湖北DNS地址：202.103.0.68202.103.0.117202.103.24.68山东DNS地址：202.102.154.3202.102.152.3202.102.128.68202.102.134.68浙江DNS地址：202.96.102.3202.96.96.68202.96.104.18辽宁DNS地址：202.98.0.68202.96.75.68202.96.75.64202.96.69.38202.96.86.18202.96.86.24安徽DNS地址：202.102.192.68202.102.199.6810.89.64.5重庆DNS地址：61.128.128.6810.150.0.1黑龙江DNS地址：202.97.229.133202.97.224.68河北DNS地址：202.99.160.6810.17.128.90保定DNS地址：202.99.160.68202.99.166.4吉林DNS地址：202.98.5.68202.98.14.18202.98.14.19江西DNS地址：202.101.224.6810.117.32.40202.109.129.2202.101.240.36山西DNS地址：202.99.192.68202.99.198.6新疆DNS地址：61.128.99.13361.128.99.134贵州DNS地址：202.98.192.6810.157.2.15云南DNS地址：202.98.96.68202.98.160.68222.172.200.6861.166.150.123四川DNS地址：202.98.96.6861.139.2.69重庆DNS地址：61.128.128.6861.128.192.4成都DNS地址：202.98.96.68202.98.96.69内蒙古DNS地址：202.99.224.6810.29.0.2青海DNS地址：202.100.128.6810.184.0.1海南DNS地址：202.100.192.68202.100.199.8宁夏DNS地址：202.100.0.68202.100.96.68甘肃DNS地址：202.100.72.1310.179.64.1香港DNS地址：205.252.144.228208.151.69.65香港DNS地址：205.252.144.228208.151.69.65202.181.202.140202.181.224.2澳门DNS地址：202.175.3.8202.175.3.3台湾DNS地址：168.95.192.1168.95.1.1</code></pre><p>当然了还有公用免费的看一下<br>公用的有时候会比不上当地运营商的稳定</p><pre><code>114 DNS： （114.114.114.114；114.114.115.115）114DNS安全版 （114.114.114.119；114.114.115.119）114DNS家庭版 （114.114.114.110；114.114.115.110）阿里 AliDNS： （223.5.5.5； 223.6.6.6）百度 BaiduDNS（新增ipv6地址 new）： （180.76.76.76；ipv6地址：2400:da00::6666）DNSPod DNS+（腾讯公共DNS，推荐前两个）（119.29.29.29；119.28.28.28；182.254.118.118；182.254.116.116）</code></pre><h2 id="步骤二：设置DNS"><a href="#步骤二：设置DNS" class="headerlink" title="步骤二：设置DNS"></a>步骤二：设置DNS</h2><p>这里非常简单找到<code>控制面板</code>再找到<code>网络</code>设置为你对应的DNS即可<br>也可使用两个公用的DNS都是可行的<br><img src="/images/pasted-68.png" alt="upload"></p><p><img src="/images/pasted-69.png" alt="upload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术问题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 网络 </tag>
+            
+            <tag> DNS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖Nas搭建git server简化版</title>
+      <link href="/2019/01/03/%E7%BE%A4%E6%99%96Nas%E6%90%AD%E5%BB%BAgit-server%E7%AE%80%E5%8C%96%E7%89%88/"/>
+      <url>/2019/01/03/%E7%BE%A4%E6%99%96Nas%E6%90%AD%E5%BB%BAgit-server%E7%AE%80%E5%8C%96%E7%89%88/</url>
+      
+        <content type="html"><![CDATA[<p>一直以来搭建git server都很简单<br>为什么到了群晖上看到的教程复杂了许多<br>其实我觉得应该是更加简单和直观才对<br>对于一个注重自己隐私的开发公司公司来说<br>有自己的git服务器是一个非常不错的选择<br>不管是做Linux还是在Windows服务器下构建git服务器都是非常简单的<br>但是在群晖上构建主要阻碍来源于非<code>administrator</code>权限不能登录<code>ssh</code>的原因比较麻烦<br>构建起公匙列表储存就相对麻烦一些</p><h2 id="安装套件"><a href="#安装套件" class="headerlink" title="安装套件"></a>安装套件</h2><p>套件中心安装对应套件<br><img src="/images/pasted-71.png" alt="upload"><br>给权限<br><img src="/images/pasted-72.png" alt="upload"><br>控制面板开ssh<br><img src="/images/pasted-73.png" alt="upload"><br><img src="/images/pasted-74.png" alt="upload"><br>用管理员组的账号登陆ssh<br>Mac系统直接终端<br>Win可以安装git使用bash工具就能使用ssh<br>又不是<code>运维</code>谁那么常用的ssh，进去建好仓库即可</p><pre><code>ssh 管理组用户名@群晖NasIP地址输入密码用户名@群晖名称：~$ssh admin@192.168.1.10admin@192.168.1.10&#39;s password:admin@YouNas:~$</code></pre><p>进到其中一块硬盘 都是<code>volume</code>开头数值结尾如：<code>volume2</code><br>一定要是二级目录 当然可以提前建立好的<br>一级目录是没有权限的 普通账户无法建立 当然不建议非要这样环境建立在一级目录<br>之所以在<code>volume</code>里建立二级目录是为了方便 今后在群晖的<code>webui</code>网页的界面能够方便找到和赋权<br>那么就不需要在命令行里<code>给这给那</code>的权限</p><pre><code>gitc是我的目录 请自己对应自己的cd volume2/gitcgit init --bare sample.git</code></pre><p>拉取推送地址格式 任选其一 我比较喜欢第二种</p><blockquote><p>git clone ssh://[Git 用户]@[您的 Synology 服务器 IP 地址或主机名]/[Git 存储库路径]<br>git clone [Git 用户]@[您的 Synology 服务器 IP 地址或主机名]:[Git 存储库路径]</p><pre><code>git clone git@192.168.1.10:volume2/gitc/sample.git</code></pre><p>拉取完后就可以随便搞了<br>当然拉取的时候是需要输入密码的</p></blockquote><h2 id="密码方法方式"><a href="#密码方法方式" class="headerlink" title="密码方法方式"></a>密码方法方式</h2><pre><code>git clonegit pushgit pull</code></pre><p>这种方式不管是拉取还推送都要输入一次密码<br>只要文件路径和<code>git server</code>都给了访问写入权限就可以正常拉取<br>非常方便，不想给用户权限了关闭即可，不用进命令行操作</p><h2 id="公匙访问方式"><a href="#公匙访问方式" class="headerlink" title="公匙访问方式"></a>公匙访问方式</h2><p>使用免密登录的风险太高<br>这里解决不推荐了<br><code>sudo -i</code>用root的权限给自己一个和root一样的权限<br>然后新增一个<code>.ssh/authorized_keys</code>文件<br>写入公匙就可以免密登录</p><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>只要是使用ssh都会有安全风险，要记得随用随关就好</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>售后联系方式</title>
+      <link href="/2019/01/02/%E5%94%AE%E5%90%8E%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F/"/>
+      <url>/2019/01/02/%E5%94%AE%E5%90%8E%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<p>凡是在本渠道购买的所有群晖Nas机器都由我们负责售后和技术服务支持<br>请持续关注本站 本站将一直更新各种使用技巧和解决办法<br>如需要其他高级技术服务支持 也可以联系售后做这方面的报价<br>一些如增加群晖Nas监控摄像等设备需要额外的授权码才能增加<br>每种型号支持的设备数量都不一样比如：ds218系列最多支持2个监控摄像设备</p><blockquote><p>授权码购买<a href="https://shop60517656.taobao.com/" target="_blank" rel="noopener">链接</a><br>售后联系电话：15678609494 15507724409<br>售后接口QQ：188036716</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 站点公告 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 售后服务 </tag>
+            
+            <tag> 联系方式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新生产力工具，群晖DS218+与DSM 6.2科普评测</title>
+      <link href="/2019/01/01/%E6%96%B0%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7%EF%BC%8C%E7%BE%A4%E6%99%96DS218-%E4%B8%8EDSM-6-2%E7%A7%91%E6%99%AE%E8%AF%84%E6%B5%8B/"/>
+      <url>/2019/01/01/%E6%96%B0%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7%EF%BC%8C%E7%BE%A4%E6%99%96DS218-%E4%B8%8EDSM-6-2%E7%A7%91%E6%99%AE%E8%AF%84%E6%B5%8B/</url>
+      
+        <content type="html"><![CDATA[<p>前几年国内突然进入了网盘、云笔记等云服务的大跃进时代，用户高呼云储存未来已至，用着平均200KB/s不到的小水管也要把整个硬盘上传云端，痛并快乐着地管理众多的云端备份。但谁都没想到资本寒冬和政策限制，让网盘几乎全军覆没，云服务大都走上了广告或付费经营的道路。</p><p>体验过跨设备同步和异地存取分享的便利后，很多用户根本就回不去了。但萎靡不振的云服务无法承接、国内上传宽带毫无起色，再配合艳照门、勒索病毒、三色幼儿园、国内版权收紧等社会事件的推波助澜，最终把原来极客玩家推崇的私有云NAS（Network Attached Storage，网络存储设备）推向了普罗大众。</p><p>在可预见的几年内，公有云服务不太可能恢复当年的繁荣，但手机、平板、PC的多设备爆发趋势还在继续，多设备同步与存储分享的缺口只会越来越大。很多业内人士看到的未来，是NAS这种私有云将会在家庭和中小企业当中普及。</p><p>抛开高大上的行业趋势不谈，如果你个人或家中有众多分散在各种设备上的数据需要集中管理，或者你的团队需要私有云提供私密数据管理和办公协同，那你很可能就已经是NAS的潜在用户了。但NAS对于普通用户来说却依旧非常陌生，所以此次群晖DS218+和DSM 6.2系统的评测，将夹杂大量的相关的背景和科普，希望能为大家了解和选购NAS带来一些帮助。</p><h2 id="科普与背景资料"><a href="#科普与背景资料" class="headerlink" title="科普与背景资料"></a>科普与背景资料</h2><p>NAS的概念可以追溯到1983年，最早是为了解决本地存储的容量瓶颈，通过网络进行存储拓展和分享。经过多年的发展大致可以分为储存型和平台型两种，后者自带了完备的操作系统，范畴远超单纯的网络存储。在群晖、威联通、铁马威、西数、华芸等厂家的多年竞争之后，NAS领域早已进入了寡头时代。</p><p><img src="/images/pasted-28.png" alt="upload"></p><p>群晖在国内几乎成为了NAS的代名词，其占有率常年维持在50%以上。12月6日的消费调研中心数据显示，群晖的占有率已经超过了51%，比其他所有NAS厂商加起来还要大。体量上的优势，让群晖最早开始着眼于其他领域的突破，其在9月的全球发布会中，提出了“协同、智能、虚拟化”的概念，大举进入企业系统办公、深度学习等领域。</p><p><img src="/images/pasted-29.png" alt="upload"></p><p>但落实到产品层面，群晖的产品策略依旧。通过命名就能区分不同产品的定位，名字开头的DS指代常见的机箱式存储，而服务器机架式则多以RS开头。后缀带J（junior的缩写）代表面向个人和SOHO办公，中间的Value系列面向小型办公室，命名会带play或没有后缀，而后缀Plus则是面向公司/工作组的高端产品，而再往上就是专门为企业设计的XS/FS系列了。</p><p>夹在中间的数字代表盘数和年份，首位数字一般代表可以装入的硬盘数，而群晖新品多在年末发布，所以数字会是发布年份加1。根据命名规则，群晖在2017年末更新的双盘位NAS，就是DS218系列了。当中，从低到高分别是DS218j、DS218play、DS218和DS218+，售价从1450到2800不等，我们这次评测的是该系列中最高阶的DS218+。</p><p><img src="/images/pasted-30.png" alt="upload"></p><p>DS218+外观上和配件和DS218几乎一致，而218play和218j模具一致，仅不同颜色区分。配置上DS218+的最大分别是用了X86平台，支持内存拓展且接口更加丰富，性能和拓展性上有明显的优势，最大同时连接数、office用户数等硬吃性能的部分大差距多达到2倍以上。此外，DS218+自带了有AES-NI硬件加密，即便是加密的情况下，也能做到113和112MB的读写性能，硬盘支持热拔插，支持Btrfs快照等先进特性。</p><h2 id="产品外观"><a href="#产品外观" class="headerlink" title="产品外观"></a>产品外观</h2><p><img src="/images/pasted-31.png" alt="upload"></p><p>尝试了两年的彩盒包装后，群晖现在全系列的包装，依旧是经典的牛皮纸盒。</p><p><img src="/images/pasted-32.png" alt="upload"></p><p><img src="/images/pasted-33.png" alt="upload"></p><p>配件包括安装和使用说明书、硬盘固定螺丝、1米左右的超五类网线，以及DS218全系标配的60W电源，其体型和常见的笔记本电源接近。</p><p><img src="/images/pasted-34.png" alt="upload"><br><img src="/images/pasted-35.png" alt="upload"><br><img src="/images/pasted-36.png" alt="upload"></p><p>外观造型上，DS218+比前代更加硬朗。前盖的侧边统一使用抛光面，虽然很容易刮花，但确实更漂亮。两边的logo下，是横纹格栅散热网。NAS的硬件交互极少，群晖的逻辑一般是把设备、网口和硬盘的指示灯放在正面右上角，使用时点按开机，长按5秒提示音提示后自动关机，一直长按则是强制关机。正面的USB 3.0和一键复制按钮，用于快速拷贝/备份USB设备内容。</p><p><img src="/images/pasted-37.png" alt="upload"><br>背面9cm散热风扇下方是双USB 3.0接口、安全锁、eSATA接口和电源接口</p><p><img src="/images/pasted-38.png" alt="upload"><br><img src="/images/pasted-39.png" alt="upload"><br><img src="/images/pasted-40.png" alt="upload"></p><p>DS218+整体布局和前代分别不大，前盖由4个磁力硅胶盘固定，内部是支持热插拔的硬盘架，风扇支架有减震缓冲。机身从两侧进风，尾部出风，但依旧没有加入防尘网。</p><p><img src="/images/pasted-41.png" alt="upload"><br><img src="/images/pasted-42.png" alt="upload"></p><p>硬盘方面，我们这次使用的是2块4T的希捷NAS专用盘。因为NAS要7x24 小时全天候运作，所以希捷NAS专用盘针对安全性、稳定性和耐用度等方面都进行了强化，比起普通硬盘更适合NAS使用。</p><p>家庭用户通过普通硬盘的RAID 1阵列就能提供一定程度的安全保障，但对于深度用户或企业用户，除了硬件有价数据无价的“古训”外，任何的硬盘故障带来的停工和后期处理绝对是灾难性的。对于他们来说，希捷NAS专用盘或同级别产品就不是可选，而是必选项了。</p><h2 id="群晖NAS的核心：DSM系统"><a href="#群晖NAS的核心：DSM系统" class="headerlink" title="群晖NAS的核心：DSM系统"></a>群晖NAS的核心：DSM系统</h2><p>一般硬件制造商的核心是资源整合和硬件配置，但在NAS领域，核心早就不是硬件而是系统了。群晖的DSM系统因为易用性和功能性上的压倒性优势，被网友戏称为买系统送硬件。群晖维持和硬件同步的节奏进行系统迭代，也是极少数和windows这种大型操作系统一样，会同时提供正式版和测试版的NAS系统。</p><p>DSM一直在增强功能，2012年初DSM 4.0发布，群晖引入Cloud Station文件实时同步功能。在之后的DSM 5.2新增了私有云概念，并引入笔记/知识管理工具Note Station。在两年前的DSM 6.0中，群晖引入了全新的Btrfs文件系统、带来了高速快照、构架升级等优化。16年9月则引入了现在看起来都很超前的企业云协作套件，而群晖在今年10月推出了DSM 6.2 beta版，连续更新了聊天、邮箱、日历、云盘和office等若干套件，同时推出的Moments则开始引入深度学习的特性。</p><p><img src="/images/pasted-43.png" alt="upload"><br>DSM6.2 Beta的桌面</p><p><img src="/images/pasted-44.png" alt="upload"><br>新的套件中心</p><p>DSM以易用和全能著称，系统之庞大，功能之多，单从官方73页的使用文档和超级详细的官网使用说明就能窥探一般，有兴趣的用户，群晖官网还有虚拟体验入口。系统构架上，DSM同时面向众多的家庭和企业用户，其由相对简洁的系统框架和各种自选安装的“功能套件”组成，后者可以理解为DSM上的程序或app，通过套件中心进行下载安装和管理。</p><p>DSM系统主要交互端是浏览器，通过“网页”的形式进行基础管理。系统桌面是是类似Linux Gnome的状态栏+应用抽屉，套件支持乱序拖动到桌面。这里不得不提群晖的QuickConnect，后者通过群晖的账号系统，提供DDNS网络穿透能力，用户不需要任何技术基础就能用外网远程访问自己NAS。当然，为了提升连接速度，很多玩家最后还是自行做了端口映射。</p><p><img src="/images/pasted-45.png" alt="upload"><br>数量庞大的移动客户端</p><p>因为NAS得同时面向所有的终端，DSM系统除了几十种官方和第三方套件外，还得为网页端、PC/Mac/Ubuntu等主流PC端、Android和iOS等移动端，提供不同的配套软件。因为国内没有谷歌服务，部分配套app还分国内外两种版本。正常家庭用户，单单手机端就可能会用得上10个左右的群晖app。论功能和终端的丰富程度，群晖NAS可以肯定是最复杂的智能产品，没有之一。</p><p>在最初的使用场景下，群晖NAS最受欢迎的套件，主要围绕“文件管理、备份、照片、视频、音乐和下载”6个，主要用于为移动设备的访问提供了缩率图、转码和媒体管理等功能，移动端和网页端能直接播放视频并提供自定义字幕，下载套件更是大部分人对NAS的基础认知，即便今年7月迅雷关闭了第三方远程下载，跨平台添加下载任务和20W以下的功耗，都是NAS成为绝佳下载工具的主因。</p><p><img src="/images/pasted-46.png" alt="upload"><br>下载套件Download Station</p><p>出于历史和限制每个套件的体积大小等原因，很多套件至今还是英文名字，而且命名规范还未统一，“DS file、DS video、DS audio”是一个系列，“Download Station、Cloud Station、Photo Station”又是一个系列。而部分如备份等“博大精深”的功能，分开了本地快照、云同步、NAS间同步等多个套件负责，这也是导致DSM套件众多的原因之一。</p><p>但正因为“套件”这个设定经过了多年使用磨炼，交互界面的使用逻辑和完成度都很高，让群晖DSM依旧是最简单易上手的NAS系统。系统还有有众多官方的辅助软件，连创建网络映射都有软件代劳、功能套件还能自己的自动更新功能，虽然看起来很复杂，但只要动手去玩，会发现很多极客和底层的东西，都由系统自己解决好了。而后来在DSM6.0/6.2加入的Office、有AI深度学习能力Moments相册，这些都是DSM在向功能化和智能化演进的迹象。</p><h2 id="使用与基础性能"><a href="#使用与基础性能" class="headerlink" title="使用与基础性能"></a>使用与基础性能</h2><p>因为群晖NAS没有内置Flash的“传统”，机器买回来是不带系统的裸机。插入硬盘接入网络后，在浏览器端首次访问就会触发系统安装和用户注册引导，可选择联网下载系统或本地上传（安装包已经从以前的100多M暴涨到DSM6.2 beta的200M级别），安装过程10分左右。随后的注册、设定快速访问域名、进入系统安装套件等，都会有详尽的向导带领，完全没有技术门槛。</p><p><img src="/images/pasted-47.png" alt="upload"><br>网络硬盘直接显示</p><p><img src="/images/pasted-48.png" alt="upload"><br>通过iSCSI加入存储池</p><p>群晖NAS最基本的网络存储功能，即便不安装任何套件就能直接通过网络邻居实现。系统网络邻居中就能直接发现群晖NAS，用官方的程序就能建立网络硬盘映射，像使用本地硬盘一样读取NAS上的数据。</p><p><img src="/images/pasted-49.png" alt="upload"><br>通过功率计测试输入功率，叠加适配器损耗后，DS218+硬盘休眠后功耗只有5.6W，而工作功耗在17W到22W之间波动，作为对比，一般的白炽灯功率为40W左右。</p><p><img src="/images/pasted-50.png" alt="upload"><br>办公室背景噪音42分贝，DS218+默认模式下，即便对着出风口，也之后48分贝左右，风噪属于可以忽略的程度。</p><p><img src="/images/pasted-51.png" alt="upload"><br>室温23度，工作状态下，机身温度一直维持在30度以下，20W功耗对于9cm散热风扇根本毫无压力。</p><p><img src="/images/pasted-52.png" alt="upload"><br>写入性能测试</p><p><img src="/images/pasted-53.png" alt="upload"><br>读取性能测试</p><p>今年的DS218系列，全系都达到了读写分别113MB/s和112MB/s的性能，DS218+则是支持AES-NI硬件加密，即便加密传输也能达到113MB/s和112MB/s的性能，足以吃尽常见的台式机机械硬盘和千兆网口。实测，iSCSI都还没开的情况下，通过简单的添加网络磁盘映射，速度即可达到官方的预设值。</p><p>使用fastcopy在NAS和电脑之间传输3.1G的ISO文件，写入平均115MB/s，峰值111.9MB/s；读取平均91.2MB/s，峰值108MB/s。DS218+搭配4T的希捷NAS专用盘还有很大余力，反倒是112MB/s这个速度，其实已经超过了大部分2T以下机械硬盘的写入极限，这些设备根本无法吃尽这个级别NAS的读写性能了。另外，千兆网线也已经成为性能瓶颈，需要用多链路聚合才能解决。</p><p>实际使用中，对DS218+上的文件读写已经和本地硬盘存取分别大不大，甚至是在网络硬盘上解压文件到本地都无甚压力，全家或者整个团队的电脑安装文件完全可以放在NAS上，网络映射之后直接进行安装，可以为设备维护省去很多维护麻烦。</p><p>性能上，Plus系列比play系列更注重性能，这一代的DS218+搭载的是英特尔的Celeron J3355，双核2.0G，最高睿频2.5G，运算性能已经是名副其实的PC级别了。本来以为NAS上CPU性能的优势，很难体现出来，但实际使用中，图片上传之后的缩率图渲染速度，比以前的DS216play快了好几个数量级，多开套件和后台在进行备份或者存取时，性能的差距就会无情地展现出来。</p><h2 id="文件管理与Btrfs文件系统"><a href="#文件管理与Btrfs文件系统" class="headerlink" title="文件管理与Btrfs文件系统"></a>文件管理与Btrfs文件系统</h2><p>安全性上，除了群晖的奇快的安全更新，其核心是包括Drive、Snapshot Replication、Cloud Sync等多个套件。</p><p><img src="/images/pasted-54.png" alt="upload"><br>Snapshot Replication套件，磁盘快照</p><p>在DSM 6.2中，新的Drive套件整合了以前Cloud Station Drive的功能。其可以理解为大家熟悉的同步盘，只是这次的云服务器变成了用户自己的NAS。而PC端中提供的Cloud Station Backup工具，用于把电脑数据备份到NAS上用。其备份支持32个备份回溯，从而达到付费云盘的效果，而且是和windows平台无缝衔接，在文件属性中能直接查看“以前版本”。这是所有数据管理用户的痛点，真的用过就回不去了，是个真正的杀手级功能。</p><p><img src="/images/pasted-55.png" alt="upload"><br>Cloud Sync套件</p><p>而Cloud Sync是后来加入的功能，能把NAS上的数据同步到国内外的网盘中，支持定时、同步方向等设定。虽然国内基本就只剩百度而且还限速，但好歹是多了一重保险。</p><p>另外，DS218+在EXT4之外，还提供了Btrfs文件系统（B-tree file system）的支持，能提供额外的文件保护和自动修复功能。Btrfs是Linux kernel主线提供的文件系统中，唯一同时提供metadata及data checksum（总和校验码）的文件系统，可以通过文件校验再提供更强的数据保护功能。</p><p>说到这里，要科普一下“静默数据损坏”这个大多数人都忽略的概念。硬盘运作时的震动、数据写入位置错误或不完全写入等情况，都有可能造成的数据损毁。但直到下次使用之前，系统都无法确认文件是否完好，这种损毁被称为“静默数据损坏”。</p><p>和以前的文件系统不同，Btrfs提供的metadata和data checksum校验功能，通过比对数据checksum校验码就能发现静默数据损坏。一旦发现checksum 不一致，通过与另一个版本的资料重新比对checksum，从而在阵列中自动修复静默损坏的数据。</p><p><img src="/images/pasted-56.png" alt="upload"><br>Snapshot Replication套件，快照频率设定</p><p>除了安全性外，Btrfs文件系统还有一个Cow（copy-on-write，写时复制）的特性。其只有在修改时才会进行数据写入，平时我们最频繁的复制、粘贴时并不会真正的复制。平时数据管理都知道，整盘备份就需要所有文件复制一遍，其非常消耗时间而浪费空间。</p><p>但Btrfs文件系统中进行快照备份时，只会进行增量备份，所有的重复文件都无需复制，从而达到秒速和高度节省容量的效果。DS218+的Snapshot Replication套件中，可以提供1024 个共享文件夹备份和65000个系统快照，估计即便是大部分企业团队都不可能用得完。针对企业用户，iSCSI的LUN也可以为虚拟机的存储进行快照。</p><p>PC/Mac用户在被保护的文件夹内可以找到快照生成的镜像文件，通过Snapshot Replication套件查看旧版本文件，无需还原操作或特定工具。这个Btrfs文件系统，除了没办法像以前EXT4那样用Ubuntu系统直接恢复和处理硬盘内容外，确实也找不到什么缺陷了。</p><p>当面向企业服务，就避不开文件共享、权限设定和各种加密设定，这些都是群晖DSM文件部分复杂度高的主因。官方加入了群组权限设定，读写、只读权限控制、加密、存储空间分配、分享文件的时效、甚至不同时段的上传下载速度都能控制。功能上对于大多数中小团队来说同样已经“超纲”了。</p><h2 id="企业协同办公与实际体验"><a href="#企业协同办公与实际体验" class="headerlink" title="企业协同办公与实际体验"></a>企业协同办公与实际体验</h2><p>DSM 6.2 Beta虽然只是一个小版本号升级，但从完成协同办公领域的围拢后，群晖NAS的性质出现了变化。以前的NAS，都是在尽力减少和终端用户的交互，无论是网络硬盘映射、备份快照、文件同步和分享，所有这些功能都在尽量避免操作和交互。</p><p><img src="/images/pasted-57.png" alt="upload"></p><p>但以DSM 5.2新增Note Station笔记应用为契机，随后陆续推出的聊天套件chat、带有文档和电子表格编辑功能的Synology office、calendar日历、增强之后的MailPlus，以及在DSM 6.2中直接整合office、File Station文件管理等若干功能的Drive套件，以及AI相册Moments，这一批套件都是前台交互型产品。</p><p>之前从来没有硬件厂商试过像群晖这样大举进军过整个办公领域。如果对这件事没什么概念的话，可以稍微回忆一下微软office、各路mail、outlook/谷歌日历、谷歌相册、QQ/微信/line、印象笔记/云笔记这些巨头的体量，它们每一个都是重度产品，而且都已经非常成熟。</p><p><img src="/images/pasted-58.png" alt="upload"><br>MailPlus套件</p><p>这系列套件中，最顺理成章的是MailPlus和Calendar。在传统的企业工作流程中，邮件和日程安排就是工作开始的第一个环节。MailPlus是原来邮件套件的强化版，重点增加了和Calendar、Chat、Drive等兄弟套件的联系。它们解决的最大痛点是解决普通企业邮箱服务没有集成日历功能，而微软Exchange服务报价高昂却又访问缓慢的问题。</p><p>MailPlus除了界面干净没有广告外，功能和外观都和常见的QQ、网易邮箱无异，批量管理、标签、归档分类等常见功能都在，其最大的亮点是有自己的浏览器推送、能够和Chat直接连通，能自动识别邮件中的会议时间并提供了快速生成日历日程的功能，是相当简单暴力的痛点功能优化。</p><p><img src="/images/pasted-59.png" alt="upload"><br>Calender套件</p><p>Calendar功能很完备但也很常规，界面比MailPlus还要简洁，日程和任务生成、事件拖动、提醒、地点等常用设定都有，也有基于用户内部账号系统的群组添加功能，支持CalDAV，可以直接接入苹果平台的系统日历当中，甚至能直接导入hotmail、Gmail等邮箱的联系人。其最大的改进是提供了附件插入的能力，在日历和任务中的事件可以直接添加附件进行补充，对笔者这种稿农来说很实用。</p><p><img src="/images/pasted-60.png" alt="upload"><br>Chat套件</p><p>邮件和任务安排之后，下一个要用到的部件是沟通工具Chat。Chat最与众不同的是，它是运行在用户自己NAS上的聊天软件，所有的功能运算和数据都是源自NAS并支持加密，对于沟通内容有保密需求的企业，这很可能就是投入最低，部署容易的私有聊天服务提供了。</p><p>Chat是这些套件中，功能上超越市面现有对手最多的套件。除了网页端、跨平台软件和app覆盖，其支持富媒体插入，还能在信息流中订选/备注信息，在聊天中直接做书签，支持稍后阅读，能把对话信息当做待办清单处理，活动相关的日期同样可以快速插入到日历。而信息提醒、定时信息、投票功能，这些简直就是长久用微信和QQ办公的白领们苦等多年的功能。</p><p><img src="/images/pasted-61.png" alt="upload"><br>Drive套件主页</p><p>而压轴的是在DSM 6.2中，开始大跨步整合的Drive套件。其基于文件，囊括了原来Synology Office、File Station（文件管理器）和Cloud Station（私有云同步工具）三个套件的大部分功能，是群晖系列中第一个交互功能如此复杂的超大型套件。</p><p>其基础支架类似Google Drive，基本就是个带云同步的文件管理器，支持文件拖拽直接上传、标签、排序、筛选、多重文件夹管理、分享等常见功能。当中的进阶功能包括自带历史记录、囊括到文件内部的全局搜索、团队共享文件夹等，这些都是国内产品无法提供的优势：先不说简单的同步盘功能现在在国内只剩下坚果云和百度两家（一个有月流量限制，一个同步策略还不完善）；网盘的内文全局搜索，估计得等上一段时日才会出现；而团队共享，这个更是云盘在上波事件中，最早被阉割的功能。</p><p><img src="/images/pasted-62.png" alt="upload"><br>模板库</p><p><img src="/images/pasted-63.png" alt="upload"><br>Drive内置的文档功能</p><p>在文件和同步之后，Drive套件的另一个核心，是其整合了具备文档、电子表格和幻灯片（该版本新增）功能的Office 3.0。在Drive中可以直接新建办公文件进行编辑，文档、电子表格都有十数个常用模板。当中文字编辑、附件插入、批注、表格、图片和形状插入、甚至目录大纲功能都有。</p><p><img src="/images/pasted-64.png" alt="upload"><br>Drive内置的电子表格功能</p><p>电子表格中，单元格隐藏、冻结、表格/图片插入、单元格格式、列表自动生成、选择粘贴等常用功能都在，比较深的包括数据过滤、验证和自定义范围名称等功能。而幻灯片作为最新加入的功能，除了图文、形状插入、幻灯片播放控制等基础功能外，现在没有模板和过场动画等细节的功能。</p><p><img src="/images/pasted-65.png" alt="upload"><br>文档分享时的权限控制</p><p>这三个生产力子功能，其整体功能和安卓和苹果平台的开源office产品接近。它们的最核心优势是支持多人事实编辑和自带多版本记录，不同用户可以同时对文件进行编辑和讨论，而且可以直接进行分享和权限控制，临时需要和其他组或者客户进行文档交互时，批注和沟通会高效很多，而云表单非常适合多人的简单数据统计等场合。它们体验上最大的问题，是群晖并没有直接支持word、excel、PowerPoint文件的编辑，而是把这些文件转换成了自己的格式后再编辑，要导出时才会生成兼容办公三巨头格式的通用文件。</p><p>对上面提到的5个需要另开页面的套件和3个办公工具，它们统一的瓶颈，是浏览器页面载入和异地访问的速度。它们打开文件的速度和传统的office还有明显差距，但所幸的是群晖用的语言构架，在框架载入之后，大部分编辑操作都不会受限于网速和服务器，响应速度上表现还可以。</p><p>以beta版来说，群晖这些新套件的完成度已经很高了，使用过程中没遇到过崩溃，也几乎没有遇到bug和无响应的状态。如果整个团队都转向群晖的这套工具，工作效率会有显著提升。但即便群晖尽力优化，但转移成本还是比较高。至于群晖用私有云安全性、文件回溯、办公套件相互嵌入，以及企业应用整体成本上的优势，最后能不能打赢这么多办公巨头，还是个未知之数。</p><p><img src="/images/pasted-66.png" alt="upload"><br>Moments相册</p><p>在协同办公之外，AI相册Moments是群晖首个在AI领域展现成果的作品。其完全独立于原来DS Photo套件（照片管理工具）的工具，用途不再是简单的备份和分享，而是AI图像识别辅助管理。现在支持人脸和简单的物体AI识别，简单的关键词搜索也能筛选出特定的图片。</p><p><img src="/images/pasted-67.png" alt="upload"><br>普通缩略图和超分辨率重建后的缩率图</p><p>另一个深度学习的成果，被用在了在移动设备缩略图的“超分辨率重建”上，Moments会根据设备网速和实际情况，利用硬件加速重新构建图片细节（暂时只支持安卓平台）。</p><p>其没有太多的用户交互，上传照片之后，会自动根据人脸、地点、主题等进行图片分类，效果和用途都和苹果iCloud相册非常类似。但不同的是，在私有云NAS上面，图片存储数量是用户自行控制的，也没有额外收费。</p><p>实际使用中，其对人脸的识别远出想象地好，合照中密密麻麻的人头都能自动归类，毕竟是华人企业，对亚洲人的面部特征抓取还是要精准一些。不过系统底层默认按照日期分文件存放图片的设定，反倒对普通的用户管理带来了麻烦，最后稳定版之后会否修正，以及会否和原有的DS Photo套件共存，这些还是得等正式版系统出来之后才能确认。</p><p>总结</p><p>在家用和中小型企业市场，无论是智能设备数目暴涨，还是5G的即将到来，在能遇见的未来几年内，私有云会是个无法阻挡的潮流，这些都是对NAS市场的利好因素。对于个人用户，一个靠谱易用的NAS，可以为用户省下很多文件保管、分享和管理的麻烦，比起折腾Google Drive和Dropbox要省事多了。</p><p>在群晖重点押注的办公领域，处在顶端的大型企业有自己定制的办公系统，而刚起步的企业人数还很少，虽然邮件、日历、聊天工具、数据等都分散在不同的提供商中，但免费的云存储、团队协同、企业知识库等产品，也能勉强满足简单的需求。</p><p>但大量中小企业的办公需求，被夹在个人和大型企业之间，形成了巨大的市场缺口。他们不但是群晖DSM 6.2的协同办公套件，最开始的预设目标人群，而且还是群晖DS218+最大的受众群。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>构建群晖note的外网独立页面</title>
+      <link href="/2018/12/31/%E7%BE%A4%E6%99%96Nas%E7%9A%84node%E5%A4%96%E7%BD%91%E5%8A%9F%E8%83%BD/"/>
+      <url>/2018/12/31/%E7%BE%A4%E6%99%96Nas%E7%9A%84node%E5%A4%96%E7%BD%91%E5%8A%9F%E8%83%BD/</url>
+      
+        <content type="html"><![CDATA[<p>到别人的电脑上使用群晖<code>note</code>不好下载安装<br>那么就会用到网页版本<br>网页版本其实不一定要从Nas后台登录然后再选择功能<br>如果你家或者公司的Nas的公网IP<br>恰好有没有关闭443端口<br>打开群晖自带的DDNS功能打开申请证书服务使用https<br>那么恭喜你外网可以直接访问<code>note</code>程序并且访问会很顺畅<br>注意黑群晖自然是没有那么爽的DDNS服务<br>当然如上既没有公网也没有443端口<br>白群晖也是不必担心的<br>因为你依然能够使用quickconnect打开后台再进入<code>note</code></p><h2 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h2><p>打开<code>note</code>笔记，找到<code>设置</code>按钮<br><img src="/images/pasted-24.png" alt="upload"><br>找到<code>设置应用门户</code><br><img src="/images/pasted-25.png" alt="upload "><br>找到应用按编辑<br><img src="/images/pasted-26.png" alt="upload"><br>扣选确定即可<br><img src="/images/pasted-27.png" alt="upload"><br>在浏览器中输入<br><code>https://你的域名/note/</code><br>就能登录你的<code>note</code>应用编辑分享内容</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖Nas的note笔记对比印象笔记</title>
+      <link href="/2018/12/31/%E7%BE%A4%E6%99%96Nas%E7%9A%84note%E7%AC%94%E8%AE%B0%E5%AF%B9%E6%AF%94%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/"/>
+      <url>/2018/12/31/%E7%BE%A4%E6%99%96Nas%E7%9A%84note%E7%AC%94%E8%AE%B0%E5%AF%B9%E6%AF%94%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<p>印象笔记是我最常用的记录工具<br>首先是它强大的搜索功能、再者是它的开放式API功能<br>使得记录各种临时产生的想法得以迅速的被记录下来<br>网页收藏也十分方便</p><p>那么群晖的<code>note</code>怎么样呢？<br>区别还是很大的<br>说note弱<br>那是当然的毕竟印象笔记是收费软件<br>服务和各项笔记相关的功能做得非常完善</p><h2 id="note不完美"><a href="#note不完美" class="headerlink" title="note不完美"></a>note不完美</h2><p>想讲<code>note</code>不如意的地方<br>你再参考一下是否需要使用<code>note</code>来代替印象笔记<br>首先页面收藏排版问题一直都是<code>note</code>无力的地方<br>有时候非常的乱使得你不得不做收藏后<br>再重新做出格式的调整<br>印象笔记在浏览器插件这方面做的非常好<br>如果你需要快速收藏页面那么印象笔记绝对是不错的选择<br>另外<code>note</code>不支持微信文章，但是印象笔记支持而且能设置进入独立的分类中<br>还有就搜索功能比不上印象笔记的强大<br>图片或者PDF，文档内的内容上搜索不到的<br>只是简单的附件索引而已<br>对于印象笔记新增的<code>markdown</code>功能<br>还有一道硬伤就版本控制<code>note</code>没有版本控制<br>显得有些望尘莫及了</p><h2 id="note也优秀"><a href="#note也优秀" class="headerlink" title="note也优秀"></a>note也优秀</h2><p>讲完了不足<br>接下来讲我认为比较优秀的方面<br>为什么要对比印象笔记<br>因为它很优秀，只有对比才有伤害不是吗？<br>有人说<code>oneNote</code>更优秀<br>是的没有错，<code>oneNote</code>非常优秀我们只要使用Nas的<code>Drive</code><br>就能完美的解决它的同步问题，同样也非常优秀<br>这篇文章不是说群晖的<code>note</code>嘛</p><h4 id="直观分享"><a href="#直观分享" class="headerlink" title="直观分享"></a>直观分享</h4><p>首先印象笔记的分享可以认为是内部分享<br>只有注册印象笔记的用户才能查看分享到的内容或者只能用邮箱来接收分享<br>然而很多时候，我们国内的情况是既不想注册邮箱也不想注册印象笔记<br>要么你就给我看内容要么就不看<br>邮件这个东西在我看了很多人并不会把它当做最常用的事物<br>顶多就是注册那些账号或者找回密码时候才用<br>那么使用<code>note</code>就能直接分享出链接<br>这点上面很像国内的一些笔记产品比如<code>有道云笔记</code><br>到这里，有人就说了那我直接使用<code>有道云笔记</code>不就好了<br>那是你还没有它被坑过<br>我依稀记得曾经有几个重要的笔记在上面说没有就没有了而且还是两次不同时间发生这样的情况<br>客服人员最多只会给你一个抱歉而已<br>另外<code>有道云笔记</code>自己看没问题要是你想分享笔记的话<code>千万别乱说话哦</code><br>乱说话就会把你的分享干掉，国情你懂的<br>我有时候会分享一些免费的翻墙方法就是这样被干掉的<br>其实翻墙并不会有太大的过错，错是错在你看了什么😜</p><h4 id="导出文档"><a href="#导出文档" class="headerlink" title="导出文档"></a>导出文档</h4><p>印象笔记是不支持直接导出word文档的<br>但是<code>note</code>可以直接导出word文档让我们少了一步复制粘贴</p><h4 id="演示功能"><a href="#演示功能" class="headerlink" title="演示功能"></a>演示功能</h4><p>其实我也不知道该不该说这个功能<br>和印象笔记的演示功能对比各有强势吧<br>不过我还是非常喜欢它的PPT样式<br>每个标题都会自动为一个界面</p><h4 id="没有markdown"><a href="#没有markdown" class="headerlink" title="没有markdown"></a>没有markdown</h4><p>没有<code>markdown</code>并不是好事<br>只是对于我来说并不是好事<br>但是<code>note</code>自带的编辑器功能已经非常强大<br>即使没有<code>markdown</code>其实也没多大关系<br>况且一般用户非码字员需要非常快速的文本编辑样式<br>我之前说过页面的收藏功能不好用<br>但是如果比印象笔记多一步复制页面内容粘贴到笔记中<br>你会发现文章的排版要比印象笔记好的多<br>导出文档少一步<br>收藏文章一步<br>谁更优秀想必你心中已经有定论</p><h4 id="独立加密"><a href="#独立加密" class="headerlink" title="独立加密"></a>独立加密</h4><p>这里的加密不是指对自己隐藏<br>而是分享出去的时候可以设置密码<br>使得分享更加具体是那些用户<br>当然Nas内的用户分享还可以参与编辑</p><h4 id="列表模式"><a href="#列表模式" class="headerlink" title="列表模式"></a>列表模式</h4><p>这个是我额外另外拿出来讲一个功能<br>其实更加像是一个方法<br>我之前使用过<code>幕布</code>这样的工具<br>虽然<code>幕布</code>很强大，但是也有很多不足的地方<br>除了没有思维导图<br>使用<code>TAB</code>你会感觉好像就在使用<code>幕布</code>虽然样式调整没有那么便捷的可以使用快捷键<br>也没有<code>幕布</code>思维导图那么华丽<br>其实我用<code>幕布</code>思维导图几乎没有用过<br>如果前边加上复选框可以让有种待办事项的效果<br><code>TAB</code>键比印象笔记上面要好用很多<br>按键排版上也不会有印象笔记那么乱</p><h4 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h4><table><thead><tr><th>名称</th><th>收费</th><th>容量</th><th>演示</th><th>内容</th><th>附件</th><th>版本控制</th><th>同步</th><th>搜索强度</th></tr></thead><tbody><tr><td>印象笔记</td><td>会员制</td><td>会员每月10g</td><td>收费</td><td>无限制</td><td>会员2G</td><td>收费多版本</td><td>移动端慢</td><td>免费图片</td></tr><tr><td>有道云笔记</td><td>会员制</td><td>会员50g</td><td>免费</td><td>有限制</td><td>会员1G</td><td>收费多版本</td><td>快</td><td>会员到图片</td></tr><tr><td>oneNote</td><td>免费</td><td>免费</td><td>免费</td><td>无限制</td><td>无限制</td><td>没有</td><td>看心情🤪</td><td>到音频包括图片</td></tr><tr><td>NasNote</td><td>免费</td><td>免费</td><td>免费</td><td>无限制</td><td>无限制</td><td>没有</td><td>快</td><td>到文字</td></tr></tbody></table><blockquote><p>为什么不提<code>为知笔记</code><br>因为它不值一提<br>一个连<code>基本搜索功能</code>都做不好的笔记算得上笔记吗？当时连文本内容甚至标题关键字都搜索不出来<br>我们用笔记不就是为了储存和查阅，不管是曾经还是现在，这种低级的错误居然出现并且上线<br>就说明他们不是做这类应用的人</p></blockquote><p>其他的笔记现阶段不是没有就是没什么名气不为人知<br>就暂不加入讨论范围了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 心情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖iSCSI如何在Mac下使用</title>
+      <link href="/2018/12/30/%E7%BE%A4%E6%99%96iSCSI%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E4%BD%BF%E7%94%A8/"/>
+      <url>/2018/12/30/%E7%BE%A4%E6%99%96iSCSI%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="win下链接iSCSI"><a href="#win下链接iSCSI" class="headerlink" title="win下链接iSCSI"></a>win下链接iSCSI</h2><p>win下非常简单<br>截个图大概就能明白了</p><h4 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h4><p><img src="/images/pasted-21.png" alt="upload"></p><h4 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h4><p><img src="/images/pasted-22.png" alt="upload"></p><h4 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h4><p><img src="/images/pasted-20.png" alt="upload"></p><h4 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h4><p><img src="/images/pasted-23.png" alt="upload"></p><h2 id="Mac下链接iSCSI"><a href="#Mac下链接iSCSI" class="headerlink" title="Mac下链接iSCSI"></a>Mac下链接iSCSI</h2><p><code>Mac</code>可能是希望储存不够的你能换硬件<br>于是乎<code>Mac</code>下根本没有<code>iSCSI</code>这项服务<br>都得依靠第三方软件来实现这项服务<br>但是大多数第三方软件价格都非常感人<br>终于在不得不用动情况下找到了一个软件的破解版本<br>当然要购买正版的话价格还算能接受<br>因为不常用于是弄了破解版本<br>需要到可以看完使用教程后自行下载即可</p><h3 id="开启iSCSI服务"><a href="#开启iSCSI服务" class="headerlink" title="开启iSCSI服务"></a>开启iSCSI服务</h3><p>新版本中将服务独立出来<br>开始我也不知道<br>还到处到套件中心和磁盘管理去找<br>原来早就集成在套件菜单中根本不用去下载<br>😓哪个教程误导的我<br><img src="/images/pasted-12.png" alt="upload"><br>选择新增一个<code>Target</code><br><img src="/images/pasted-13.png" alt="upload"><br>注意啊！要英文名称，中文名称下一步不了<br><img src="/images/pasted-14.png" alt="upload"></p><p><img src="/images/pasted-15.png" alt="upload"></p><h3 id="打开DAEMON-Tools工具"><a href="#打开DAEMON-Tools工具" class="headerlink" title="打开DAEMON Tools工具"></a>打开DAEMON Tools工具</h3><p>这个工具到页面中下方找下载链接<br><a href="/download/Daemon Tools虚拟磁盘工具.dmg">Daemon Tools虚拟磁盘工具.dmg</a></p><p><img src="/images/pasted-11.png" alt="upload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 分享 </tag>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 下载 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖Nas的一些视频介绍</title>
+      <link href="/2018/12/29/%E7%BE%A4%E6%99%96Nas%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2018/12/29/%E7%BE%A4%E6%99%96Nas%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<p>有一些比较初级的群晖nas开箱或者是产品介绍非常值得推荐给新手看看</p><h2 id="群晖官宣视频"><a href="#群晖官宣视频" class="headerlink" title="群晖官宣视频"></a><center>群晖官宣视频</center></h2><center><br>  <video controls preload="none" width="100%" height="400"><br>      <source src="/video/群晖官方视频.mp4" type="video/mp4"><br>  </video><br></center><h2 id="入手安装方法"><a href="#入手安装方法" class="headerlink" title="入手安装方法"></a>入手安装方法</h2><p><iframe src="//player.bilibili.com/player.html?aid=24946412&cid=42102856&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="400"> </iframe><br>不过有部分内容和实际的使用还是有些差别的<br>毕竟人家群晖也找不断的更新中</p><h2 id="功能和测评"><a href="#功能和测评" class="headerlink" title="功能和测评"></a>功能和测评</h2><p><iframe src="//player.bilibili.com/player.html?aid=25016672&cid=42279553&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="400"> </iframe><br>一味讲好的东西并不代表真实的使用体验<br>有优有待改进的内容才是真实的使用感受</p><h2 id="现阶段感受"><a href="#现阶段感受" class="headerlink" title="现阶段感受"></a>现阶段感受</h2><blockquote><p>其实很多很好很优质的视频在国内是没办法放置<br>没办法国情嘛？如果你有能力翻墙的话，那么请自行<code>YouTube</code></p></blockquote><p>必须讲的一些感受就是做选购Nas硬盘的时候尽量选择专用硬盘<br>并不是说非专用的硬盘就不好<br>而是这些硬盘都不耐玩,专用的硬盘能让你多玩几年，更省心些<br>当然绝对不是说Nas这玩意特别伤硬盘，玩PT才叫伤<br>不管那种形式的PT都伤不停是擦写硬盘<br>但是PT这个东西确实好玩，容易上瘾<br>普通的硬盘非常不适合长期的运行<br>虽然群晖Nas有自动休眠的设置和功能<br>但是我们使用Nas的初衷，不就是希望它能在后台默默的运行着我们的计划<br>另外也特别提醒，3T的硬盘不知道是什么回事特别容易坏<br>哪怕你用2T或者4T都没有这些莫名的问题</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 视频 </tag>
+            
+            <tag> 新手 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Aria2和YAAW中文使用说明</title>
+      <link href="/2018/12/29/Aria2%E5%92%8CYAAW%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"/>
+      <url>/2018/12/29/Aria2%E5%92%8CYAAW%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Aria2-配置说明"><a href="#Aria2-配置说明" class="headerlink" title="Aria2 配置说明"></a>Aria2 配置说明</h2><ul><li>完整选项说明请参考 Aria2 Manual</li><li>参数 –dir –input-file –save-session 根据实际情况修改路径</li><li>配置示例, 可根据需要修改各项参数</li></ul><pre><code>## &#39;#&#39;开头为注释内容, 选项都有相应的注释说明, 根据需要修改 #### 被注释的选项填写的是默认值, 建议在需要修改时再取消注释  #### 文件保存相关 ### 文件的保存路径(可使用绝对路径或相对路径), 默认: 当前启动位置dir=~/downloads# 启用磁盘缓存, 0为禁用缓存, 需1.16以上版本, 默认:16M#disk-cache=32M# 文件预分配方式, 能有效降低磁盘碎片, 默认:prealloc# 预分配所需时间: none &lt; falloc ? trunc &lt; prealloc# falloc和trunc则需要文件系统和内核支持# NTFS建议使用falloc, EXT3/4建议trunc, MAC 下需要注释此项#file-allocation=none# 断点续传continue=true## 下载连接相关 ### 最大同时下载任务数, 运行时可修改, 默认:5#max-concurrent-downloads=5# 同一服务器连接数, 添加时可指定, 默认:1max-connection-per-server=5# 最小文件分片大小, 添加时可指定, 取值范围1M -1024M, 默认:20M# 假定size=10M, 文件为20MiB 则使用两个来源下载; 文件为15MiB 则使用一个来源下载min-split-size=10M# 单个任务最大线程数, 添加时可指定, 默认:5#split=5# 整体下载速度限制, 运行时可修改, 默认:0#max-overall-download-limit=0# 单个任务下载速度限制, 默认:0#max-download-limit=0# 整体上传速度限制, 运行时可修改, 默认:0#max-overall-upload-limit=0# 单个任务上传速度限制, 默认:0#max-upload-limit=0# 禁用IPv6, 默认:false#disable-ipv6=true# 连接超时时间, 默认:60#timeout=60# 最大重试次数, 设置为0表示不限制重试次数, 默认:5#max-tries=5# 设置重试等待的秒数, 默认:0#retry-wait=0## 进度保存相关 ### 从会话文件中读取下载任务input-file=/etc/aria2/aria2.session# 在Aria2退出时保存`错误/未完成`的下载任务到会话文件save-session=/etc/aria2/aria2.session# 定时保存会话, 0为退出时才保存, 需1.16.1以上版本, 默认:0#save-session-interval=60## RPC相关设置 ### 启用RPC, 默认:falseenable-rpc=true# 允许所有来源, 默认:falserpc-allow-origin-all=true# 允许非外部访问, 默认:falserpc-listen-all=true# 事件轮询方式, 取值:[epoll, kqueue, port, poll, select], 不同系统默认值不同#event-poll=select# RPC监听端口, 端口被占用时可以修改, 默认:6800#rpc-listen-port=6800# 设置的RPC授权令牌, v1.18.4新增功能, 取代 --rpc-user 和 --rpc-passwd 选项#rpc-secret=&lt;TOKEN&gt;# 设置的RPC访问用户名, 此选项新版已废弃, 建议改用 --rpc-secret 选项#rpc-user=&lt;USER&gt;# 设置的RPC访问密码, 此选项新版已废弃, 建议改用 --rpc-secret 选项#rpc-passwd=&lt;PASSWD&gt;# 是否启用 RPC 服务的 SSL/TLS 加密,# 启用加密后 RPC 服务需要使用 https 或者 wss 协议连接#rpc-secure=true# 在 RPC 服务中启用 SSL/TLS 加密时的证书文件,# 使用 PEM 格式时，您必须通过 --rpc-private-key 指定私钥#rpc-certificate=/path/to/certificate.pem# 在 RPC 服务中启用 SSL/TLS 加密时的私钥文件#rpc-private-key=/path/to/certificate.key## BT/PT下载相关 ### 当下载的是一个种子(以.torrent结尾)时, 自动开始BT任务, 默认:true#follow-torrent=true# BT监听端口, 当端口被屏蔽时使用, 默认:6881-6999listen-port=51413# 单个种子最大连接数, 默认:55#bt-max-peers=55# 打开DHT功能, PT需要禁用, 默认:trueenable-dht=false# 打开IPv6 DHT功能, PT需要禁用#enable-dht6=false# DHT网络监听端口, 默认:6881-6999#dht-listen-port=6881-6999# 本地节点查找, PT需要禁用, 默认:false#bt-enable-lpd=false# 种子交换, PT需要禁用, 默认:trueenable-peer-exchange=false# 每个种子限速, 对少种的PT很有用, 默认:50K#bt-request-peer-speed-limit=50K# 客户端伪装, PT需要peer-id-prefix=-TR2770-user-agent=Transmission/2.77# 当种子的分享率达到这个数时, 自动停止做种, 0为一直做种, 默认:1.0seed-ratio=0# 强制保存会话, 即使任务已经完成, 默认:false# 较新的版本开启后会在任务完成后依然保留.aria2文件#force-save=false# BT校验相关, 默认:true#bt-hash-check-seed=true# 继续之前的BT任务时, 无需再次校验, 默认:falsebt-seed-unverified=true# 保存磁力链接元数据为种子文件(.torrent文件), 默认:falsebt-save-metadata=true</code></pre><h2 id="Aria2-相关下载"><a href="#Aria2-相关下载" class="headerlink" title="Aria2 相关下载"></a>Aria2 相关下载</h2><ul><li><a href="https://github.com/aria2/aria2/releases/latest" target="_blank" rel="noopener">Aria2 源码/程序下载</a></li><li><a href="http://aria2c.com/archiver/aria2.conf" target="_blank" rel="noopener">配置示例下载</a></li><li><a href="http://aria2c.com/archiver/aria2.zip" target="_blank" rel="noopener">Windows 懒人包下载 (包含以下文件)</a></li></ul><blockquote><p>aria2.conf    # 配置文件 可以自己根据说明修改<br>  aria2.exe     # 启动文件 使用这个来启动 aria2<br>  aria2.session # 任务保存文件 未完成任务会保存在这里<br>  aria2c.exe    # 32位命令行主程序<br>  README.md     # README<br>  Aria2Data     # 下载目录 默认下载文件会保存在这里</p></blockquote><h2 id="YAAW-使用说明"><a href="#YAAW-使用说明" class="headerlink" title="YAAW 使用说明"></a>YAAW 使用说明</h2><h4 id="JSON-RPC-Path"><a href="#JSON-RPC-Path" class="headerlink" title="JSON-RPC Path"></a>JSON-RPC Path</h4><pre><code>- JSON-RPC Path 默认为: http://localhost:6800/jsonrpc- 如果提示 Aria2 RPC 服务器错误 按照以下方法修改    - host: 指运行 Aria2 所在机器的 IP 或者名字    - port: 使用 --rpc-listen-port 选项设置的端口, 未设置则是 6800    - 普通情况设置为: http://host:port/jsonrpc    - 使用 --rpc-secret=xxxxxx 选项设置为: http://token:xxxxxx@host:port/jsonrpc    - 使用 --rpc-user=user --rpc-passwd=pwd 选项设置为: http://user:pwd@host:port/jsonrpc    - 以上 JSON-RPC Path 中的 http 可以用 ws 替代, 代表使用 WebSocket 协议    - 当使用 https://aria2c.com 访问时, 需要使用 https 或 wss 协议</code></pre><h4 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h4><pre><code>- 在 YAAW 中对 Aria2 的设置会在 Aria2 重启后丢失, 必要的设置请写入配置文件- 已经下载完成的任务会在 Aria2 重启后消失, 除非启用了 --force-save 选项- 因界面已汉化, 其他不再赘述.</code></pre><h2 id="YAAW-搭配脚本"><a href="#YAAW-搭配脚本" class="headerlink" title="YAAW 搭配脚本"></a>YAAW 搭配脚本</h2><p><strong>迅雷离线</strong></p><ul><li>Chrome Extension: <a href="https://chrome.google.com/webstore/detail/eehlmkfpnagoieibahhcghphdbjcdmen" target="_blank" rel="noopener">ThunderLixianAssistant</a></li><li>UserScript: <a href="https://github.com/binux/ThunderLixianExporter" target="_blank" rel="noopener">ThunderLixianExporter</a><br><strong>旋风离线</strong></li><li>UserScript: <a href="https://greasyfork.org/scripts/354-xuanfengex" target="_blank" rel="noopener">XuanFengEx</a></li><li>UserScript: <a href="https://greasyfork.org/scripts/2398-lixianexporter" target="_blank" rel="noopener">LixianExporter</a><br><strong>百度网盘</strong></li><li>Chrome Extension: <a href="https://chrome.google.com/webstore/detail/mjaenbjdjmgolhoafkohbhhbaiedbkno" target="_blank" rel="noopener">BaiduExporter</a></li><li>Firefox Addons: <a href="https://github.com/acgotaku/BaiduExporter" target="_blank" rel="noopener">BaiduExporter</a></li><li>UserScript: <a href="https://greasyfork.org/scripts/294-baidupandownloadhelper" target="_blank" rel="noopener">BaiduPanDownloadHelper</a><br><strong>其他脚本</strong></li><li>Chrome Extension: <a href="https://chrome.google.com/webstore/detail/nimeojfecmndgolmlmjghjmbpdkhhogl" target="_blank" rel="noopener">添加到aria2</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文档 </tag>
+            
+            <tag> 分享 </tag>
+            
+            <tag> 下载工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Aria2在群晖Nas安装及注意事项</title>
+      <link href="/2018/12/29/Aria2%E5%9C%A8%E7%BE%A4%E6%99%96Nas%E5%AE%89%E8%A3%85%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+      <url>/2018/12/29/Aria2%E5%9C%A8%E7%BE%A4%E6%99%96Nas%E5%AE%89%E8%A3%85%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+      
+        <content type="html"><![CDATA[<p>首先<code>Aria2</code>并不是很快，安装前必须明白这一点<br>在<code>群晖</code>中使用<code>Aria2</code>是因为曾经它通过浏览器插件配合能够高速下载百度云盘<br>现在百度云盘已经对接口流量进行了限制，当达到一定的流量水管自动变小</p><p>网络上已经有很多这方面的教程，但是坑还是存在<br>通过查看日志我们能发现问题的所在和一些参数的设置<br><img src="/images/pasted-0.png" alt="导出的错误日志"><br>比如看到了<code>ERROR</code>的关键字就说明了程序出现错误并且已经中断执行<br>到了<code>WARN</code>的关键字就说明了程序出现了警告并没有中断执行</p><h2 id="查找选择镜像"><a href="#查找选择镜像" class="headerlink" title="查找选择镜像"></a>查找选择镜像</h2><p><img src="/images/pasted-1.png" alt="选择界面"><br>我这里选择了星号最多的一个<br>因为星号越多说明喜欢的人越多<br>那么镜像的质量相对来说就越好</p><p>在选择好镜像后就要对镜像的文档进行查看</p><p><img src="/images/pasted-2.png" alt="镜像界面"></p><p>进入文档后要看它相关的一些参数设置</p><pre><code>InstallI. replace /DOWNLOAD_DIR and /CONFIG_DIR for save data, and YOUR_SECRET_CODE for security. Run command below可以看到这里说需要将下载路径和设置路径转换为docker对外地路径/DOWNLOAD_DIR和/CONFIG_DIR就是关键字，代码下就出现了如上的关键字下面的其实是命令行的各种参数，我们要将这些数据兑换成Nas的图形界面参数sudo docker run -d \       这句的意思就是以高权限的身份运行docker并且后台执行 \反斜杠是命令行换行的意思--name aria2-with-webui \ 自定义镜像名称-p 6800:6800 \  docker内部端口6800对应外部端口6800-p 6880:80 \    意思同上 左边为本机端口 右边为docker提供的端口-p 6888:8080 \  意思同上 docker提供的端口是可以重复的 但是本机端口只有一个-v /DOWNLOAD_DIR:/data \  docker的外置下载路径  /data 是内部的路径-v /CONFIG_DIR:/conf \    docker的外置配置路径  /conf 是内部的路径-e SECRET=YOUR_SECRET_CODE \  加密字符串xujinkai/aria2-with-webui  原镜像的名称II. Open http://serverip:6880/ for aria2-webui, open http://serverip:6888/ to browse data folder.这里就是告诉你 webui 网页图形界面功能 是对应着这个6880端口 内部是80下载资源界面 对应着6888端口 内部是8080</code></pre><p>从上面可以看到一些参数的命令<br>-p 配置端口<br>-v 配置挂载目录<br>-e 传递环境变量</p><p>就算看文档这里边还是有坑的<br>坑从何来？<br><code>路径外置</code>这个路径一般我们都放在<code>docker</code>目录下<br>所以权限方面没有问题能读能写<br>如果不是管理员账户，但是有开放的<code>docker</code>应用权限<br>就要考虑一下写入权限的问题了<br>顺便一提<code>在Linux下大多数情况都要先考虑权限的问题</code><br>另外一个坑待会再说<br>先上图形界面设置的截图</p><h2 id="创建容器"><a href="#创建容器" class="headerlink" title="创建容器"></a>创建容器</h2><p>在镜像选卡中找到 对应的镜像文件 双击 和下载时候一样 双击 就能进行创建<br>另外要说明的事情台湾人把docker的镜像叫<code>映像</code>，国内的翻译都把它叫镜像我也是按习惯来称呼<br>还有很多与港台计算机软硬件不同的称呼方法以后再专门出一篇文章统计一下<br><img src="/images/pasted-3.png" alt="进入高级界面"></p><p><img src="/images/pasted-4.png" alt="定义1"></p><p><img src="/images/pasted-5.png" alt="定义2"></p><p><img src="/images/pasted-6.png" alt="定义3"></p><p><img src="/images/pasted-7.png" alt="定义4"></p><p><img src="/images/pasted-8.png" alt="定义5"></p><h2 id="启动容器"><a href="#启动容器" class="headerlink" title="启动容器"></a>启动容器</h2><p>完成如上设置后<br>其他的一路下一步下去直到启动完成即可<br>下面说一个注意点看外置目录当读写权限<br>转到状态页面，注意看设置<br><img src="/images/pasted-9.png" alt="读写权限"><br>日志也是不同的选卡查看即可</p><h2 id="绕坑之路"><a href="#绕坑之路" class="headerlink" title="绕坑之路"></a>绕坑之路</h2><p>好一切都按网络上教程走完了，坑也随之而来<br>第一张图中报了一个错误<br>IPv6无法绑定端口6800<br>所以我们要将IPv6屏蔽掉</p><p>症状：<br>web页面能正常登录<br>链接提示<code>正常链接</code><br>但是下载东西就失败</p><p>虽然只是很简单的一个过程，但是我用来百度来找答案<br>最后我发现我错了，百度近段时间已经解决不了我的任何一个问题鄙视一下<br>最后<code>Google</code>解决了问题</p><h5 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h5><p>找到你存放配置文件到路径<br>修改配置文件aria2.conf<br><img src="/images/pasted-10.png" alt="修改配置文件"></p><p>其他的设置看文档即可<br>具体的中文文档已经拷贝下来<br><a href="https://nas.kstu.vip/2018/12/29/Aria2%E5%92%8CYAAW%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/">Aria2中文文档</a><br>在站内查找查看即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 分享 </tag>
+            
+            <tag> 下载工具 </tag>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>怎么看个人隐私安全问题</title>
+      <link href="/2018/12/28/%E6%80%8E%E4%B9%88%E7%9C%8B%E4%B8%AA%E4%BA%BA%E9%9A%90%E7%A7%81%E5%AE%89%E5%85%A8/"/>
+      <url>/2018/12/28/%E6%80%8E%E4%B9%88%E7%9C%8B%E4%B8%AA%E4%BA%BA%E9%9A%90%E7%A7%81%E5%AE%89%E5%85%A8/</url>
+      
+        <content type="html"><![CDATA[<p>我是这么看个人隐私安全问题的首先我们现在的生活差不多离不开互联网支持<br>每天看<code>微信</code>看<code>视频</code>看<code>电视</code>，甚至于<code>购物支付</code>等等都跟互联网息息相关<br>至少目前不是人人都会上网用代理，使用软件后或者浏览网页后会擦出痕迹<br>那么这些过程中，不带任何个人信息的互联互通几乎是不可能的<br>私人的信息不仅仅只是你的账户密码和身份信息，还有照片视频，笔记日记，喜好习惯以及工作，住址等等<br>在这个互通互联的网络时代，因为对数码产品的不熟悉不了解往往很容易将个人数据暴露在外<br>可能有部分人还不是很了解，哪怕每次暴露一点点的信息在互联网上很容易组合成为一个完整的信息<br>尤其现在大数据运算的普及不用多难的技术，就能对各种组合零碎信息进行相似整合<br>最近很多的撞库破解也就是来源于这样的暴露，当然这些撞库有些很简单粗暴<br>就是拿到一个已经破解或者产生漏洞的数据库来对另外一个数据库进行比对破解<br>比如说：<br>我在一个游戏或者也有上注册了一个账户，虽然很不起眼，虽然他来源于一个实力的公司<br>在某一天它的资料突然泄露了，这种泄露的原因很多很多，但是大多都是为了当下的利益<br>那么我在这个网站上的账户信息或者身份信息就很有可能会被别有用心的人记录下<br>直接一点的就会到互联网上去搜索和这个账户相关的信息有哪些</p><blockquote><p>比如：我在另外一个论坛上发布或者回复了一贴信息<br>但是这个社区的账户中留下来我的QQ信息或者邮箱信息<br>那么这些信息组合起来，首先可以拿到QQ号码，拿到号码后可以去看看空间有没有信息可以搜刮<br>比如说在空间还拿到了我所在大概地址，拿到大概地址就能分析出对应的区号和邮政编码<br>这些信息很有可能组合在密码当中，地址本身也很有可能组合在密码当中，QQ也是有可能组合在密码当中的<br>甚至于发现空间中有亲人的信息，亲人的信息中也可以挖掘出类似电话号码等等信息<br>那么当将和我相关的昵称、电话号码、亲人姓名、亲人联系电话、还有地址甚至于生日等等信息联系在一起<br>再一个个的去尝试和支付、银行相关的站点用软件一个个尝试登录，要比瞎猜容易得多了<br>当然这里只是说程序和密码相关的事情，但是这些信息如果落到骗子手中，玩法可能会更多<br>一个账号密码被拿到很有可能地方的密码都会被拿到<br>因为现在的一般人群很容易忘记密码和账户<br>大多数人都密码账户都是设置为统一的，有规律的和自己息息相关的数据<br>当然也有人会用本子把账号密码等信息记录下来，即使记录下来密码帐号几乎还是统一的和自己相关的</p></blockquote><p>有没有办法解决这些问题，有，但是依然不是完全的完美的方案<br>不过这样的方案能让别有用心的人增加了不少的难度<br>首先密码随机可以使用密码生成器来生成复杂的密码，这样的密码几乎和个人信息没有任何关系<br>当然来这样的密码记忆起来就非常麻烦，没关系有软件可以记录这些信息<br>当然得使用软件的开发者自己在不知道密码都情况下也无法解开的软件最好<br>统一管理的过程中还是要定期的更换密码数据，<strong>然而这只是保护账户密码的部分</strong></p><p>另外个人的隐私习惯和平时撰写的文章和收集的资料都得找个地方存储起来<br>放在互联网上自然不是十分安全可靠的除非你对这些信息都加过密<br>信息资料放置自己的电脑中当然是个不错的选择，除非有人专门想针对你<br>否则自己电脑中的加密的资料很难泄露出去，手机目前也是一个不怎么安全的储存方案<br>目前的手机应用很多在默默偷窥采集你的资料信息<br>除非你很熟悉你的软件上那个运营商的，软件对你那些数据是可以访问的<br>有时候软件装得多了，权限这回事基本没怎么管就会造成隐私泄露<br>所以<strong><code>家庭私有云</code></strong>一直都是一个非常不错的选择<br>在最后，我要说：<br>每一张照片每个字符的数据都是自己的隐私，在这个信息的时代希望各位一定要保管好自己的信息数据</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 信息安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 心情 </tag>
+            
+            <tag> 日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

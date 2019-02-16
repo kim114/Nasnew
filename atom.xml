@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nas应用站 - nas.kstu.vip</title>
+  
+  <subtitle>知云Nas服务站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://nas.kstu.vip/"/>
+  <updated>2019-02-16T09:01:28.078Z</updated>
+  <id>https://nas.kstu.vip/</id>
+  
+  <author>
+    <name>Kim Studio</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>群晖218j新机安装方法</title>
+    <link href="https://nas.kstu.vip/2019/02/16/%E7%BE%A4%E6%99%96218j%E6%96%B0%E6%9C%BA%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
+    <id>https://nas.kstu.vip/2019/02/16/群晖218j新机安装方法/</id>
+    <published>2019-02-16T08:52:49.000Z</published>
+    <updated>2019-02-16T09:01:28.078Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;群晖DS-218J家庭入门级Nas服务器安装教程&quot;&gt;&lt;a href=&quot;#群晖DS-218J家庭入门级Nas服务器安装教程&quot; class=&quot;headerlink&quot; title=&quot;群晖DS 218J家庭入门级Nas服务器安装教程&quot;&gt;&lt;/a&gt;&lt;center&gt;群晖DS
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>docker命令大全</title>
+    <link href="https://nas.kstu.vip/2019/02/02/docker%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/"/>
+    <id>https://nas.kstu.vip/2019/02/02/docker命令大全/</id>
+    <published>2019-02-02T08:47:00.000Z</published>
+    <updated>2019-02-02T12:46:05.803Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;docker&lt;/code&gt; 其实很强大用得好的很少&lt;/p&gt;
+&lt;h2 id=&quot;docker命令集&quot;&gt;&lt;a href=&quot;#docker命令集&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
+    
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+      <category term="命令行" scheme="https://nas.kstu.vip/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+      <category term="终端" scheme="https://nas.kstu.vip/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用nas构建自己的webIDE网页编辑器</title>
+    <link href="https://nas.kstu.vip/2019/02/01/%E5%88%A9%E7%94%A8nas%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84webIDE%E7%BD%91%E9%A1%B5%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    <id>https://nas.kstu.vip/2019/02/01/利用nas构建自己的webIDE网页编辑器/</id>
+    <published>2019-02-01T18:37:00.000Z</published>
+    <updated>2019-02-02T07:05:00.837Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;之前用很复杂的方式构建了各种编辑环境就是为了方便进行操作&lt;br&gt;通过不断的网络搜刮当然也有了更好的选择&lt;br&gt;当然是webIDE，国内原来有coding现在给了腾讯&lt;br&gt;很多好一点的教学站点都有自己的webIDE为了方便学员开发&lt;br&gt;配置环境真的是一件非常枯燥的事情&lt;b
+        
+      
+    
+    </summary>
+    
+      <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
+    
+    
+      <category term="webIDE" scheme="https://nas.kstu.vip/tags/webIDE/"/>
+    
+      <category term="编程" scheme="https://nas.kstu.vip/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="cloud9" scheme="https://nas.kstu.vip/tags/cloud9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centOS下配置hexo环境</title>
+    <link href="https://nas.kstu.vip/2019/02/01/centOS%E4%B8%8B%E9%85%8D%E7%BD%AEhexo%E7%8E%AF%E5%A2%83/"/>
+    <id>https://nas.kstu.vip/2019/02/01/centOS下配置hexo环境/</id>
+    <published>2019-02-01T04:24:00.000Z</published>
+    <updated>2019-02-02T04:18:12.885Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;hexo&lt;/code&gt;是一个非常好用的&lt;code&gt;blog&lt;/code&gt;程序&lt;br&gt;本站就是基于hexo生成的静态页面&lt;br&gt;要知道&lt;code&gt;hexo&lt;/code&gt;也是基于&lt;code&gt;node.js&lt;/code&gt;来做出程序&lt;br&gt;那么&lt;code&gt;node&lt;/c
+        
+      
+    
+    </summary>
+    
+      <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
+    
+    
+      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker下安装php的composer环境</title>
+    <link href="https://nas.kstu.vip/2019/02/01/Docker%E4%B8%8B%E5%AE%89%E8%A3%85php%E7%9A%84composer%E7%8E%AF%E5%A2%83/"/>
+    <id>https://nas.kstu.vip/2019/02/01/Docker下安装php的composer环境/</id>
+    <published>2019-02-01T03:17:00.000Z</published>
+    <updated>2019-02-02T04:18:53.125Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;关于&lt;code&gt;composer&lt;/code&gt;安装主要问题会集中在root账户和php环境上&lt;br&gt;解决root账户下拉取代码的问题其实官方虽然有解答但是并不好用&lt;br&gt;php的问题主要集中在版本太高无法拉取的错误比如最新的&lt;code&gt;7.3.1&lt;/code&gt;环境拉取代码的
+        
+      
+    
+    </summary>
+    
+    
+      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>群晖Nas下的Docker套件搭建宝塔面板</title>
+    <link href="https://nas.kstu.vip/2019/01/31/%E6%99%96Nas%E4%B8%8B%E7%9A%84Docker%E5%A5%97%E4%BB%B6%E6%90%AD%E5%BB%BA%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    <id>https://nas.kstu.vip/2019/01/31/晖Nas下的Docker套件搭建宝塔面板/</id>
+    <published>2019-01-31T14:55:00.000Z</published>
+    <updated>2019-02-02T04:20:35.464Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;其实有了&lt;code&gt;宝塔面板&lt;/code&gt;以后我还是使用&lt;code&gt;web station&lt;/code&gt;&lt;br&gt;原因是&lt;code&gt;宝塔面板&lt;/code&gt;耗费的资源可能要比&lt;code&gt;web
+        
+      
+    
+    </summary>
+    
+      <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
+    
+    
+      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="宝塔面板" scheme="https://nas.kstu.vip/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用WebStation建站的一些坑</title>
+    <link href="https://nas.kstu.vip/2019/01/27/%E5%88%A9%E7%94%A8WebStation%E5%BB%BA%E7%AB%99%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91/"/>
+    <id>https://nas.kstu.vip/2019/01/27/利用WebStation建站的一些坑/</id>
+    <published>2019-01-27T17:57:00.000Z</published>
+    <updated>2019-02-02T04:34:20.448Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;其实使用&lt;code&gt;web station&lt;/code&gt;来建站是非常方便&lt;br&gt;但是初次使用到朋友难免会觉得有些坑&lt;br&gt;&lt;code&gt;web
+        
+      
+    
+    </summary>
+    
+      <category term="nas应用" scheme="https://nas.kstu.vip/categories/nas%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="webstation" scheme="https://nas.kstu.vip/tags/webstation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>adminer数据库管理程序3307端口登录</title>
+    <link href="https://nas.kstu.vip/2019/01/21/adminer%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%A8%8B%E5%BA%8F3307%E7%AB%AF%E5%8F%A3%E7%99%BB%E5%BD%95/"/>
+    <id>https://nas.kstu.vip/2019/01/21/adminer数据库管理程序3307端口登录/</id>
+    <published>2019-01-21T16:56:00.000Z</published>
+    <updated>2019-02-01T18:27:16.922Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;安装了群晖Nas上的&lt;code&gt;MariaDB&lt;/code&gt;数据库套件&lt;br&gt;对于数据库不是3306的端口走了些弯路&lt;br&gt;这里踏坑路程，其实是我想复杂了&lt;br&gt;虽然群晖上也有’phpMyAdmin’的套件&lt;br&gt;如果不是十分需要我不会去安装一个’phpMyAdmin’套件
+        
+      
+    
+    </summary>
+    
+      <category term="PHP" scheme="https://nas.kstu.vip/categories/PHP/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows10如何接入加密的iSCSI服务</title>
+    <link href="https://nas.kstu.vip/2019/01/10/Windows10%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%8A%A0%E5%AF%86%E7%9A%84iSCSI%E6%9C%8D%E5%8A%A1/"/>
+    <id>https://nas.kstu.vip/2019/01/10/Windows10如何接入加密的iSCSI服务/</id>
+    <published>2019-01-10T20:00:00.000Z</published>
+    <updated>2019-02-01T18:27:16.922Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;之前弄过步骤上出来问题所以也算是个小坑吧&lt;br&gt;加密的&lt;code&gt;iSCSI&lt;/code&gt;如何操作可以&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Windows" scheme="https://nas.kstu.vip/categories/Windows/"/>
+    
+      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Windows/Nas%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
+    
+      <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手机如何打开控制面板加密文件夹</title>
+    <link href="https://nas.kstu.vip/2019/01/09/%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E5%8A%A0%E5%AF%86%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
+    <id>https://nas.kstu.vip/2019/01/09/手机如何打开加密文件夹/</id>
+    <published>2019-01-09T12:05:00.000Z</published>
+    <updated>2019-02-01T18:27:16.923Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;使用&lt;code&gt;谷歌浏览器&lt;/code&gt;或者&lt;code&gt;360手机浏览器&lt;/code&gt;设置为电脑模式打开页面&lt;br&gt;就可以用平时网页打开后台界面一样的操作方式&lt;br&gt;加载加密文件夹&lt;br&gt;然后就可以使用&lt;code&gt;DS
+        
+      
+    
+    </summary>
+    
+      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="手机端" scheme="https://nas.kstu.vip/tags/%E6%89%8B%E6%9C%BA%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信如何访问分享视频</title>
+    <link href="https://nas.kstu.vip/2019/01/09/%E5%BE%AE%E4%BF%A1%E5%A6%82%E4%BD%95%E8%AE%BF%E9%97%AE%E5%88%86%E4%BA%AB%E8%A7%86%E9%A2%91/"/>
+    <id>https://nas.kstu.vip/2019/01/09/微信如何访问分享视频/</id>
+    <published>2019-01-09T12:03:00.000Z</published>
+    <updated>2019-02-01T18:27:16.923Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;几乎所有第三方网页分享出来的视频站点&lt;br&gt;打开这个视频链接需要点下方的&lt;code&gt;访问原网页&lt;/code&gt;这行小文字，而且是两次以上的点击确认&lt;br&gt;&lt;img src=&quot;/images/pasted-85.png&quot; alt=&quot;非微信网页&quot;&gt;&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
+    
+      <category term="微信" scheme="https://nas.kstu.vip/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>群晖创建video视频的时效共享并且进行微信分享</title>
+    <link href="https://nas.kstu.vip/2019/01/09/%E7%BE%A4%E6%99%96%E5%88%9B%E5%BB%BAvideo%E8%A7%86%E9%A2%91%E7%9A%84%E6%97%B6%E6%95%88%E5%85%B1%E4%BA%AB%E5%B9%B6%E4%B8%94%E8%BF%9B%E8%A1%8C%E5%BE%AE%E4%BF%A1%E5%88%86%E4%BA%AB/"/>
+    <id>https://nas.kstu.vip/2019/01/09/群晖创建video视频的时效共享并且进行微信分享/</id>
+    <published>2019-01-09T11:41:00.000Z</published>
+    <updated>2019-02-01T18:27:16.925Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;创建分享视频：&quot;&gt;&lt;a href=&quot;#创建分享视频：&quot; class=&quot;headerlink&quot; title=&quot;创建分享视频：&quot;&gt;&lt;/a&gt;创建分享视频：&lt;/h2&gt;&lt;p&gt;将视频放置到播放列表下&lt;br&gt;在左下角的+符号可以新增或者加入新的列表当中&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
+    
+      <category term="微信技巧" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/%E5%BE%AE%E4%BF%A1%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
+    
+      <category term="微信" scheme="https://nas.kstu.vip/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>windows下建立可以访问的nas盘符</title>
+    <link href="https://nas.kstu.vip/2019/01/07/windows%E4%B8%8B%E5%BB%BA%E7%AB%8B%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%9A%84nas%E7%9B%98%E7%AC%A6/"/>
+    <id>https://nas.kstu.vip/2019/01/07/windows下建立可以访问的nas盘符/</id>
+    <published>2019-01-07T23:27:00.000Z</published>
+    <updated>2019-02-01T18:27:16.922Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;其实有很多刚刚入手的朋友都会问一个问题&lt;br&gt;为什么每次进Nas的盘符都要做文件夹的地址栏敲&lt;code&gt;\\Nas名称\&lt;/code&gt;输入账号密码才能进去很麻烦&lt;br&gt;不能想网络邻居共享盘一样点点就进去了吗？&lt;br&gt;其实群晖&lt;code&gt;Nas&lt;/code&gt;中稍微设置就能出现
+        
+      
+    
+    </summary>
+    
+      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>群晖Nas手机播放视频的一些技巧</title>
+    <link href="https://nas.kstu.vip/2019/01/06/%E7%BE%A4%E6%99%96Nas%E6%89%8B%E6%9C%BA%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/"/>
+    <id>https://nas.kstu.vip/2019/01/06/群晖Nas手机播放视频的一些技巧/</id>
+    <published>2019-01-06T12:41:00.000Z</published>
+    <updated>2019-02-01T18:27:16.924Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这里主要是讲如何在手机端播放&lt;br&gt;能不能看基本取决于网络质量和视频格式&lt;br&gt;格式怎么看?其实就看所下载视频的后缀&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;软件登录的时候不要勾选https选项
+        
+      
+    
+    </summary>
+    
+      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="视频电影" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91%E7%94%B5%E5%BD%B1/"/>
+    
+      <category term="手机" scheme="https://nas.kstu.vip/tags/%E6%89%8B%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重大泄露事件播报</title>
+    <link href="https://nas.kstu.vip/2019/01/05/%E9%87%8D%E5%A4%A7%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6%E6%92%AD%E6%8A%A5/"/>
+    <id>https://nas.kstu.vip/2019/01/05/重大泄露事件播报/</id>
+    <published>2019-01-05T13:05:00.000Z</published>
+    <updated>2019-02-01T18:27:16.925Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;请多多关注安全问题：&quot;&gt;&lt;a href=&quot;#请多多关注安全问题：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="站点公告" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%91%8A/"/>
+    
+    
+      <category term="安全" scheme="https://nas.kstu.vip/tags/%E5%AE%89%E5%85%A8/"/>
+    
+      <category term="漏洞" scheme="https://nas.kstu.vip/tags/%E6%BC%8F%E6%B4%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何选择适合自己的Nas</title>
+    <link href="https://nas.kstu.vip/2019/01/05/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84Nas/"/>
+    <id>https://nas.kstu.vip/2019/01/05/如何选择适合自己的Nas/</id>
+    <published>2019-01-05T11:58:00.000Z</published>
+    <updated>2019-02-01T18:27:16.923Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;选择说明：&quot;&gt;&lt;a href=&quot;#选择说明：&quot; class=&quot;headerlink&quot; title=&quot;选择说明：&quot;&gt;&lt;/a&gt;选择说明：&lt;/h2&gt;&lt;p&gt;轻量级用户: 1~2盘位&lt;br&gt;此级别的用户需要备份客户机(台式机/笔记本/手机)上的小规模的文件,
+        
+      
+    
+    </summary>
+    
+      <category term="站点公共" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%85%B1/"/>
+    
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="购物选择" scheme="https://nas.kstu.vip/tags/%E8%B4%AD%E7%89%A9%E9%80%89%E6%8B%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是Nas？</title>
+    <link href="https://nas.kstu.vip/2019/01/05/%E4%BB%80%E4%B9%88%E6%98%AFNas%EF%BC%9F/"/>
+    <id>https://nas.kstu.vip/2019/01/05/什么是Nas？/</id>
+    <published>2019-01-05T11:50:00.000Z</published>
+    <updated>2019-02-01T18:27:16.922Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;你是否需要一台NAS&quot;&gt;&lt;a href=&quot;#你是否需要一台NAS&quot; class=&quot;headerlink&quot; title=&quot;你是否需要一台NAS?&quot;&gt;&lt;/a&gt;你是否需要一台NAS?&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;在众多电子设备中 手机 电脑 平板 数码相机
+        
+      
+    
+    </summary>
+    
+      <category term="站点公告" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%91%8A/"/>
+    
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="采购选择" scheme="https://nas.kstu.vip/tags/%E9%87%87%E8%B4%AD%E9%80%89%E6%8B%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二月热销价格</title>
+    <link href="https://nas.kstu.vip/2019/01/05/%E7%83%AD%E9%94%80%E4%BB%B7%E6%A0%BC/"/>
+    <id>https://nas.kstu.vip/2019/01/05/热销价格/</id>
+    <published>2019-01-05T11:28:00.000Z</published>
+    <updated>2019-02-02T08:52:33.330Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;热门产品并不是全部群晖Nas的产品型号&lt;br&gt;需要其他型号的请联系：15678609494&lt;br&gt;需要&lt;code&gt;docker&lt;/code&gt;功能建议选购&lt;code&gt;ds218+&lt;/code&gt;以上的型号产品&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="站点公告" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%91%8A/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="价格" scheme="https://nas.kstu.vip/tags/%E4%BB%B7%E6%A0%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用群晖Nas的git拉取远程仓库代码</title>
+    <link href="https://nas.kstu.vip/2019/01/04/%E4%BD%BF%E7%94%A8%E7%BE%A4%E6%99%96Nas%E7%9A%84git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%BB%A3%E7%A0%81/"/>
+    <id>https://nas.kstu.vip/2019/01/04/使用群晖Nas的git拉取远程仓库代码/</id>
+    <published>2019-01-04T14:32:00.000Z</published>
+    <updated>2019-02-01T18:27:16.922Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;用群晖&lt;code&gt;Nas&lt;/code&gt;做站点，可以从远端拉取数据到&lt;code&gt;Nas&lt;/code&gt;上&lt;br&gt;&lt;code&gt;Mac&lt;/code&gt;上操作非常简单，用终端工具进到Nas需要拉取的目录&lt;code&gt;git
+        
+      
+    
+    </summary>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="git" scheme="https://nas.kstu.vip/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSL证书没有绿锁您与此网站建立的连接并非完全安全解决办法</title>
+    <link href="https://nas.kstu.vip/2019/01/04/SL%E8%AF%81%E4%B9%A6%E6%B2%A1%E6%9C%89%E7%BB%BF%E9%94%81%E6%82%A8%E4%B8%8E%E6%AD%A4%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%8B%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%B9%B6%E9%9D%9E%E5%AE%8C%E5%85%A8%E5%AE%89%E5%85%A8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://nas.kstu.vip/2019/01/04/SL证书没有绿锁您与此网站建立的连接并非完全安全解决办法/</id>
+    <published>2019-01-04T14:28:45.000Z</published>
+    <updated>2019-02-01T18:27:16.922Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一部分朋友在使用群晖Nas搭建站点的时候可能会出现&lt;br&gt;申请好证书并且配置好&lt;code&gt;https&lt;/code&gt;服务，到浏览器中可以使用&lt;code&gt;https&lt;/code&gt;访问了。&lt;br&gt;但是没有绿色的锁标，点看查看提示：与此网站建立的连接并非完全安全解决办法。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

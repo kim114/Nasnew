@@ -1,0 +1,779 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN,default,default">
+<head>
+    
+
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="新生产力工具，群晖DS218+与DSM 6.2科普评测, Nas应用站 - nas.kstu.vip">
+    <meta name="description" content="前几年国内突然进入了网盘、云笔记等云服务的大跃进时代，用户高呼云储存未来已至，用着平均200KB/s不到的小水管也要把整个硬盘上传云端，痛并快乐着地管理众多的云端备份。但谁都没想到资本寒冬和政策限制，让网盘几乎全军覆没，云服务大都走上了广告">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>新生产力工具，群晖DS218+与DSM 6.2科普评测 | Nas应用站 - nas.kstu.vip</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+</head>
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/logo.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">Nas应用站 - nas.kstu.vip</span>
+                    </a>
+                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>文章标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>文章分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>时间轴</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于我们</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Nas应用站 - nas.kstu.vip</div>
+        <div class="logo-desc">
+            
+            不要让复杂耽搁你的优质生活，让我们还原最简单安全的事物给你
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                文章标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                文章分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                时间轴
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于我们
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://blog.youge8.com" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Kim`Blog
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="social-link"><a href="https://shop60517656.taobao.com/" class="tooltipped" target="_blank" data-tooltip="访问淘宝店铺" data-position="top" data-delay="50">
+    <i class="fa fa-shopping-cart"></i>
+</a>
+<a href="mailto:kim@kstu.vip" class="tooltipped" target="_blank" data-tooltip="邮件联系" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="经理QQ: 181036716" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+        <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://blog.youge8.com" class="github-corner tooltipped hide-on-med-and-down" target="_blank" data-tooltip="Kim`Blog" data-position="left" data-delay="50">
+    <svg viewbox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/>
+    </svg>
+</a>
+        
+    </nav>
+</header>
+
+
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        新生产力工具，群晖DS218+与DSM 6.2科普评测
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="post-info">
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2019-01-01
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>前几年国内突然进入了网盘、云笔记等云服务的大跃进时代，用户高呼云储存未来已至，用着平均200KB/s不到的小水管也要把整个硬盘上传云端，痛并快乐着地管理众多的云端备份。但谁都没想到资本寒冬和政策限制，让网盘几乎全军覆没，云服务大都走上了广告或付费经营的道路。</p>
+<p>体验过跨设备同步和异地存取分享的便利后，很多用户根本就回不去了。但萎靡不振的云服务无法承接、国内上传宽带毫无起色，再配合艳照门、勒索病毒、三色幼儿园、国内版权收紧等社会事件的推波助澜，最终把原来极客玩家推崇的私有云NAS（Network Attached Storage，网络存储设备）推向了普罗大众。</p>
+<p>在可预见的几年内，公有云服务不太可能恢复当年的繁荣，但手机、平板、PC的多设备爆发趋势还在继续，多设备同步与存储分享的缺口只会越来越大。很多业内人士看到的未来，是NAS这种私有云将会在家庭和中小企业当中普及。</p>
+<p>抛开高大上的行业趋势不谈，如果你个人或家中有众多分散在各种设备上的数据需要集中管理，或者你的团队需要私有云提供私密数据管理和办公协同，那你很可能就已经是NAS的潜在用户了。但NAS对于普通用户来说却依旧非常陌生，所以此次群晖DS218+和DSM 6.2系统的评测，将夹杂大量的相关的背景和科普，希望能为大家了解和选购NAS带来一些帮助。</p>
+<h2 id="科普与背景资料"><a href="#科普与背景资料" class="headerlink" title="科普与背景资料"></a>科普与背景资料</h2><p>NAS的概念可以追溯到1983年，最早是为了解决本地存储的容量瓶颈，通过网络进行存储拓展和分享。经过多年的发展大致可以分为储存型和平台型两种，后者自带了完备的操作系统，范畴远超单纯的网络存储。在群晖、威联通、铁马威、西数、华芸等厂家的多年竞争之后，NAS领域早已进入了寡头时代。</p>
+<p><img src="/images/pasted-28.png" alt="upload"></p>
+<p>群晖在国内几乎成为了NAS的代名词，其占有率常年维持在50%以上。12月6日的消费调研中心数据显示，群晖的占有率已经超过了51%，比其他所有NAS厂商加起来还要大。体量上的优势，让群晖最早开始着眼于其他领域的突破，其在9月的全球发布会中，提出了“协同、智能、虚拟化”的概念，大举进入企业系统办公、深度学习等领域。</p>
+<p><img src="/images/pasted-29.png" alt="upload"></p>
+<p>但落实到产品层面，群晖的产品策略依旧。通过命名就能区分不同产品的定位，名字开头的DS指代常见的机箱式存储，而服务器机架式则多以RS开头。后缀带J（junior的缩写）代表面向个人和SOHO办公，中间的Value系列面向小型办公室，命名会带play或没有后缀，而后缀Plus则是面向公司/工作组的高端产品，而再往上就是专门为企业设计的XS/FS系列了。</p>
+<p>夹在中间的数字代表盘数和年份，首位数字一般代表可以装入的硬盘数，而群晖新品多在年末发布，所以数字会是发布年份加1。根据命名规则，群晖在2017年末更新的双盘位NAS，就是DS218系列了。当中，从低到高分别是DS218j、DS218play、DS218和DS218+，售价从1450到2800不等，我们这次评测的是该系列中最高阶的DS218+。</p>
+<p><img src="/images/pasted-30.png" alt="upload"></p>
+<p>DS218+外观上和配件和DS218几乎一致，而218play和218j模具一致，仅不同颜色区分。配置上DS218+的最大分别是用了X86平台，支持内存拓展且接口更加丰富，性能和拓展性上有明显的优势，最大同时连接数、office用户数等硬吃性能的部分大差距多达到2倍以上。此外，DS218+自带了有AES-NI硬件加密，即便是加密的情况下，也能做到113和112MB的读写性能，硬盘支持热拔插，支持Btrfs快照等先进特性。</p>
+<h2 id="产品外观"><a href="#产品外观" class="headerlink" title="产品外观"></a>产品外观</h2><p><img src="/images/pasted-31.png" alt="upload"></p>
+<p>尝试了两年的彩盒包装后，群晖现在全系列的包装，依旧是经典的牛皮纸盒。</p>
+<p><img src="/images/pasted-32.png" alt="upload"></p>
+<p><img src="/images/pasted-33.png" alt="upload"></p>
+<p>配件包括安装和使用说明书、硬盘固定螺丝、1米左右的超五类网线，以及DS218全系标配的60W电源，其体型和常见的笔记本电源接近。</p>
+<p><img src="/images/pasted-34.png" alt="upload"><br><img src="/images/pasted-35.png" alt="upload"><br><img src="/images/pasted-36.png" alt="upload"></p>
+<p>外观造型上，DS218+比前代更加硬朗。前盖的侧边统一使用抛光面，虽然很容易刮花，但确实更漂亮。两边的logo下，是横纹格栅散热网。NAS的硬件交互极少，群晖的逻辑一般是把设备、网口和硬盘的指示灯放在正面右上角，使用时点按开机，长按5秒提示音提示后自动关机，一直长按则是强制关机。正面的USB 3.0和一键复制按钮，用于快速拷贝/备份USB设备内容。</p>
+<p><img src="/images/pasted-37.png" alt="upload"><br>背面9cm散热风扇下方是双USB 3.0接口、安全锁、eSATA接口和电源接口</p>
+<p><img src="/images/pasted-38.png" alt="upload"><br><img src="/images/pasted-39.png" alt="upload"><br><img src="/images/pasted-40.png" alt="upload"></p>
+<p>DS218+整体布局和前代分别不大，前盖由4个磁力硅胶盘固定，内部是支持热插拔的硬盘架，风扇支架有减震缓冲。机身从两侧进风，尾部出风，但依旧没有加入防尘网。</p>
+<p><img src="/images/pasted-41.png" alt="upload"><br><img src="/images/pasted-42.png" alt="upload"></p>
+<p>硬盘方面，我们这次使用的是2块4T的希捷NAS专用盘。因为NAS要7x24 小时全天候运作，所以希捷NAS专用盘针对安全性、稳定性和耐用度等方面都进行了强化，比起普通硬盘更适合NAS使用。</p>
+<p>家庭用户通过普通硬盘的RAID 1阵列就能提供一定程度的安全保障，但对于深度用户或企业用户，除了硬件有价数据无价的“古训”外，任何的硬盘故障带来的停工和后期处理绝对是灾难性的。对于他们来说，希捷NAS专用盘或同级别产品就不是可选，而是必选项了。</p>
+<h2 id="群晖NAS的核心：DSM系统"><a href="#群晖NAS的核心：DSM系统" class="headerlink" title="群晖NAS的核心：DSM系统"></a>群晖NAS的核心：DSM系统</h2><p>一般硬件制造商的核心是资源整合和硬件配置，但在NAS领域，核心早就不是硬件而是系统了。群晖的DSM系统因为易用性和功能性上的压倒性优势，被网友戏称为买系统送硬件。群晖维持和硬件同步的节奏进行系统迭代，也是极少数和windows这种大型操作系统一样，会同时提供正式版和测试版的NAS系统。</p>
+<p>DSM一直在增强功能，2012年初DSM 4.0发布，群晖引入Cloud Station文件实时同步功能。在之后的DSM 5.2新增了私有云概念，并引入笔记/知识管理工具Note Station。在两年前的DSM 6.0中，群晖引入了全新的Btrfs文件系统、带来了高速快照、构架升级等优化。16年9月则引入了现在看起来都很超前的企业云协作套件，而群晖在今年10月推出了DSM 6.2 beta版，连续更新了聊天、邮箱、日历、云盘和office等若干套件，同时推出的Moments则开始引入深度学习的特性。</p>
+<p><img src="/images/pasted-43.png" alt="upload"><br>DSM6.2 Beta的桌面</p>
+<p><img src="/images/pasted-44.png" alt="upload"><br>新的套件中心</p>
+<p>DSM以易用和全能著称，系统之庞大，功能之多，单从官方73页的使用文档和超级详细的官网使用说明就能窥探一般，有兴趣的用户，群晖官网还有虚拟体验入口。系统构架上，DSM同时面向众多的家庭和企业用户，其由相对简洁的系统框架和各种自选安装的“功能套件”组成，后者可以理解为DSM上的程序或app，通过套件中心进行下载安装和管理。</p>
+<p>DSM系统主要交互端是浏览器，通过“网页”的形式进行基础管理。系统桌面是是类似Linux Gnome的状态栏+应用抽屉，套件支持乱序拖动到桌面。这里不得不提群晖的QuickConnect，后者通过群晖的账号系统，提供DDNS网络穿透能力，用户不需要任何技术基础就能用外网远程访问自己NAS。当然，为了提升连接速度，很多玩家最后还是自行做了端口映射。</p>
+<p><img src="/images/pasted-45.png" alt="upload"><br>数量庞大的移动客户端</p>
+<p>因为NAS得同时面向所有的终端，DSM系统除了几十种官方和第三方套件外，还得为网页端、PC/Mac/Ubuntu等主流PC端、Android和iOS等移动端，提供不同的配套软件。因为国内没有谷歌服务，部分配套app还分国内外两种版本。正常家庭用户，单单手机端就可能会用得上10个左右的群晖app。论功能和终端的丰富程度，群晖NAS可以肯定是最复杂的智能产品，没有之一。</p>
+<p>在最初的使用场景下，群晖NAS最受欢迎的套件，主要围绕“文件管理、备份、照片、视频、音乐和下载”6个，主要用于为移动设备的访问提供了缩率图、转码和媒体管理等功能，移动端和网页端能直接播放视频并提供自定义字幕，下载套件更是大部分人对NAS的基础认知，即便今年7月迅雷关闭了第三方远程下载，跨平台添加下载任务和20W以下的功耗，都是NAS成为绝佳下载工具的主因。</p>
+<p><img src="/images/pasted-46.png" alt="upload"><br>下载套件Download Station</p>
+<p>出于历史和限制每个套件的体积大小等原因，很多套件至今还是英文名字，而且命名规范还未统一，“DS file、DS video、DS audio”是一个系列，“Download Station、Cloud Station、Photo Station”又是一个系列。而部分如备份等“博大精深”的功能，分开了本地快照、云同步、NAS间同步等多个套件负责，这也是导致DSM套件众多的原因之一。</p>
+<p>但正因为“套件”这个设定经过了多年使用磨炼，交互界面的使用逻辑和完成度都很高，让群晖DSM依旧是最简单易上手的NAS系统。系统还有有众多官方的辅助软件，连创建网络映射都有软件代劳、功能套件还能自己的自动更新功能，虽然看起来很复杂，但只要动手去玩，会发现很多极客和底层的东西，都由系统自己解决好了。而后来在DSM6.0/6.2加入的Office、有AI深度学习能力Moments相册，这些都是DSM在向功能化和智能化演进的迹象。</p>
+<h2 id="使用与基础性能"><a href="#使用与基础性能" class="headerlink" title="使用与基础性能"></a>使用与基础性能</h2><p>因为群晖NAS没有内置Flash的“传统”，机器买回来是不带系统的裸机。插入硬盘接入网络后，在浏览器端首次访问就会触发系统安装和用户注册引导，可选择联网下载系统或本地上传（安装包已经从以前的100多M暴涨到DSM6.2 beta的200M级别），安装过程10分左右。随后的注册、设定快速访问域名、进入系统安装套件等，都会有详尽的向导带领，完全没有技术门槛。</p>
+<p><img src="/images/pasted-47.png" alt="upload"><br>网络硬盘直接显示</p>
+<p><img src="/images/pasted-48.png" alt="upload"><br>通过iSCSI加入存储池</p>
+<p>群晖NAS最基本的网络存储功能，即便不安装任何套件就能直接通过网络邻居实现。系统网络邻居中就能直接发现群晖NAS，用官方的程序就能建立网络硬盘映射，像使用本地硬盘一样读取NAS上的数据。</p>
+<p><img src="/images/pasted-49.png" alt="upload"><br>通过功率计测试输入功率，叠加适配器损耗后，DS218+硬盘休眠后功耗只有5.6W，而工作功耗在17W到22W之间波动，作为对比，一般的白炽灯功率为40W左右。</p>
+<p><img src="/images/pasted-50.png" alt="upload"><br>办公室背景噪音42分贝，DS218+默认模式下，即便对着出风口，也之后48分贝左右，风噪属于可以忽略的程度。</p>
+<p><img src="/images/pasted-51.png" alt="upload"><br>室温23度，工作状态下，机身温度一直维持在30度以下，20W功耗对于9cm散热风扇根本毫无压力。</p>
+<p><img src="/images/pasted-52.png" alt="upload"><br>写入性能测试</p>
+<p><img src="/images/pasted-53.png" alt="upload"><br>读取性能测试</p>
+<p>今年的DS218系列，全系都达到了读写分别113MB/s和112MB/s的性能，DS218+则是支持AES-NI硬件加密，即便加密传输也能达到113MB/s和112MB/s的性能，足以吃尽常见的台式机机械硬盘和千兆网口。实测，iSCSI都还没开的情况下，通过简单的添加网络磁盘映射，速度即可达到官方的预设值。</p>
+<p>使用fastcopy在NAS和电脑之间传输3.1G的ISO文件，写入平均115MB/s，峰值111.9MB/s；读取平均91.2MB/s，峰值108MB/s。DS218+搭配4T的希捷NAS专用盘还有很大余力，反倒是112MB/s这个速度，其实已经超过了大部分2T以下机械硬盘的写入极限，这些设备根本无法吃尽这个级别NAS的读写性能了。另外，千兆网线也已经成为性能瓶颈，需要用多链路聚合才能解决。</p>
+<p>实际使用中，对DS218+上的文件读写已经和本地硬盘存取分别大不大，甚至是在网络硬盘上解压文件到本地都无甚压力，全家或者整个团队的电脑安装文件完全可以放在NAS上，网络映射之后直接进行安装，可以为设备维护省去很多维护麻烦。</p>
+<p>性能上，Plus系列比play系列更注重性能，这一代的DS218+搭载的是英特尔的Celeron J3355，双核2.0G，最高睿频2.5G，运算性能已经是名副其实的PC级别了。本来以为NAS上CPU性能的优势，很难体现出来，但实际使用中，图片上传之后的缩率图渲染速度，比以前的DS216play快了好几个数量级，多开套件和后台在进行备份或者存取时，性能的差距就会无情地展现出来。</p>
+<h2 id="文件管理与Btrfs文件系统"><a href="#文件管理与Btrfs文件系统" class="headerlink" title="文件管理与Btrfs文件系统"></a>文件管理与Btrfs文件系统</h2><p>安全性上，除了群晖的奇快的安全更新，其核心是包括Drive、Snapshot Replication、Cloud Sync等多个套件。</p>
+<p><img src="/images/pasted-54.png" alt="upload"><br>Snapshot Replication套件，磁盘快照</p>
+<p>在DSM 6.2中，新的Drive套件整合了以前Cloud Station Drive的功能。其可以理解为大家熟悉的同步盘，只是这次的云服务器变成了用户自己的NAS。而PC端中提供的Cloud Station Backup工具，用于把电脑数据备份到NAS上用。其备份支持32个备份回溯，从而达到付费云盘的效果，而且是和windows平台无缝衔接，在文件属性中能直接查看“以前版本”。这是所有数据管理用户的痛点，真的用过就回不去了，是个真正的杀手级功能。</p>
+<p><img src="/images/pasted-55.png" alt="upload"><br>Cloud Sync套件</p>
+<p>而Cloud Sync是后来加入的功能，能把NAS上的数据同步到国内外的网盘中，支持定时、同步方向等设定。虽然国内基本就只剩百度而且还限速，但好歹是多了一重保险。</p>
+<p>另外，DS218+在EXT4之外，还提供了Btrfs文件系统（B-tree file system）的支持，能提供额外的文件保护和自动修复功能。Btrfs是Linux kernel主线提供的文件系统中，唯一同时提供metadata及data checksum（总和校验码）的文件系统，可以通过文件校验再提供更强的数据保护功能。</p>
+<p>说到这里，要科普一下“静默数据损坏”这个大多数人都忽略的概念。硬盘运作时的震动、数据写入位置错误或不完全写入等情况，都有可能造成的数据损毁。但直到下次使用之前，系统都无法确认文件是否完好，这种损毁被称为“静默数据损坏”。</p>
+<p>和以前的文件系统不同，Btrfs提供的metadata和data checksum校验功能，通过比对数据checksum校验码就能发现静默数据损坏。一旦发现checksum 不一致，通过与另一个版本的资料重新比对checksum，从而在阵列中自动修复静默损坏的数据。</p>
+<p><img src="/images/pasted-56.png" alt="upload"><br>Snapshot Replication套件，快照频率设定</p>
+<p>除了安全性外，Btrfs文件系统还有一个Cow（copy-on-write，写时复制）的特性。其只有在修改时才会进行数据写入，平时我们最频繁的复制、粘贴时并不会真正的复制。平时数据管理都知道，整盘备份就需要所有文件复制一遍，其非常消耗时间而浪费空间。</p>
+<p>但Btrfs文件系统中进行快照备份时，只会进行增量备份，所有的重复文件都无需复制，从而达到秒速和高度节省容量的效果。DS218+的Snapshot Replication套件中，可以提供1024 个共享文件夹备份和65000个系统快照，估计即便是大部分企业团队都不可能用得完。针对企业用户，iSCSI的LUN也可以为虚拟机的存储进行快照。</p>
+<p>PC/Mac用户在被保护的文件夹内可以找到快照生成的镜像文件，通过Snapshot Replication套件查看旧版本文件，无需还原操作或特定工具。这个Btrfs文件系统，除了没办法像以前EXT4那样用Ubuntu系统直接恢复和处理硬盘内容外，确实也找不到什么缺陷了。</p>
+<p>当面向企业服务，就避不开文件共享、权限设定和各种加密设定，这些都是群晖DSM文件部分复杂度高的主因。官方加入了群组权限设定，读写、只读权限控制、加密、存储空间分配、分享文件的时效、甚至不同时段的上传下载速度都能控制。功能上对于大多数中小团队来说同样已经“超纲”了。</p>
+<h2 id="企业协同办公与实际体验"><a href="#企业协同办公与实际体验" class="headerlink" title="企业协同办公与实际体验"></a>企业协同办公与实际体验</h2><p>DSM 6.2 Beta虽然只是一个小版本号升级，但从完成协同办公领域的围拢后，群晖NAS的性质出现了变化。以前的NAS，都是在尽力减少和终端用户的交互，无论是网络硬盘映射、备份快照、文件同步和分享，所有这些功能都在尽量避免操作和交互。</p>
+<p><img src="/images/pasted-57.png" alt="upload"></p>
+<p>但以DSM 5.2新增Note Station笔记应用为契机，随后陆续推出的聊天套件chat、带有文档和电子表格编辑功能的Synology office、calendar日历、增强之后的MailPlus，以及在DSM 6.2中直接整合office、File Station文件管理等若干功能的Drive套件，以及AI相册Moments，这一批套件都是前台交互型产品。</p>
+<p>之前从来没有硬件厂商试过像群晖这样大举进军过整个办公领域。如果对这件事没什么概念的话，可以稍微回忆一下微软office、各路mail、outlook/谷歌日历、谷歌相册、QQ/微信/line、印象笔记/云笔记这些巨头的体量，它们每一个都是重度产品，而且都已经非常成熟。</p>
+<p><img src="/images/pasted-58.png" alt="upload"><br>MailPlus套件</p>
+<p>这系列套件中，最顺理成章的是MailPlus和Calendar。在传统的企业工作流程中，邮件和日程安排就是工作开始的第一个环节。MailPlus是原来邮件套件的强化版，重点增加了和Calendar、Chat、Drive等兄弟套件的联系。它们解决的最大痛点是解决普通企业邮箱服务没有集成日历功能，而微软Exchange服务报价高昂却又访问缓慢的问题。</p>
+<p>MailPlus除了界面干净没有广告外，功能和外观都和常见的QQ、网易邮箱无异，批量管理、标签、归档分类等常见功能都在，其最大的亮点是有自己的浏览器推送、能够和Chat直接连通，能自动识别邮件中的会议时间并提供了快速生成日历日程的功能，是相当简单暴力的痛点功能优化。</p>
+<p><img src="/images/pasted-59.png" alt="upload"><br>Calender套件</p>
+<p>Calendar功能很完备但也很常规，界面比MailPlus还要简洁，日程和任务生成、事件拖动、提醒、地点等常用设定都有，也有基于用户内部账号系统的群组添加功能，支持CalDAV，可以直接接入苹果平台的系统日历当中，甚至能直接导入hotmail、Gmail等邮箱的联系人。其最大的改进是提供了附件插入的能力，在日历和任务中的事件可以直接添加附件进行补充，对笔者这种稿农来说很实用。</p>
+<p><img src="/images/pasted-60.png" alt="upload"><br>Chat套件</p>
+<p>邮件和任务安排之后，下一个要用到的部件是沟通工具Chat。Chat最与众不同的是，它是运行在用户自己NAS上的聊天软件，所有的功能运算和数据都是源自NAS并支持加密，对于沟通内容有保密需求的企业，这很可能就是投入最低，部署容易的私有聊天服务提供了。</p>
+<p>Chat是这些套件中，功能上超越市面现有对手最多的套件。除了网页端、跨平台软件和app覆盖，其支持富媒体插入，还能在信息流中订选/备注信息，在聊天中直接做书签，支持稍后阅读，能把对话信息当做待办清单处理，活动相关的日期同样可以快速插入到日历。而信息提醒、定时信息、投票功能，这些简直就是长久用微信和QQ办公的白领们苦等多年的功能。</p>
+<p><img src="/images/pasted-61.png" alt="upload"><br>Drive套件主页</p>
+<p>而压轴的是在DSM 6.2中，开始大跨步整合的Drive套件。其基于文件，囊括了原来Synology Office、File Station（文件管理器）和Cloud Station（私有云同步工具）三个套件的大部分功能，是群晖系列中第一个交互功能如此复杂的超大型套件。</p>
+<p>其基础支架类似Google Drive，基本就是个带云同步的文件管理器，支持文件拖拽直接上传、标签、排序、筛选、多重文件夹管理、分享等常见功能。当中的进阶功能包括自带历史记录、囊括到文件内部的全局搜索、团队共享文件夹等，这些都是国内产品无法提供的优势：先不说简单的同步盘功能现在在国内只剩下坚果云和百度两家（一个有月流量限制，一个同步策略还不完善）；网盘的内文全局搜索，估计得等上一段时日才会出现；而团队共享，这个更是云盘在上波事件中，最早被阉割的功能。</p>
+<p><img src="/images/pasted-62.png" alt="upload"><br>模板库</p>
+<p><img src="/images/pasted-63.png" alt="upload"><br>Drive内置的文档功能</p>
+<p>在文件和同步之后，Drive套件的另一个核心，是其整合了具备文档、电子表格和幻灯片（该版本新增）功能的Office 3.0。在Drive中可以直接新建办公文件进行编辑，文档、电子表格都有十数个常用模板。当中文字编辑、附件插入、批注、表格、图片和形状插入、甚至目录大纲功能都有。</p>
+<p><img src="/images/pasted-64.png" alt="upload"><br>Drive内置的电子表格功能</p>
+<p>电子表格中，单元格隐藏、冻结、表格/图片插入、单元格格式、列表自动生成、选择粘贴等常用功能都在，比较深的包括数据过滤、验证和自定义范围名称等功能。而幻灯片作为最新加入的功能，除了图文、形状插入、幻灯片播放控制等基础功能外，现在没有模板和过场动画等细节的功能。</p>
+<p><img src="/images/pasted-65.png" alt="upload"><br>文档分享时的权限控制</p>
+<p>这三个生产力子功能，其整体功能和安卓和苹果平台的开源office产品接近。它们的最核心优势是支持多人事实编辑和自带多版本记录，不同用户可以同时对文件进行编辑和讨论，而且可以直接进行分享和权限控制，临时需要和其他组或者客户进行文档交互时，批注和沟通会高效很多，而云表单非常适合多人的简单数据统计等场合。它们体验上最大的问题，是群晖并没有直接支持word、excel、PowerPoint文件的编辑，而是把这些文件转换成了自己的格式后再编辑，要导出时才会生成兼容办公三巨头格式的通用文件。</p>
+<p>对上面提到的5个需要另开页面的套件和3个办公工具，它们统一的瓶颈，是浏览器页面载入和异地访问的速度。它们打开文件的速度和传统的office还有明显差距，但所幸的是群晖用的语言构架，在框架载入之后，大部分编辑操作都不会受限于网速和服务器，响应速度上表现还可以。</p>
+<p>以beta版来说，群晖这些新套件的完成度已经很高了，使用过程中没遇到过崩溃，也几乎没有遇到bug和无响应的状态。如果整个团队都转向群晖的这套工具，工作效率会有显著提升。但即便群晖尽力优化，但转移成本还是比较高。至于群晖用私有云安全性、文件回溯、办公套件相互嵌入，以及企业应用整体成本上的优势，最后能不能打赢这么多办公巨头，还是个未知之数。</p>
+<p><img src="/images/pasted-66.png" alt="upload"><br>Moments相册</p>
+<p>在协同办公之外，AI相册Moments是群晖首个在AI领域展现成果的作品。其完全独立于原来DS Photo套件（照片管理工具）的工具，用途不再是简单的备份和分享，而是AI图像识别辅助管理。现在支持人脸和简单的物体AI识别，简单的关键词搜索也能筛选出特定的图片。</p>
+<p><img src="/images/pasted-67.png" alt="upload"><br>普通缩略图和超分辨率重建后的缩率图</p>
+<p>另一个深度学习的成果，被用在了在移动设备缩略图的“超分辨率重建”上，Moments会根据设备网速和实际情况，利用硬件加速重新构建图片细节（暂时只支持安卓平台）。</p>
+<p>其没有太多的用户交互，上传照片之后，会自动根据人脸、地点、主题等进行图片分类，效果和用途都和苹果iCloud相册非常类似。但不同的是，在私有云NAS上面，图片存储数量是用户自行控制的，也没有额外收费。</p>
+<p>实际使用中，其对人脸的识别远出想象地好，合照中密密麻麻的人头都能自动归类，毕竟是华人企业，对亚洲人的面部特征抓取还是要精准一些。不过系统底层默认按照日期分文件存放图片的设定，反倒对普通的用户管理带来了麻烦，最后稳定版之后会否修正，以及会否和原有的DS Photo套件共存，这些还是得等正式版系统出来之后才能确认。</p>
+<p>总结</p>
+<p>在家用和中小型企业市场，无论是智能设备数目暴涨，还是5G的即将到来，在能遇见的未来几年内，私有云会是个无法阻挡的潮流，这些都是对NAS市场的利好因素。对于个人用户，一个靠谱易用的NAS，可以为用户省下很多文件保管、分享和管理的麻烦，比起折腾Google Drive和Dropbox要省事多了。</p>
+<p>在群晖重点押注的办公领域，处在顶端的大型企业有自己定制的办公系统，而刚起步的企业人数还很少，虽然邮件、日历、聊天工具、数据等都分散在不同的提供商中，但免费的云存储、团队协同、企业知识库等产品，也能勉强满足简单的需求。</p>
+<p>但大量中小企业的办公需求，被夹在个人和大型企业之间，形成了巨大的市场缺口。他们不但是群晖DSM 6.2的协同办公套件，最开始的预设目标人群，而且还是群晖DS218+最大的受众群。</p>
+
+            </div>
+            <hr>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的认可是我们前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>分享您的见闻</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">转载请注明: </span>
+                    <a href="https://nas.kstu.vip" class="b-link-green">Nas应用站 - nas.kstu.vip</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2019/01/01/新生产力工具，群晖DS218-与DSM-6-2科普评测/" class="b-link-green">新生产力工具，群晖DS218+与DSM 6.2科普评测</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="card">
+                <a href="/2019/01/02/售后联系方式/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="售后联系方式">
+                        
+                        <span class="card-title">售后联系方式</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">凡是在本渠道购买的所有群晖Nas机器都由我们负责售后和技术服务支持请持续关注本站 本站将一直更新各种使用技巧和解决办法如需要其他高级技术服务支持 也可以联系售后做这方面的报价一些如增加群晖Nas监控摄像等设备需要额外的授权码才能增加每种型号</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-01-02
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/站点公告/" class="post-category" target="_blank">
+                                    站点公告
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/售后服务/" target="_blank">
+                        <span class="chip bg-color">售后服务</span>
+                    </a>
+                    
+                    <a href="/tags/联系方式/" target="_blank">
+                        <span class="chip bg-color">联系方式</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="card">
+                <a href="/2018/12/31/群晖Nas的node外网功能/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="构建群晖note的外网独立页面">
+                        
+                        <span class="card-title">构建群晖note的外网独立页面</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">到别人的电脑上使用群晖note不好下载安装那么就会用到网页版本网页版本其实不一定要从Nas后台登录然后再选择功能如果你家或者公司的Nas的公网IP恰好有没有关闭443端口打开群晖自带的DDNS功能打开申请证书服务使用https那么恭喜你外网</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-31
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/note/" class="post-category" target="_blank">
+                                    note
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/群晖/" target="_blank">
+                        <span class="chip bg-color">群晖</span>
+                    </a>
+                    
+                    <a href="/tags/Nas/" target="_blank">
+                        <span class="chip bg-color">Nas</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Nas应用站 - nas.kstu.vip<br />'
+            + '作者: Kim Studio<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者Kim所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+             感谢<a href="https://blinkfox.github.io/" target="_blank">Blinkfox</a>提供的主题，本站是由&copy;KimHuang修改后搭建的
+                        <a href="https://nas.kstu.vip" target="_blank">Nas应用知识服务</a>站点.
+        </div>
+        <script type="text/javascript" src="//js.users.51.la/19840775.js"></script>
+        <div class="col s12 m4 l4 social-link"><a href="https://shop60517656.taobao.com/" class="tooltipped" target="_blank" data-tooltip="访问淘宝店铺" data-position="top" data-delay="50">
+    <i class="fa fa-shopping-cart"></i>
+</a>
+<a href="mailto:kim@kstu.vip" class="tooltipped" target="_blank" data-tooltip="邮件联系" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="经理QQ: 181036716" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+
+<script src="/libs/others/clicklove.js"></script>
+
+<script src="/js/matery.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+</body>
+</html>
