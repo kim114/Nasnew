@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-02-16T09:01:28.078Z</updated>
+  <updated>2019-02-17T02:54:34.388Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NAS 型号支持 Moments 的 AI 计算功能</title>
+    <link href="https://nas.kstu.vip/2019/02/17/NAS-%E5%9E%8B%E5%8F%B7%E6%94%AF%E6%8C%81-Moments-%E7%9A%84-AI-%E8%AE%A1%E7%AE%97%E5%8A%9F%E8%83%BD/"/>
+    <id>https://nas.kstu.vip/2019/02/17/NAS-型号支持-Moments-的-AI-计算功能/</id>
+    <published>2019-02-17T02:53:15.000Z</published>
+    <updated>2019-02-17T02:54:34.388Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Synology Moments 是面向个人和家庭用户打造的照片解决方案，提供直观的方法来管理在日常生活中捕捉的所有个人照片，并详细记录所有特殊时刻。此个人照片存储配备 AI 计算功能（如人脸识别、主题识别、自动校色和旋转调整以及 Moments
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>群晖218j新机安装方法</title>
@@ -239,9 +261,9 @@
       <category term="PHP" scheme="https://nas.kstu.vip/categories/PHP/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
   </entry>
   
@@ -269,11 +291,11 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Windows/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
     
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
-      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
     
@@ -301,9 +323,9 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="手机端" scheme="https://nas.kstu.vip/tags/%E6%89%8B%E6%9C%BA%E7%AB%AF/"/>
     
@@ -361,11 +383,11 @@
       <category term="微信技巧" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/%E5%BE%AE%E4%BF%A1%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
     
       <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
     
@@ -395,9 +417,9 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
     
@@ -427,9 +449,9 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="视频电影" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91%E7%94%B5%E5%BD%B1/"/>
     
@@ -547,9 +569,9 @@
       <category term="站点公告" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%91%8A/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="价格" scheme="https://nas.kstu.vip/tags/%E4%BB%B7%E6%A0%BC/"/>
     
@@ -575,34 +597,11 @@
     </summary>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
       <category term="git" scheme="https://nas.kstu.vip/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SSL证书没有绿锁您与此网站建立的连接并非完全安全解决办法</title>
-    <link href="https://nas.kstu.vip/2019/01/04/SL%E8%AF%81%E4%B9%A6%E6%B2%A1%E6%9C%89%E7%BB%BF%E9%94%81%E6%82%A8%E4%B8%8E%E6%AD%A4%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%8B%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%B9%B6%E9%9D%9E%E5%AE%8C%E5%85%A8%E5%AE%89%E5%85%A8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    <id>https://nas.kstu.vip/2019/01/04/SL证书没有绿锁您与此网站建立的连接并非完全安全解决办法/</id>
-    <published>2019-01-04T14:28:45.000Z</published>
-    <updated>2019-02-01T18:27:16.922Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;一部分朋友在使用群晖Nas搭建站点的时候可能会出现&lt;br&gt;申请好证书并且配置好&lt;code&gt;https&lt;/code&gt;服务，到浏览器中可以使用&lt;code&gt;https&lt;/code&gt;访问了。&lt;br&gt;但是没有绿色的锁标，点看查看提示：与此网站建立的连接并非完全安全解决办法。&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
