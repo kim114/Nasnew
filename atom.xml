@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-02-17T02:54:34.388Z</updated>
+  <updated>2019-02-17T08:42:13.509Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>群晖218j功能</title>
+    <link href="https://nas.kstu.vip/2019/02/17/%E7%BE%A4%E6%99%96218j%E5%8A%9F%E8%83%BD/"/>
+    <id>https://nas.kstu.vip/2019/02/17/群晖218j功能/</id>
+    <published>2019-02-17T08:38:14.000Z</published>
+    <updated>2019-02-17T08:42:13.509Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/images/pasted-113.png&quot; alt=&quot;upload&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/pasted-114.png&quot; alt=&quot;upload&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/pasted-115.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>NAS 型号支持 Moments 的 AI 计算功能</title>
@@ -143,11 +165,11 @@
       <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
     
     
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
     
       <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
   </entry>
   
@@ -199,11 +221,11 @@
       <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
     
     
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
     
       <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="宝塔面板" scheme="https://nas.kstu.vip/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
@@ -231,9 +253,9 @@
       <category term="nas应用" scheme="https://nas.kstu.vip/categories/nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
       <category term="webstation" scheme="https://nas.kstu.vip/tags/webstation/"/>
     
@@ -261,9 +283,9 @@
       <category term="PHP" scheme="https://nas.kstu.vip/categories/PHP/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
   </entry>
   
@@ -291,11 +313,11 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Windows/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
     
       <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
     
@@ -323,9 +345,9 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="手机端" scheme="https://nas.kstu.vip/tags/%E6%89%8B%E6%9C%BA%E7%AB%AF/"/>
     
@@ -383,11 +405,11 @@
       <category term="微信技巧" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/%E5%BE%AE%E4%BF%A1%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
     
@@ -417,9 +439,9 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
     
@@ -449,9 +471,9 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="视频电影" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91%E7%94%B5%E5%BD%B1/"/>
     
@@ -569,39 +591,11 @@
       <category term="站点公告" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%91%8A/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="价格" scheme="https://nas.kstu.vip/tags/%E4%BB%B7%E6%A0%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用群晖Nas的git拉取远程仓库代码</title>
-    <link href="https://nas.kstu.vip/2019/01/04/%E4%BD%BF%E7%94%A8%E7%BE%A4%E6%99%96Nas%E7%9A%84git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%BB%A3%E7%A0%81/"/>
-    <id>https://nas.kstu.vip/2019/01/04/使用群晖Nas的git拉取远程仓库代码/</id>
-    <published>2019-01-04T14:32:00.000Z</published>
-    <updated>2019-02-01T18:27:16.922Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;用群晖&lt;code&gt;Nas&lt;/code&gt;做站点，可以从远端拉取数据到&lt;code&gt;Nas&lt;/code&gt;上&lt;br&gt;&lt;code&gt;Mac&lt;/code&gt;上操作非常简单，用终端工具进到Nas需要拉取的目录&lt;code&gt;git
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="git" scheme="https://nas.kstu.vip/tags/git/"/>
     
   </entry>
   
