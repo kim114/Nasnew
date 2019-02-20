@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-02-20T12:03:31.123Z</updated>
+  <updated>2019-02-20T12:09:56.961Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>火绒弹窗软件导致win10创建重命名删除不刷新页面问题</title>
     <link href="https://nas.kstu.vip/2019/02/20/%E7%81%AB%E7%BB%92%E5%BC%B9%E7%AA%97%E8%BD%AF%E4%BB%B6%E5%AF%BC%E8%87%B4win10%E5%88%9B%E5%BB%BA%E9%87%8D%E5%91%BD%E5%90%8D%E5%88%A0%E9%99%A4%E4%B8%8D%E5%88%B7%E6%96%B0%E9%A1%B5%E9%9D%A2%E9%97%AE%E9%A2%98/"/>
     <id>https://nas.kstu.vip/2019/02/20/火绒弹窗软件导致win10创建重命名删除不刷新页面问题/</id>
-    <published>2019-02-20T11:59:02.000Z</published>
-    <updated>2019-02-20T12:03:31.123Z</updated>
+    <published>2019-02-20T11:59:00.000Z</published>
+    <updated>2019-02-20T12:09:56.961Z</updated>
     
     <summary type="html">
     
@@ -37,6 +37,10 @@
     
     </summary>
     
+      <category term="其他知识" scheme="https://nas.kstu.vip/categories/%E5%85%B6%E4%BB%96%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="win10" scheme="https://nas.kstu.vip/tags/win10/"/>
     
   </entry>
   
@@ -44,8 +48,8 @@
     <title>3月优惠活动</title>
     <link href="https://nas.kstu.vip/2019/02/17/%E7%BE%A4%E6%99%96218j%E5%8A%9F%E8%83%BD/"/>
     <id>https://nas.kstu.vip/2019/02/17/群晖218j功能/</id>
-    <published>2019-02-17T08:38:14.000Z</published>
-    <updated>2019-02-18T10:49:17.485Z</updated>
+    <published>2019-02-17T08:38:00.000Z</published>
+    <updated>2019-02-20T12:07:56.530Z</updated>
     
     <summary type="html">
     
@@ -60,14 +64,20 @@
     </summary>
     
     
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+      <category term="活动" scheme="https://nas.kstu.vip/tags/%E6%B4%BB%E5%8A%A8/"/>
+    
   </entry>
   
   <entry>
     <title>NAS 型号支持 Moments 的 AI 计算功能</title>
     <link href="https://nas.kstu.vip/2019/02/17/NAS-%E5%9E%8B%E5%8F%B7%E6%94%AF%E6%8C%81-Moments-%E7%9A%84-AI-%E8%AE%A1%E7%AE%97%E5%8A%9F%E8%83%BD/"/>
     <id>https://nas.kstu.vip/2019/02/17/NAS-型号支持-Moments-的-AI-计算功能/</id>
-    <published>2019-02-17T02:53:15.000Z</published>
-    <updated>2019-02-17T02:54:34.388Z</updated>
+    <published>2019-02-17T02:53:00.000Z</published>
+    <updated>2019-02-20T12:08:16.616Z</updated>
     
     <summary type="html">
     
@@ -81,6 +91,12 @@
     
     </summary>
     
+      <category term="nas技术" scheme="https://nas.kstu.vip/categories/nas%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
   </entry>
   
@@ -88,8 +104,8 @@
     <title>群晖218j新机安装方法</title>
     <link href="https://nas.kstu.vip/2019/02/16/%E7%BE%A4%E6%99%96218j%E6%96%B0%E6%9C%BA%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
     <id>https://nas.kstu.vip/2019/02/16/群晖218j新机安装方法/</id>
-    <published>2019-02-16T08:52:49.000Z</published>
-    <updated>2019-02-16T09:01:28.078Z</updated>
+    <published>2019-02-16T08:52:00.000Z</published>
+    <updated>2019-02-20T12:08:42.302Z</updated>
     
     <summary type="html">
     
@@ -103,6 +119,12 @@
     
     </summary>
     
+      <category term="nas技术" scheme="https://nas.kstu.vip/categories/nas%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
   </entry>
   
