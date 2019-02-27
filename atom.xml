@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-02-20T12:09:56.961Z</updated>
+  <updated>2019-02-27T08:12:56.383Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>手机同步文件方案</title>
+    <link href="https://nas.kstu.vip/2019/02/27/%E6%89%8B%E6%9C%BA%E5%90%8C%E6%AD%A5%E6%96%87%E4%BB%B6%E6%96%B9%E6%A1%88/"/>
+    <id>https://nas.kstu.vip/2019/02/27/手机同步文件方案/</id>
+    <published>2019-02-27T07:52:00.000Z</published>
+    <updated>2019-02-27T08:12:56.383Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;之前也找过一些方法来镜像同步文件&lt;br&gt;发现同步都没有成功&lt;/p&gt;
+&lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;手机软件使用&lt;code&gt;DS
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>火绒弹窗软件导致win10创建重命名删除不刷新页面问题</title>
@@ -580,35 +603,6 @@
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="购物选择" scheme="https://nas.kstu.vip/tags/%E8%B4%AD%E7%89%A9%E9%80%89%E6%8B%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什么是Nas？</title>
-    <link href="https://nas.kstu.vip/2019/01/05/%E4%BB%80%E4%B9%88%E6%98%AFNas%EF%BC%9F/"/>
-    <id>https://nas.kstu.vip/2019/01/05/什么是Nas？/</id>
-    <published>2019-01-05T11:50:00.000Z</published>
-    <updated>2019-02-01T18:27:16.922Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;你是否需要一台NAS&quot;&gt;&lt;a href=&quot;#你是否需要一台NAS&quot; class=&quot;headerlink&quot; title=&quot;你是否需要一台NAS?&quot;&gt;&lt;/a&gt;你是否需要一台NAS?&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;在众多电子设备中 手机 电脑 平板 数码相机
-        
-      
-    
-    </summary>
-    
-      <category term="站点公告" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%91%8A/"/>
-    
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="采购选择" scheme="https://nas.kstu.vip/tags/%E9%87%87%E8%B4%AD%E9%80%89%E6%8B%A9/"/>
     
   </entry>
   
