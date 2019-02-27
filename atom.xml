@@ -40,6 +40,29 @@
   </entry>
   
   <entry>
+    <title>群晖之内网唤醒方案</title>
+    <link href="https://nas.kstu.vip/2019/02/24/%E7%BE%A4%E6%99%96%E4%B9%8B%E5%86%85%E7%BD%91%E5%94%A4%E9%86%92%E6%96%B9%E6%A1%88/"/>
+    <id>https://nas.kstu.vip/2019/02/24/群晖之内网唤醒方案/</id>
+    <published>2019-02-24T02:45:32.000Z</published>
+    <updated>2019-02-27T09:30:56.071Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;内网唤醒其实还是蛮简单&lt;br&gt;外网唤醒就有点需要硬件的条件限制&lt;br&gt;至少我的是小米路由器没法开通apr远程唤醒端口&lt;br&gt;没有ARP绑定功能的路由器就暂时别想了外网唤醒了&lt;/p&gt;
+&lt;h2 id=&quot;打开唤醒设置&quot;&gt;&lt;a href=&quot;#打开唤醒设置&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>火绒弹窗软件导致win10创建重命名删除不刷新页面问题</title>
     <link href="https://nas.kstu.vip/2019/02/20/%E7%81%AB%E7%BB%92%E5%BC%B9%E7%AA%97%E8%BD%AF%E4%BB%B6%E5%AF%BC%E8%87%B4win10%E5%88%9B%E5%BB%BA%E9%87%8D%E5%91%BD%E5%90%8D%E5%88%A0%E9%99%A4%E4%B8%8D%E5%88%B7%E6%96%B0%E9%A1%B5%E9%9D%A2%E9%97%AE%E9%A2%98/"/>
     <id>https://nas.kstu.vip/2019/02/20/火绒弹窗软件导致win10创建重命名删除不刷新页面问题/</id>
@@ -236,9 +259,9 @@
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
   </entry>
   
@@ -262,9 +285,9 @@
     </summary>
     
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
   </entry>
   
@@ -292,9 +315,9 @@
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
       <category term="宝塔面板" scheme="https://nas.kstu.vip/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
@@ -384,9 +407,9 @@
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
     
       <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
     
@@ -474,11 +497,11 @@
       <category term="微信技巧" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/%E5%BE%AE%E4%BF%A1%E6%8A%80%E5%B7%A7/"/>
     
     
+      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
+    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
     
       <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
     
@@ -575,34 +598,6 @@
       <category term="安全" scheme="https://nas.kstu.vip/tags/%E5%AE%89%E5%85%A8/"/>
     
       <category term="漏洞" scheme="https://nas.kstu.vip/tags/%E6%BC%8F%E6%B4%9E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何选择适合自己的Nas</title>
-    <link href="https://nas.kstu.vip/2019/01/05/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84Nas/"/>
-    <id>https://nas.kstu.vip/2019/01/05/如何选择适合自己的Nas/</id>
-    <published>2019-01-05T11:58:00.000Z</published>
-    <updated>2019-02-01T18:27:16.923Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;选择说明：&quot;&gt;&lt;a href=&quot;#选择说明：&quot; class=&quot;headerlink&quot; title=&quot;选择说明：&quot;&gt;&lt;/a&gt;选择说明：&lt;/h2&gt;&lt;p&gt;轻量级用户: 1~2盘位&lt;br&gt;此级别的用户需要备份客户机(台式机/笔记本/手机)上的小规模的文件,
-        
-      
-    
-    </summary>
-    
-      <category term="站点公共" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%85%B1/"/>
-    
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="购物选择" scheme="https://nas.kstu.vip/tags/%E8%B4%AD%E7%89%A9%E9%80%89%E6%8B%A9/"/>
     
   </entry>
   
