@@ -21,7 +21,7 @@
       <link href="/2019/02/24/%E7%BE%A4%E6%99%96%E4%B9%8B%E5%86%85%E7%BD%91%E5%94%A4%E9%86%92%E6%96%B9%E6%A1%88/"/>
       <url>/2019/02/24/%E7%BE%A4%E6%99%96%E4%B9%8B%E5%86%85%E7%BD%91%E5%94%A4%E9%86%92%E6%96%B9%E6%A1%88/</url>
       
-        <content type="html"><![CDATA[<p>内网唤醒其实还是蛮简单<br>外网唤醒就有点需要硬件的条件限制<br>至少我的是小米路由器没法开通apr远程唤醒端口<br>没有ARP绑定功能的路由器就暂时别想了外网唤醒了</p><h2 id="打开唤醒设置"><a href="#打开唤醒设置" class="headerlink" title="打开唤醒设置"></a>打开唤醒设置</h2><p>首先打控制面板-&gt;硬件和电源-&gt;勾选启用局域网的局域网唤醒<br><img src="/images/pasted-128.png" alt="upload"></p><h2 id="手机唤醒"><a href="#手机唤醒" class="headerlink" title="手机唤醒"></a>手机唤醒</h2><h3 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h3><p>手机唤醒的话下载软件<br><code>WolOn</code>软件进行唤醒<br>这个软件目前常用的安卓应用商店是没有的<br>需要到<code>google play</code>进行下载</p><h3 id="配置软件"><a href="#配置软件" class="headerlink" title="配置软件"></a>配置软件</h3><p><img src="/images/pasted-129.png" alt="upload"><br><code>lan wol</code>是局域网的唤醒设置<br><code>wan wol</code>是外网唤醒的设置<br>右下角的加号增加<code>nas</code>设备</p><h4 id="局域网非常简单"><a href="#局域网非常简单" class="headerlink" title="局域网非常简单"></a>局域网非常简单</h4><p><img src="/images/pasted-130.png" alt="upload"><br>第一项自定义名称<br>第二项绑定好路由器IP的Mac网卡地址<br>第三项是可以不用填写<code>wifi</code>取消掉就好<br>第四项比如<code>192.168.1.255</code>最后一位填入255就好<br>第五项选择端口是7还是9 默认是9比较好些</p><h4 id="外网唤醒"><a href="#外网唤醒" class="headerlink" title="外网唤醒"></a>外网唤醒</h4><p>因为我没有测试过所以就讲个大概<br>有条件的朋友自己尝试一下<br>首先需要设置地址为你<code>nas</code>服务器的<code>ddns</code>域名<br>然后转发9端口 这个的条件是具备公网IP<br>地址出填写域名即可<br>端口号是可以根据自己设置的填写<br>其他都是一样的实在<br>一切的前提都是你的路由器支持<code>ARP</code>绑定功能</p><h2 id="网页唤醒"><a href="#网页唤醒" class="headerlink" title="网页唤醒"></a>网页唤醒</h2><p>网页地址<a href="https://www.depicus.com/wake-on-lan/woli" target="_blank" rel="noopener">https://www.depicus.com/wake-on-lan/woli</a><br>实在方面其实都差不多<br>只不过<code>255.255.255.255</code>不需要修改<br>我之前尝试修改过就不成功了</p><h2 id="其他硬件"><a href="#其他硬件" class="headerlink" title="其他硬件"></a>其他硬件</h2><p>当然是花生壳的远程葵花硬件<br>一劳永逸的办法</p>]]></content>
+        <content type="html"><![CDATA[<p>内网唤醒其实还是蛮简单<br>外网唤醒就有点需要硬件的条件限制<br>至少我的是小米路由器没法开通apr远程唤醒端口<br>没有ARP绑定功能的路由器就暂时别想了外网唤醒了</p><h2 id="打开唤醒设置"><a href="#打开唤醒设置" class="headerlink" title="打开唤醒设置"></a>打开唤醒设置</h2><p>首先打控制面板-&gt;硬件和电源-&gt;勾选启用局域网的局域网唤醒<br><img src="/images/pasted-128.png" alt="upload"></p><h2 id="手机唤醒"><a href="#手机唤醒" class="headerlink" title="手机唤醒"></a>手机唤醒</h2><h3 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h3><p>手机唤醒的话下载软件<br><code>WolOn</code>软件进行唤醒<br>这个软件目前常用的安卓应用商店是没有的<br>需要到<code>google play</code>进行下载<br>当然给图不给种的事情我们是做不出来的<br><a href="/download/WolOn Wake on LAN_v2.3.1_apkpure.com.apk">下载地址</a></p><h3 id="配置软件"><a href="#配置软件" class="headerlink" title="配置软件"></a>配置软件</h3><p><img src="/images/pasted-129.png" alt="upload"><br><code>lan wol</code>是局域网的唤醒设置<br><code>wan wol</code>是外网唤醒的设置<br>右下角的加号增加<code>nas</code>设备</p><h4 id="局域网非常简单"><a href="#局域网非常简单" class="headerlink" title="局域网非常简单"></a>局域网非常简单</h4><p><img src="/images/pasted-130.png" alt="upload"><br>第一项自定义名称<br>第二项绑定好路由器IP的Mac网卡地址<br>第三项是可以不用填写<code>wifi</code>取消掉就好<br>第四项比如<code>192.168.1.255</code>最后一位填入255就好<br>第五项选择端口是7还是9 默认是9比较好些</p><h4 id="外网唤醒"><a href="#外网唤醒" class="headerlink" title="外网唤醒"></a>外网唤醒</h4><p>因为我没有测试过所以就讲个大概<br>有条件的朋友自己尝试一下<br>首先需要设置地址为你<code>nas</code>服务器的<code>ddns</code>域名<br>然后转发9端口 这个的条件是具备公网IP<br>地址出填写域名即可<br>端口号是可以根据自己设置的填写<br>其他都是一样的实在<br>一切的前提都是你的路由器支持<code>ARP</code>绑定功能</p><h2 id="网页唤醒"><a href="#网页唤醒" class="headerlink" title="网页唤醒"></a>网页唤醒</h2><p>网页地址<a href="https://www.depicus.com/wake-on-lan/woli" target="_blank" rel="noopener">https://www.depicus.com/wake-on-lan/woli</a><br>实在方面其实都差不多<br>只不过<code>255.255.255.255</code>不需要修改<br>我之前尝试修改过就不成功了</p><h2 id="其他硬件"><a href="#其他硬件" class="headerlink" title="其他硬件"></a>其他硬件</h2><p>当然是花生壳的远程葵花硬件<br>一劳永逸的办法</p>]]></content>
       
       
       
@@ -208,9 +208,9 @@
             
             <tag> 群晖 </tag>
             
-            <tag> nas </tag>
-            
             <tag> centOS </tag>
+            
+            <tag> nas </tag>
             
         </tags>
       
@@ -229,9 +229,9 @@
       
         <tags>
             
-            <tag> nas </tag>
-            
             <tag> centOS </tag>
+            
+            <tag> nas </tag>
             
         </tags>
       
@@ -258,9 +258,9 @@
             
             <tag> 群晖 </tag>
             
-            <tag> nas </tag>
-            
             <tag> centOS </tag>
+            
+            <tag> nas </tag>
             
             <tag> 宝塔面板 </tag>
             
