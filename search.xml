@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title> DS Video 豆瓣+时光网刮削器补丁方案</title>
+      <link href="/2019/03/11/DS-Video-%E8%B1%86%E7%93%A3-%E6%97%B6%E5%85%89%E7%BD%91%E5%88%AE%E5%89%8A%E5%99%A8%E8%A1%A5%E4%B8%81%E6%96%B9%E6%A1%88/"/>
+      <url>/2019/03/11/DS-Video-%E8%B1%86%E7%93%A3-%E6%97%B6%E5%85%89%E7%BD%91%E5%88%AE%E5%89%8A%E5%99%A8%E8%A1%A5%E4%B8%81%E6%96%B9%E6%A1%88/</url>
+      
+        <content type="html"><![CDATA[<p>常常使用<code>Video</code>收藏存储电影的朋友常常会出现一些尴尬的事情<br>有些资源的图片无法通过<code>Video</code>自带的搜刮器匹配图片<br>如果使用国内资源的话相对要好很多<br>开始方法<br>打此补丁，即可在搜索影片资料中，选 简体中文 即为豆瓣/时光网电影的内容。</p><h2 id="安装方法："><a href="#安装方法：" class="headerlink" title="安装方法："></a>安装方法：</h2><p>1：开启DSM的ssh，并登入<br>2、执行一句话安装：<br>豆瓣源：</p><pre><code>sudo wget -N --no-check-certificate https://sh.9hut.cn/dsvp.sh &amp;&amp; sudo bash dsvp.sh install</code></pre><p>时光网源：</p><pre><code>sudo wget -N --no-check-certificate https://sh.9hut.cn/dsvpmt.sh &amp;&amp; sudo bash dsvpmt.sh install</code></pre><h2 id="卸载方法："><a href="#卸载方法：" class="headerlink" title="卸载方法："></a>卸载方法：</h2><p>1：开启DSM的ssh，并登入<br>2、执行一句话卸载：<br>豆瓣源：</p><pre><code>sudo wget -N --no-check-certificate https://sh.9hut.cn/dsvp.sh &amp;&amp; sudo bash dsvp.sh uninstall</code></pre><p>时光网源：</p><pre><code>sudo wget -N --no-check-certificate https://sh.9hut.cn/dsvpmt.sh &amp;&amp; sudo bash dsvpmt.sh uninstall</code></pre><p>更新内容：<br>@201903082326<br>· 新增时光网数据源，与豆瓣源二选一；<br>· 优化缓存机制；<br>@201704252058<br>· 由于服务器调整优化，修正新的安装及卸载方法；<br>· 优化后台搜刮效率，增加缓存方法；<br>@201703242017<br>· 修改安装方法，加入install及unstall方法，方便安装和卸载；<br>· 进一步优化后台服务器搜刮的效率；· 修正一句话安装缺少以root身份运行bug；<br>· API接口使用黑科技避免豆瓣限制；</p><p>一些说明：<br>1、此补丁仅适用于dsm6.x，目前包含6.0-6.2；<br>2、自动索引目录欲使用豆瓣/时光网补丁，请设置目标目录默认为“简体中文”；<br>3、豆瓣电影不区分电影还是连续剧，目前此补丁只针对电影类使用（我目前是电影和连续剧放一起）；<br>4、手动索引会产生.vsmeta信息文件，此为ds默认行为，与补丁无关；</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>手机同步文件方案</title>
       <link href="/2019/02/27/%E6%89%8B%E6%9C%BA%E5%90%8C%E6%AD%A5%E6%96%87%E4%BB%B6%E6%96%B9%E6%A1%88/"/>
       <url>/2019/02/27/%E6%89%8B%E6%9C%BA%E5%90%8C%E6%AD%A5%E6%96%87%E4%BB%B6%E6%96%B9%E6%A1%88/</url>

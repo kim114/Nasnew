@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-02-27T08:12:56.383Z</updated>
+  <updated>2019-03-11T03:45:45.860Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title> DS Video 豆瓣+时光网刮削器补丁方案</title>
+    <link href="https://nas.kstu.vip/2019/03/11/DS-Video-%E8%B1%86%E7%93%A3-%E6%97%B6%E5%85%89%E7%BD%91%E5%88%AE%E5%89%8A%E5%99%A8%E8%A1%A5%E4%B8%81%E6%96%B9%E6%A1%88/"/>
+    <id>https://nas.kstu.vip/2019/03/11/DS-Video-豆瓣-时光网刮削器补丁方案/</id>
+    <published>2019-03-11T03:40:06.000Z</published>
+    <updated>2019-03-11T03:45:45.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;常常使用&lt;code&gt;Video&lt;/code&gt;收藏存储电影的朋友常常会出现一些尴尬的事情&lt;br&gt;有些资源的图片无法通过&lt;code&gt;Video&lt;/code&gt;自带的搜刮器匹配图片&lt;br&gt;如果使用国内资源的话相对要好很多&lt;br&gt;开始方法&lt;br&gt;打此补丁，即可在搜索影片资料中，选
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>手机同步文件方案</title>
@@ -570,34 +592,6 @@
       <category term="视频电影" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91%E7%94%B5%E5%BD%B1/"/>
     
       <category term="手机" scheme="https://nas.kstu.vip/tags/%E6%89%8B%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>重大泄露事件播报</title>
-    <link href="https://nas.kstu.vip/2019/01/05/%E9%87%8D%E5%A4%A7%E6%B3%84%E9%9C%B2%E4%BA%8B%E4%BB%B6%E6%92%AD%E6%8A%A5/"/>
-    <id>https://nas.kstu.vip/2019/01/05/重大泄露事件播报/</id>
-    <published>2019-01-05T13:05:00.000Z</published>
-    <updated>2019-02-01T18:27:16.925Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;请多多关注安全问题：&quot;&gt;&lt;a href=&quot;#请多多关注安全问题：&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="站点公告" scheme="https://nas.kstu.vip/categories/%E7%AB%99%E7%82%B9%E5%85%AC%E5%91%8A/"/>
-    
-    
-      <category term="安全" scheme="https://nas.kstu.vip/tags/%E5%AE%89%E5%85%A8/"/>
-    
-      <category term="漏洞" scheme="https://nas.kstu.vip/tags/%E6%BC%8F%E6%B4%9E/"/>
     
   </entry>
   
