@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>群晖nas外网访问频繁超时问题处理</title>
+      <link href="/2019/04/11/%E7%BE%A4%E6%99%96nas%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E9%A2%91%E7%B9%81%E8%B6%85%E6%97%B6%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <url>/2019/04/11/%E7%BE%A4%E6%99%96nas%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E9%A2%91%E7%B9%81%E8%B6%85%E6%97%B6%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<p>很多朋友在外网范围的时候出现账户频繁登出的问题<br>需要反复进行登陆，即使登陆的时候设置记住状态<br>依然还是超时登陆的错误跳出账户<br>这是由于群晖的外网浏览器登陆的安全机制<br>当不同IP的浏览器登陆的时候群晖<code>nas</code>会启动安全机制<br>检查当前的浏览器的安全状态就会出现频繁登出的问题</p><h3 id="处理方法"><a href="#处理方法" class="headerlink" title="处理方法"></a>处理方法</h3><ol><li>打开控制面板<br><img src="/images/pasted-131.png" alt="upload"></li><li>打开安全性<br><img src="/images/pasted-132.png" alt="upload "></li><li>勾选忽略IP<br><img src="/images/pasted-133.png" alt="upload"></li></ol><blockquote><p>如果不是长期的外网使用建议还是增强一些安全性比较好</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title> DS Video 豆瓣+时光网刮削器补丁方案</title>
       <link href="/2019/03/11/DS-Video-%E8%B1%86%E7%93%A3-%E6%97%B6%E5%85%89%E7%BD%91%E5%88%AE%E5%89%8A%E5%99%A8%E8%A1%A5%E4%B8%81%E6%96%B9%E6%A1%88/"/>
       <url>/2019/03/11/DS-Video-%E8%B1%86%E7%93%A3-%E6%97%B6%E5%85%89%E7%BD%91%E5%88%AE%E5%89%8A%E5%99%A8%E8%A1%A5%E4%B8%81%E6%96%B9%E6%A1%88/</url>
@@ -78,9 +91,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 活动 </tag>
             
@@ -107,9 +120,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
             
         </tags>
       
@@ -134,9 +147,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
             
         </tags>
       
@@ -219,11 +232,11 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> centOS </tag>
             
             <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
             
         </tags>
       
@@ -269,11 +282,11 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> centOS </tag>
             
             <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 宝塔面板 </tag>
             
@@ -300,9 +313,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> webstation </tag>
             
@@ -329,9 +342,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
         </tags>
       
@@ -358,11 +371,11 @@
       
         <tags>
             
+            <tag> 群晖 </tag>
+            
             <tag> iSCSI </tag>
             
             <tag> Nas </tag>
-            
-            <tag> 群晖 </tag>
             
             <tag> Windows </tag>
             
@@ -389,9 +402,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 手机端 </tag>
             
@@ -443,11 +456,11 @@
       
         <tags>
             
-            <tag> 分享 </tag>
+            <tag> 群晖 </tag>
             
             <tag> Nas </tag>
             
-            <tag> 群晖 </tag>
+            <tag> 分享 </tag>
             
             <tag> 视频 </tag>
             
@@ -476,9 +489,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> Windows </tag>
             
@@ -505,9 +518,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 视频电影 </tag>
             
@@ -617,9 +630,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 价格 </tag>
             
@@ -640,9 +653,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> git </tag>
             
@@ -682,9 +695,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 网络 </tag>
             
@@ -713,9 +726,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> git </tag>
             
@@ -782,9 +795,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
         </tags>
       
@@ -809,9 +822,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 心情 </tag>
             
@@ -838,11 +851,11 @@
       
         <tags>
             
-            <tag> 分享 </tag>
+            <tag> 群晖 </tag>
             
             <tag> Nas </tag>
             
-            <tag> 群晖 </tag>
+            <tag> 分享 </tag>
             
             <tag> 下载 </tag>
             
@@ -869,9 +882,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 视频 </tag>
             
@@ -900,9 +913,9 @@
       
         <tags>
             
-            <tag> 文档 </tag>
-            
             <tag> 分享 </tag>
+            
+            <tag> 文档 </tag>
             
             <tag> 下载工具 </tag>
             
@@ -929,13 +942,13 @@
       
         <tags>
             
-            <tag> 分享 </tag>
-            
-            <tag> 下载工具 </tag>
+            <tag> 群晖 </tag>
             
             <tag> Nas </tag>
             
-            <tag> 群晖 </tag>
+            <tag> 分享 </tag>
+            
+            <tag> 下载工具 </tag>
             
         </tags>
       
