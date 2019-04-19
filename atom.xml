@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-04-11T08:34:23.088Z</updated>
+  <updated>2019-04-19T07:25:46.852Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>群晖DSvideo提示错误：视频播放失败</title>
+    <link href="https://nas.kstu.vip/2019/04/19/%E7%BE%A4%E6%99%96DSvideo%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF%EF%BC%9A%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%A4%B1%E8%B4%A5/"/>
+    <id>https://nas.kstu.vip/2019/04/19/群晖DSvideo提示错误：视频播放失败/</id>
+    <published>2019-04-19T07:22:00.000Z</published>
+    <updated>2019-04-19T07:25:46.852Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;错误&lt;/strong&gt;：视频播放失败。请在DS video设置中检查HTTP端口号以及路由器上的端口转送&lt;br&gt;&lt;strong&gt;解决办法&lt;/strong&gt;：手机端登录DS
+        
+      
+    
+    </summary>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/categories/Nas/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="问题" scheme="https://nas.kstu.vip/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>群晖nas外网访问频繁超时问题处理</title>
@@ -550,36 +580,6 @@
       <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
     
       <category term="微信" scheme="https://nas.kstu.vip/tags/%E5%BE%AE%E4%BF%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>windows下建立可以访问的nas盘符</title>
-    <link href="https://nas.kstu.vip/2019/01/07/windows%E4%B8%8B%E5%BB%BA%E7%AB%8B%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%9A%84nas%E7%9B%98%E7%AC%A6/"/>
-    <id>https://nas.kstu.vip/2019/01/07/windows下建立可以访问的nas盘符/</id>
-    <published>2019-01-07T23:27:00.000Z</published>
-    <updated>2019-02-01T18:27:16.922Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;其实有很多刚刚入手的朋友都会问一个问题&lt;br&gt;为什么每次进Nas的盘符都要做文件夹的地址栏敲&lt;code&gt;\\Nas名称\&lt;/code&gt;输入账号密码才能进去很麻烦&lt;br&gt;不能想网络邻居共享盘一样点点就进去了吗？&lt;br&gt;其实群晖&lt;code&gt;Nas&lt;/code&gt;中稍微设置就能出现
-        
-      
-    
-    </summary>
-    
-      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
-    
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
     
   </entry>
   

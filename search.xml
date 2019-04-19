@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>群晖DSvideo提示错误：视频播放失败</title>
+      <link href="/2019/04/19/%E7%BE%A4%E6%99%96DSvideo%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF%EF%BC%9A%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%A4%B1%E8%B4%A5/"/>
+      <url>/2019/04/19/%E7%BE%A4%E6%99%96DSvideo%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF%EF%BC%9A%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%A4%B1%E8%B4%A5/</url>
+      
+        <content type="html"><![CDATA[<p><strong>错误</strong>：视频播放失败。请在DS video设置中检查HTTP端口号以及路由器上的端口转送<br><strong>解决办法</strong>：手机端登录DS video的时候记得不要勾选HTTPS即可<br><strong>而外解决办法</strong>：给你的nas服务器增加https证书，具体方法后续会更新</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
+            
+            <tag> 问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>群晖nas外网访问频繁超时问题处理</title>
       <link href="/2019/04/11/%E7%BE%A4%E6%99%96nas%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E9%A2%91%E7%B9%81%E8%B6%85%E6%97%B6%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
       <url>/2019/04/11/%E7%BE%A4%E6%99%96nas%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E9%A2%91%E7%B9%81%E8%B6%85%E6%97%B6%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</url>
