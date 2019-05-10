@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-04-19T07:25:46.852Z</updated>
+  <updated>2019-05-10T05:30:15.995Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Nas蓝盘使用问题</title>
+    <link href="https://nas.kstu.vip/2019/05/10/%E4%BA%8ENas%E8%93%9D%E7%9B%98%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/"/>
+    <id>https://nas.kstu.vip/2019/05/10/于Nas蓝盘使用问题/</id>
+    <published>2019-05-10T05:01:00.000Z</published>
+    <updated>2019-05-10T05:30:15.995Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我们有一部的家庭用户并没有使用专用的&lt;code&gt;nas&lt;/code&gt;硬盘&lt;br&gt;反而是使用旧电脑上淘汰下来的蓝盘、监控盘等等&lt;br&gt;这类硬盘不是说不好而是不大适合&lt;code&gt;nas&lt;/code&gt;服务器使用&lt;/p&gt;
+&lt;p&gt;为什么这么说呢？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;
+        
+      
+    
+    </summary>
+    
+      <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+  </entry>
   
   <entry>
     <title>群晖DSvideo提示错误：视频播放失败</title>
@@ -540,42 +571,6 @@
     
     
       <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
-    
-      <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
-    
-      <category term="微信" scheme="https://nas.kstu.vip/tags/%E5%BE%AE%E4%BF%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>群晖创建video视频的时效共享并且进行微信分享</title>
-    <link href="https://nas.kstu.vip/2019/01/09/%E7%BE%A4%E6%99%96%E5%88%9B%E5%BB%BAvideo%E8%A7%86%E9%A2%91%E7%9A%84%E6%97%B6%E6%95%88%E5%85%B1%E4%BA%AB%E5%B9%B6%E4%B8%94%E8%BF%9B%E8%A1%8C%E5%BE%AE%E4%BF%A1%E5%88%86%E4%BA%AB/"/>
-    <id>https://nas.kstu.vip/2019/01/09/群晖创建video视频的时效共享并且进行微信分享/</id>
-    <published>2019-01-09T11:41:00.000Z</published>
-    <updated>2019-02-01T18:27:16.925Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;创建分享视频：&quot;&gt;&lt;a href=&quot;#创建分享视频：&quot; class=&quot;headerlink&quot; title=&quot;创建分享视频：&quot;&gt;&lt;/a&gt;创建分享视频：&lt;/h2&gt;&lt;p&gt;将视频放置到播放列表下&lt;br&gt;在左下角的+符号可以新增或者加入新的列表当中&lt;br&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
-    
-      <category term="微信技巧" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/%E5%BE%AE%E4%BF%A1%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
     
