@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>5月测试新功能按需同步</title>
+      <link href="/2019/05/14/5%E6%9C%88%E6%B5%8B%E8%AF%95%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8C%89%E9%9C%80%E5%90%8C%E6%AD%A5/"/>
+      <url>/2019/05/14/5%E6%9C%88%E6%B5%8B%E8%AF%95%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8C%89%E9%9C%80%E5%90%8C%E6%AD%A5/</url>
+      
+        <content type="html"><![CDATA[<p>Synology Drive 使用户可以在其计算机客户端与Synology Drive Server 之间无缝同步文件。按需同步，是 Synology Drive当前进行测试的新功能，使用户可以通过释放本地计算机容量和减少服务器负载来实现更多功能。本文将提供有关按需同步的更多详细信息。</p><p>按需同步概览<br>按需同步是用于在计算机和 Synology NAS 之间配置Synology Drive同步任务的选项，目前已在 <code>Windows 10版本 1803及以上版本中提供</code>。记住版本是关键，否则无法正常使用该功能，比如我之前遇到的无法删除文件等等问题，因为目前是测试功能，并不建议马上做为主要功能来使用，好继续，常规同步任务将文件的相同副本同步到本地计算机，而按需同步仅将文件列表同步到本地计算机。仅当您打开、修改本地副本或将本地副本锁定到计算机时，这些文件才会下载到本地计算机。</p><p>借助按需同步，可以：</p><ul><li>减少本地计算机上的存储消耗</li><li>减少同步的服务器负载</li><li>简化 Windows 文件资源管理器中的操作</li></ul><p>以下图标指示启用了按需同步的文件的同步状态。</p><table><thead><tr><th>状态图标</th><th>描述</th></tr></thead><tbody><tr><td><img src="/images/pasted-140.png" alt="upload"></td><td>此图标指示文件或文件夹可在线使用，不会占用硬盘容量。可以打开本地副本并下载到计算机，或右键单击文件，选择 Synology Drive 和永久锁定本地副本以维护本地副本。</td></tr><tr><td><img src="/images/pasted-144.png" alt="upload"></td><td>此图标指示文件或文件夹已下载到本地计算机。可以右键单击文件，选择 Synology Drive和释放空间以删除本地文件并释放空间。</td></tr><tr><td><img src="/images/pasted-145.png" alt="upload"></td><td>此图标指示文件已永久锁定到本地计算机，能够离线查看。</td></tr></tbody></table><p><strong>系统要求</strong></p><blockquote><p>按需同步需要怎样的环境？</p></blockquote><ul><li>Windows 10版本 1803及以上版本的计算机</li><li>Synology Drive Client2.0.0 及以上版本</li><li>Synology Drive Server 套件 2.0.0 及以上版本</li></ul><blockquote><p>可以为按需同步选择哪种类型的文件夹？</p></blockquote><ul><li>NTFS 硬盘上的文件夹</li><li>不属于设备根文件夹的文件夹（即无法选择 C 或 D 硬盘）</li><li>不属于 Synology 按需同步或 OneDrive 按需文件任务的父/子文件夹的文件夹</li></ul><blockquote><p>如何使用按需同步来同步文件？</p></blockquote><ol><li>创建同步任务时，为任务启用按需同步选项。每次设置同步任务时，都需要启用此选项。若要了解如何创建同步任务，请参阅此常见问题。<br><img src="/images/pasted-146.png" alt="upload "></li><li>创建任务之后，会在任务旁看到云图标，表示按需同步已启用。<br><img src="/images/pasted-147.png" alt="upload"></li><li>单击本地文件夹路径，会将 Windows 文件资源管理器打开到本地同步文件夹所在的位置。每个同步服务器都会在左侧创建一个系统文件夹条目。<br><img src="/images/pasted-148.png" alt="upload"></li><li>右键单击任何文件并选择 Synology Drive，可以按需将文件锁定到本地设备或释放空间。<br><img src="/images/pasted-149.png" alt="upload"></li><li>选择文件和永久锁定本地副本时，可能会发现状态已更改，并且即使在处于离线状态时也可在计算机上使用文件。<br><img src="/images/pasted-150.png" alt="upload"></li></ol><blockquote><p>关于按需同步的常见问题</p></blockquote><ul><li>为什么看不到按需同步选项？</li></ul><p>请查看上面的系统要求部分以启用该选项。</p><ul><li>为什么按需同步文件夹中缺少缩略图？</li></ul><p>当前，如果文件在本地不可用，则缩略图可能不会显示在 Windows 资源管理器中。</p><ul><li>仅在线文件是否会占用计算机上的任何硬盘空间？<br>对于仅在线文件，只会将文件名和大小等文件信息下载到计算机。与完整文件相比，文件信息占用的存储空间非常小。</li><li>在未连接到Synology Drive 服务器的情况下，能否打开仅在线文件？</li></ul><p>不可以，仅当计算机连接到Synology Drive 服务器时，才能打开或将仅在线文件锁定到本地。</p><ul><li>如果打开仅在线文件，会怎么样？</li></ul><p>仅在线文件会下载到本地设备并打开。如果进行了任何更改，系统会将其同步到Synology Drive 服务器以及所有同步的客户端。</p><ul><li>是否可以对仅在线文件进行更改？</li></ul><p>可以，您可以移动或重命名仅在线文件，这些更改会同步回Synology Drive 服务器以及所有同步的客户端。<br>如果您打开、复制、剪切或粘贴任何仅在线文件，则原始文件会下载到本地设备。</p><ul><li>本地可用的文件与永久锁定的文件之间有何区别？</li></ul><p>本地可用的文件与永久锁定的文件之间当前没有区别。在即将推出的版本中，我们将支持 Windows 存储感知功能，以帮助您在计算机硬盘快要满时回收最不常用的文件。敬请期待。</p><ul><li><p>如果从按需同步文件夹中删除文件，会怎么样？<br>在计算机上删除的文件会同时从Synology Drive套件中删除，并且会遵循 Synology Drive 管理控制台中的历史版本保留策略。如果文件在本地可用或永久锁定，则这些文件也会出现在回收站中。</p></li><li><p>是否可以选择要锁定到本地的文件夹？<br>可以，您可以一次选择要永久锁定到本地的文件或文件夹。</p></li><li><p>“释放空间”是否会清除 Synology Drive 中的文件？<br>不会，释放空间意味着将文件转换为仅在线模式，这会释放文件的硬盘容量。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于Nas蓝盘使用问题</title>
       <link href="/2019/05/10/%E4%BA%8ENas%E8%93%9D%E7%9B%98%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/"/>
       <url>/2019/05/10/%E4%BA%8ENas%E8%93%9D%E7%9B%98%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/</url>
@@ -20,9 +47,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
         </tags>
       
@@ -47,9 +74,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 问题 </tag>
             
@@ -65,6 +92,19 @@
       <url>/2019/04/11/%E7%BE%A4%E6%99%96nas%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E9%A2%91%E7%B9%81%E8%B6%85%E6%97%B6%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</url>
       
         <content type="html"><![CDATA[<p>很多朋友在外网范围的时候出现账户频繁登出的问题<br>需要反复进行登陆，即使登陆的时候设置记住状态<br>依然还是超时登陆的错误跳出账户<br>这是由于群晖的外网浏览器登陆的安全机制<br>当不同IP的浏览器登陆的时候群晖<code>nas</code>会启动安全机制<br>检查当前的浏览器的安全状态就会出现频繁登出的问题</p><h3 id="处理方法"><a href="#处理方法" class="headerlink" title="处理方法"></a>处理方法</h3><ol><li>打开控制面板<br><img src="/images/pasted-131.png" alt="upload"></li><li>打开安全性<br><img src="/images/pasted-132.png" alt="upload "></li><li>勾选忽略IP<br><img src="/images/pasted-133.png" alt="upload"></li></ol><blockquote><p>如果不是长期的外网使用建议还是增强一些安全性比较好</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>群晖nas添加共享打印机初步方案</title>
+      <link href="/2019/03/12/%E7%BE%A4%E6%99%96nas%E6%B7%BB%E5%8A%A0%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA%E6%96%B9%E6%B3%95/"/>
+      <url>/2019/03/12/%E7%BE%A4%E6%99%96nas%E6%B7%BB%E5%8A%A0%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>连接打印机的教程一直都没出<br>是因为群晖连接打印机一直都是个坑<br>我们尝试不同的打印机都会有不同的结果出来<br>很难统一个比较完整的方案<br>这里我们就先说个大概以后有不到位的再补充上去</p><p>群晖连接打印机有两种方式<br>一个是网络打印机，打印机连网线<br>一个是usb打印机，打印机用usb连Nas主机</p><blockquote><p>其实并不建议群晖上共享打印机<br>如果您是USB打印机最好连接到电脑上，再共享给其他电脑使用<br>如果您的是网络打印机最好也连上一台电脑，再分享IP给其他电脑使用<br>首先这样连接的好处在于其中有一台电脑可以使用打印机的跟多高级功能<br>而其他电脑就只能打印文档，如果直接挂在Nas服务器上除非打印机驱动能够正常使用并且您有一台win7系统的电脑来提供高级功能给其中一台机器使用，功能齐全的高价打印机不在内，我们目前讲的是主要普通家用打印机</p></blockquote><p>因为打印机功能到了群晖设备上基本就一个打印<br>而且最好使用群晖连接工具<code>Synology Assistant</code>来连接打印机<br>其他新增加的方式普遍都出现各种奇奇怪怪的问题<br>比如新增不了打印机硬件，比如一直显示在打印状态，比如多人使用无法打印这些情况<br>远远不如在一台机器上安装后共享出去，需要打印的时候打开对应的机器就可以了，其实也蛮简单<br>顺便一提如果是win7和win10之间共享打印机也会出现各种奇奇怪怪的问题<br>最好是统一一个系统来共享打印机比较好一些</p>]]></content>
       
       
       
@@ -398,9 +438,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
         </tags>
       
@@ -427,9 +467,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> iSCSI </tag>
             
@@ -458,9 +498,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 手机端 </tag>
             
@@ -512,11 +552,11 @@
       
         <tags>
             
-            <tag> 分享 </tag>
+            <tag> Nas </tag>
             
             <tag> 群晖 </tag>
             
-            <tag> Nas </tag>
+            <tag> 分享 </tag>
             
             <tag> 视频 </tag>
             
@@ -545,9 +585,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> Windows </tag>
             
@@ -574,9 +614,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 视频电影 </tag>
             
@@ -686,9 +726,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 价格 </tag>
             
@@ -709,9 +749,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> git </tag>
             
@@ -751,9 +791,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 网络 </tag>
             
@@ -782,9 +822,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> git </tag>
             
@@ -851,9 +891,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
         </tags>
       
@@ -878,9 +918,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 心情 </tag>
             
@@ -907,11 +947,11 @@
       
         <tags>
             
-            <tag> 分享 </tag>
+            <tag> Nas </tag>
             
             <tag> 群晖 </tag>
             
-            <tag> Nas </tag>
+            <tag> 分享 </tag>
             
             <tag> 下载 </tag>
             
@@ -938,9 +978,9 @@
       
         <tags>
             
-            <tag> 群晖 </tag>
-            
             <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
             
             <tag> 视频 </tag>
             
@@ -998,13 +1038,13 @@
       
         <tags>
             
-            <tag> 分享 </tag>
-            
-            <tag> 下载工具 </tag>
+            <tag> Nas </tag>
             
             <tag> 群晖 </tag>
             
-            <tag> Nas </tag>
+            <tag> 分享 </tag>
+            
+            <tag> 下载工具 </tag>
             
         </tags>
       

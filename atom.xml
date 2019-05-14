@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-05-10T05:30:15.995Z</updated>
+  <updated>2019-05-14T05:17:04.621Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>5月测试新功能按需同步</title>
+    <link href="https://nas.kstu.vip/2019/05/14/5%E6%9C%88%E6%B5%8B%E8%AF%95%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8C%89%E9%9C%80%E5%90%8C%E6%AD%A5/"/>
+    <id>https://nas.kstu.vip/2019/05/14/5月测试新功能按需同步/</id>
+    <published>2019-05-14T04:55:00.000Z</published>
+    <updated>2019-05-14T05:17:04.621Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Synology Drive 使用户可以在其计算机客户端与Synology Drive Server 之间无缝同步文件。按需同步，是 Synology
+        
+      
+    
+    </summary>
+    
+      <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+  </entry>
   
   <entry>
     <title>关于Nas蓝盘使用问题</title>
@@ -41,9 +69,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
   </entry>
   
@@ -69,9 +97,9 @@
       <category term="Nas" scheme="https://nas.kstu.vip/categories/Nas/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="问题" scheme="https://nas.kstu.vip/tags/%E9%97%AE%E9%A2%98/"/>
     
@@ -91,6 +119,29 @@
         
         
           &lt;p&gt;很多朋友在外网范围的时候出现账户频繁登出的问题&lt;br&gt;需要反复进行登陆，即使登陆的时候设置记住状态&lt;br&gt;依然还是超时登陆的错误跳出账户&lt;br&gt;这是由于群晖的外网浏览器登陆的安全机制&lt;br&gt;当不同IP的浏览器登陆的时候群晖&lt;code&gt;nas&lt;/code&gt;会启动安全机制&lt;br
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>群晖nas添加共享打印机初步方案</title>
+    <link href="https://nas.kstu.vip/2019/03/12/%E7%BE%A4%E6%99%96nas%E6%B7%BB%E5%8A%A0%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA%E6%96%B9%E6%B3%95/"/>
+    <id>https://nas.kstu.vip/2019/03/12/群晖nas添加共享打印机方法/</id>
+    <published>2019-03-12T03:00:04.000Z</published>
+    <updated>2019-05-13T16:24:35.235Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;连接打印机的教程一直都没出&lt;br&gt;是因为群晖连接打印机一直都是个坑&lt;br&gt;我们尝试不同的打印机都会有不同的结果出来&lt;br&gt;很难统一个比较完整的方案&lt;br&gt;这里我们就先说个大概以后有不到位的再补充上去&lt;/p&gt;
+&lt;p&gt;群晖连接打印机有两种方式&lt;br&gt;一个是网络打印机，打印机连网
         
       
     
@@ -480,9 +531,9 @@
       <category term="PHP" scheme="https://nas.kstu.vip/categories/PHP/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
   </entry>
   
@@ -510,71 +561,13 @@
       <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Windows/Nas%E5%BA%94%E7%94%A8/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
     
       <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手机如何打开控制面板加密文件夹</title>
-    <link href="https://nas.kstu.vip/2019/01/09/%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E5%8A%A0%E5%AF%86%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
-    <id>https://nas.kstu.vip/2019/01/09/手机如何打开加密文件夹/</id>
-    <published>2019-01-09T12:05:00.000Z</published>
-    <updated>2019-02-01T18:27:16.923Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;使用&lt;code&gt;谷歌浏览器&lt;/code&gt;或者&lt;code&gt;360手机浏览器&lt;/code&gt;设置为电脑模式打开页面&lt;br&gt;就可以用平时网页打开后台界面一样的操作方式&lt;br&gt;加载加密文件夹&lt;br&gt;然后就可以使用&lt;code&gt;DS
-        
-      
-    
-    </summary>
-    
-      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Nas%E5%BA%94%E7%94%A8/"/>
-    
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="手机端" scheme="https://nas.kstu.vip/tags/%E6%89%8B%E6%9C%BA%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信如何访问分享视频</title>
-    <link href="https://nas.kstu.vip/2019/01/09/%E5%BE%AE%E4%BF%A1%E5%A6%82%E4%BD%95%E8%AE%BF%E9%97%AE%E5%88%86%E4%BA%AB%E8%A7%86%E9%A2%91/"/>
-    <id>https://nas.kstu.vip/2019/01/09/微信如何访问分享视频/</id>
-    <published>2019-01-09T12:03:00.000Z</published>
-    <updated>2019-02-01T18:27:16.923Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;几乎所有第三方网页分享出来的视频站点&lt;br&gt;打开这个视频链接需要点下方的&lt;code&gt;访问原网页&lt;/code&gt;这行小文字，而且是两次以上的点击确认&lt;br&gt;&lt;img src=&quot;/images/pasted-85.png&quot; alt=&quot;非微信网页&quot;&gt;&lt;br&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-      <category term="分享" scheme="https://nas.kstu.vip/tags/%E5%88%86%E4%BA%AB/"/>
-    
-      <category term="视频" scheme="https://nas.kstu.vip/tags/%E8%A7%86%E9%A2%91/"/>
-    
-      <category term="微信" scheme="https://nas.kstu.vip/tags/%E5%BE%AE%E4%BF%A1/"/>
     
   </entry>
   
