@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-05-14T05:17:04.621Z</updated>
+  <updated>2019-05-26T09:07:42.325Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>由黑群晖数据转移到白群晖</title>
+    <link href="https://nas.kstu.vip/2019/05/26/%E7%94%B1%E9%BB%91%E7%BE%A4%E6%99%96%E6%95%B0%E6%8D%AE%E8%BD%AC%E7%A7%BB%E5%88%B0%E7%99%BD%E7%BE%A4%E6%99%96/"/>
+    <id>https://nas.kstu.vip/2019/05/26/由黑群晖数据转移到白群晖/</id>
+    <published>2019-05-26T08:43:00.000Z</published>
+    <updated>2019-05-26T09:07:42.325Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;很多爱搞机的朋友都弄过黑群晖吧&lt;br&gt;说实话黑群晖不错很多功能都很相似，也都可以找到替代白群的方法&lt;br&gt;&lt;strong&gt;但是但是&lt;/strong&gt;黑群晖是个很不省心的系统环境&lt;br&gt;说到底&lt;code&gt;群晖Nas&lt;/code&gt;都是透露在外网环境下的服务器&lt;br&gt;当然不排除你
+        
+      
+    
+    </summary>
+    
+      <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="黑群晖" scheme="https://nas.kstu.vip/tags/%E9%BB%91%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="群晖Nas" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96Nas/"/>
+    
+      <category term="迁移" scheme="https://nas.kstu.vip/tags/%E8%BF%81%E7%A7%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>5月测试新功能按需同步</title>
@@ -41,6 +71,36 @@
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么要使用Drive而不是直接操作存盘</title>
+    <link href="https://nas.kstu.vip/2019/05/13/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8Drive%E8%80%8C%E4%B8%8D%E6%98%AF%E7%9B%B4%E6%8E%A5%E6%93%8D%E4%BD%9C%E5%AD%98%E7%9B%98/"/>
+    <id>https://nas.kstu.vip/2019/05/13/为什么要使用Drive而不是直接操作存盘/</id>
+    <published>2019-05-13T16:51:00.000Z</published>
+    <updated>2019-05-26T08:42:15.845Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;是的，不得不承认，有时候我们为了操作方便在局域网内操作数据的时候&lt;br&gt;直接将路径指向局域网内的nas服务器的存储位置&lt;br&gt;直接操作那些需要修改的文件和存储的文件&lt;br&gt;这样操作的文件依然在&lt;code&gt;Drive&lt;/code&gt;里面是有版本记录的&lt;br&gt;同时也具备数据恢复和
+        
+      
+    
+    </summary>
+    
+      <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="同步" scheme="https://nas.kstu.vip/tags/%E5%90%8C%E6%AD%A5/"/>
     
   </entry>
   
@@ -506,68 +566,6 @@
       <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
       <category term="webstation" scheme="https://nas.kstu.vip/tags/webstation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>adminer数据库管理程序3307端口登录</title>
-    <link href="https://nas.kstu.vip/2019/01/21/adminer%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%A8%8B%E5%BA%8F3307%E7%AB%AF%E5%8F%A3%E7%99%BB%E5%BD%95/"/>
-    <id>https://nas.kstu.vip/2019/01/21/adminer数据库管理程序3307端口登录/</id>
-    <published>2019-01-21T16:56:00.000Z</published>
-    <updated>2019-02-01T18:27:16.922Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;安装了群晖Nas上的&lt;code&gt;MariaDB&lt;/code&gt;数据库套件&lt;br&gt;对于数据库不是3306的端口走了些弯路&lt;br&gt;这里踏坑路程，其实是我想复杂了&lt;br&gt;虽然群晖上也有’phpMyAdmin’的套件&lt;br&gt;如果不是十分需要我不会去安装一个’phpMyAdmin’套件
-        
-      
-    
-    </summary>
-    
-      <category term="PHP" scheme="https://nas.kstu.vip/categories/PHP/"/>
-    
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows10如何接入加密的iSCSI服务</title>
-    <link href="https://nas.kstu.vip/2019/01/10/Windows10%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%8A%A0%E5%AF%86%E7%9A%84iSCSI%E6%9C%8D%E5%8A%A1/"/>
-    <id>https://nas.kstu.vip/2019/01/10/Windows10如何接入加密的iSCSI服务/</id>
-    <published>2019-01-10T20:00:00.000Z</published>
-    <updated>2019-02-01T18:27:16.922Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;之前弄过步骤上出来问题所以也算是个小坑吧&lt;br&gt;加密的&lt;code&gt;iSCSI&lt;/code&gt;如何操作可以&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="Windows" scheme="https://nas.kstu.vip/categories/Windows/"/>
-    
-      <category term="Nas应用" scheme="https://nas.kstu.vip/categories/Windows/Nas%E5%BA%94%E7%94%A8/"/>
-    
-    
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="iSCSI" scheme="https://nas.kstu.vip/tags/iSCSI/"/>
-    
-      <category term="Windows" scheme="https://nas.kstu.vip/tags/Windows/"/>
     
   </entry>
   

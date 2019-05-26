@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>由黑群晖数据转移到白群晖</title>
+      <link href="/2019/05/26/%E7%94%B1%E9%BB%91%E7%BE%A4%E6%99%96%E6%95%B0%E6%8D%AE%E8%BD%AC%E7%A7%BB%E5%88%B0%E7%99%BD%E7%BE%A4%E6%99%96/"/>
+      <url>/2019/05/26/%E7%94%B1%E9%BB%91%E7%BE%A4%E6%99%96%E6%95%B0%E6%8D%AE%E8%BD%AC%E7%A7%BB%E5%88%B0%E7%99%BD%E7%BE%A4%E6%99%96/</url>
+      
+        <content type="html"><![CDATA[<p>很多爱搞机的朋友都弄过黑群晖吧<br>说实话黑群晖不错很多功能都很相似，也都可以找到替代白群的方法<br><strong>但是但是</strong>黑群晖是个很不省心的系统环境<br>说到底<code>群晖Nas</code>都是透露在外网环境下的服务器<br>当然不排除你只用黑群晖来做内网服务器<br>话说回来群晖拿来做内网服务器的话，那么又何必的用群晖呢？<br>架设自由度更大的win服务器岂不是更好</p><h3 id="下载Synology-Assistant"><a href="#下载Synology-Assistant" class="headerlink" title="下载Synology Assistant"></a>下载Synology Assistant</h3><p><a href="https://www.synology.com/zh-cn/support/download" target="_blank" rel="noopener">下载地址</a><br>输入自己群晖Nas的型号可以找到对应的工具<br>就算是黑群晖也是有型号的</p><h3 id="打开Synology-Assistant"><a href="#打开Synology-Assistant" class="headerlink" title="打开Synology Assistant"></a>打开Synology Assistant</h3><p>两台以上的<code>群晖Nas</code>就可以看到状态出标注出可转移<br>任何转移数据的操作，都请备份好自己的数据以防出现意外丢失数据<br><img src="/images/pasted-151.png" alt="upload"></p><h3 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h3><p>黑群晖的硬盘全部插到白群晖，<br>然后群晖助手搜索显示可移转，<br>才可以继续后续的迁移，<br>如果不是请放弃迁移。<br><img src="/images/pasted-152.png" alt="upload"><br><img src="/images/pasted-153.png" alt="upload"><br><img src="/images/pasted-154.png" alt="upload"><br><img src="/images/pasted-155.png" alt="upload"><br><img src="/images/pasted-156.png" alt="upload"><br><img src="/images/pasted-157.png" alt="upload"></p><h3 id="使用原始账号密码登录"><a href="#使用原始账号密码登录" class="headerlink" title="使用原始账号密码登录"></a>使用原始账号密码登录</h3><p>登录后一切都是正常的，<br>同时也可以放心大胆的更新各种补丁<br>购买任何的增值服务都是绑定你的白群晖<br>无需再担心转码问题，缩略图问题，外网访问问题</p><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul><li>迁移前请一定备份好重要数据，数据是无价的。</li><li>群晖助手一定要显示“可移转”，不然请放弃迁移。</li><li>不能迁移到单盘的机器，太旧白群晖型号的机器也不行。</li><li>如果你黑群晖是btrfs分区，请确保你的白群晖也支持btrfs分区。</li><li>如果迁移后出现莫名其妙的问题，比如quickconnect无法使用，那么请迁移后重新安装系统。</li><li>如果全部盘是basic的单盘模式，遇到过一个用户需要分别迁移才能成功。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 黑群晖 </tag>
+            
+            <tag> 群晖Nas </tag>
+            
+            <tag> 迁移 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>5月测试新功能按需同步</title>
       <link href="/2019/05/14/5%E6%9C%88%E6%B5%8B%E8%AF%95%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8C%89%E9%9C%80%E5%90%8C%E6%AD%A5/"/>
       <url>/2019/05/14/5%E6%9C%88%E6%B5%8B%E8%AF%95%E6%96%B0%E5%8A%9F%E8%83%BD%E6%8C%89%E9%9C%80%E5%90%8C%E6%AD%A5/</url>
@@ -23,6 +52,35 @@
             <tag> Nas </tag>
             
             <tag> 群晖 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为什么要使用Drive而不是直接操作存盘</title>
+      <link href="/2019/05/13/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8Drive%E8%80%8C%E4%B8%8D%E6%98%AF%E7%9B%B4%E6%8E%A5%E6%93%8D%E4%BD%9C%E5%AD%98%E7%9B%98/"/>
+      <url>/2019/05/13/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8Drive%E8%80%8C%E4%B8%8D%E6%98%AF%E7%9B%B4%E6%8E%A5%E6%93%8D%E4%BD%9C%E5%AD%98%E7%9B%98/</url>
+      
+        <content type="html"><![CDATA[<p>是的，不得不承认，有时候我们为了操作方便在局域网内操作数据的时候<br>直接将路径指向局域网内的nas服务器的存储位置<br>直接操作那些需要修改的文件和存储的文件<br>这样操作的文件依然在<code>Drive</code>里面是有版本记录的<br>同时也具备数据恢复和回收站的功能，也能够通过回收站或者其他的备份方案储存下来<br>都具备了安装<code>Drive</code>所拥有的功能，安装<code>Drive</code>是非常多此一举的事情<br>首先占用系统资源，虽然不多，但是在状态栏有些人就是看得不舒服<br>每次同步时间都比直接操作路径共享的方式慢很多而且每次都要增加一次操作记录</p><p><strong>那么我要开始讲但是了！</strong>以前我也是那么认为的所以我在我的电脑上直接讲一个快捷方式指向<code>Nas</code>的局域网路径操作任何文件都非常方便像在本地出下操作一样，<code>Nas</code>的各种宣传中也介绍了这种访问的方式，让我甚至以为这个方案已经超过了任何管理文件的方案，毕竟直接快速还有版本。<br>我这里要说其实并不是，不管是<code>Windows</code>还是<code>mac</code>系统都有直接访问<code>Nas</code>服务器文件路径的方法而且非常简单，只要您知道您的服务器起了个什么名字，记得您的账号密码。开起服务器就可以进行访问并且增删改查都行。<br>便捷的同时也带来隐患，这些隐患初期或者使用不深度的时候可能不会发现，但是变成重度使用的时候就会发现问题的所在，不管是自己操作自己的账号，还是多人共享文件权限的时候都会出现。<br>这种隐患是同步冲突问题，使用<code>git</code>管理代码的朋友都知道<code>git</code>有一套非常完善的防止冲突的办法，但是我们在nas服务器中比较难以办到这样完善防止文件冲突的问题，比如说建立分支，合并分支，冲突查看，第几行那些代码出现了冲突都能准确的反应出来，在目前来说在任何一个系统是都是不可能这样操作<code>所有文件</code>的，我说的是<code>所有文件类型</code>就算是支持大容量的<code>git</code>也一样办不到<code>任何文件</code>的版本问题。</p><p>只要利用服务器或者是<code>nas</code>服务器做协同办公就自然避免不了这种情况的出现下面说说发生的方式</p><p>先说说冲突出现最多的两种方式：</p><ol><li>单人多地登录<blockquote><p>这种方式多半是多台电脑多地登录后编辑同一个文档忘记关闭其中一台机器或者是因为其中一台机器的网络出现了问题导致修改数据并没有上传，而在另外一台电脑中继续操作该文档并且改变数据，等再回到之前操作的这台机器的时候再次保存数据上传数据那么冲突就会出现，而且会覆盖掉之前数据并且没有版本可以恢复。有人说这种情况少，那是因为您没常常使用笔记本和台式机混用，笔记本通常都不会关机都待机盖上，回到工作地点使用台式机继续编辑文件，如果文件本来就很大很多，您会根本意识不到您已经编辑过这个文件，甚至会以为重来没有改动过该文件。当您辛辛苦苦改完文件以后，回到笔记本只要不小心一次保存快捷键就够你悔恨很久。</p></blockquote></li><li>多人同时编辑<blockquote><p>最多出现问题应该就是这种情况，多人编辑文件，然后并不知道是不是有人同时在编辑同一个文件，如果是直接访问局域网路径的方式，这种冲突就不会有版本保存下来。还有就是就算使用了Drive，如果Drive的设置方式不对，文件的修改还是会丢失，并且没有版本记录。这就是冲突带来的麻烦。</p></blockquote></li></ol><p><strong>解决方案：</strong><br>首先确保您安装了<code>Drive</code>客户端或者您的文件能够在页面上直接操作，冲突问题就减少了一半以上。另外<code>Drive</code>需要设置成为冲突处理的模式。<br>在处理冲突事件中设置好提醒，当出现了文件冲突就会自动弹出提示窗口，另外储存一份文件来确保文件的版本的齐全，最好通过各类版本再进行统一处理，避免数据覆盖导致白白浪费掉每一次的操作，尤其是长操作。<br>首先<code></code>中要在全局中设置同步方案：<br><img src="/images/pasted-138.png" alt="upload"><br>相同的账号在操作同一文件的时候如果产生于之前不同的文件会提示冲突弹出，一定要记得另外保存该文件。否则您很有可能不知道怎么曾经修改过什么内容。如果文件较大通过一些特殊的软件来进行对比，也能知道文件差异的地方。这里就不展开讲这些特殊的软件，范围太过宽泛。只要记住冲突方案的制定和使用<code>Drive</code>文件管理方案就能很好的解决，多人协同造成的数据丢失问题。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nas技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nas </tag>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> 同步 </tag>
             
         </tags>
       
