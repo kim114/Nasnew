@@ -49,9 +49,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
         </tags>
       
@@ -76,9 +76,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 同步 </tag>
             
@@ -105,9 +105,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
         </tags>
       
@@ -132,9 +132,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 问题 </tag>
             
@@ -424,7 +424,7 @@
       <link href="/2019/01/31/%E6%99%96Nas%E4%B8%8B%E7%9A%84Docker%E5%A5%97%E4%BB%B6%E6%90%AD%E5%BB%BA%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
       <url>/2019/01/31/%E6%99%96Nas%E4%B8%8B%E7%9A%84Docker%E5%A5%97%E4%BB%B6%E6%90%AD%E5%BB%BA%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</url>
       
-        <content type="html"><![CDATA[<p>其实有了<code>宝塔面板</code>以后我还是使用<code>web station</code><br>原因是<code>宝塔面板</code>耗费的资源可能要比<code>web station</code>多一些<br>如果单纯使用<code>docker</code>的<code>nginx、php</code>服务要比<code>web station</code>要好很多<br>而且可以备份镜像如果服务器出现了问题立刻就可以进行续航更换<br>这个放在以后的文章中再讲<br>先讲搭建搭建<code>宝塔</code>这种整合型的套件工具</p><h2 id="选择系统"><a href="#选择系统" class="headerlink" title="选择系统"></a>选择系统</h2><p>我这里建议选择<code>centOS</code><br>虽然我也习惯了<code>Ubuntu</code>的apt<br>但是搭建<code>宝塔</code>还是<code>centOS</code>好用而<code>Ubuntu</code>有坑而且不好填<br><code>Ubuntu</code>的最新版本是使用不冷<code>宝塔</code>的<code>FTP</code>的<br>为什么？我也还没有研究清楚，很多人已经反馈了<code>Ubuntu</code>使用不了<code>PureFTPd</code><br>应该是<code>PureFTPd</code>这边的问题，所以这个问题不深究了能用就行不管什么方法还是系统</p><h2 id="下载系统"><a href="#下载系统" class="headerlink" title="下载系统"></a>下载系统</h2><ol><li>注册表搜索<code>centos</code>下载<code>docker</code>官方的最新版本<br><img src="/images/pasted-100.png" alt="upload"></li><li>镜像设置<br><img src="/images/pasted-101.png" alt="upload"></li><li>设置挂载卷<br>这里要说明一下，一定要挂载到<code>wwwroot</code>下面去<br>如果图省事挂到www下，坑正在前方等着你<br>启动不了就看看是不是这个问题<br><img src="/images/pasted-102.png" alt="upload"></li><li>开放端口<br>这里重点讲一下<br>要想正常的用<code>FTP</code>从<code>3900</code>到<code>4000</code>开出任意个端口来<br>到时到配置文件中还要修改这些是被动端口可以不用转发到外网但是一定得开起来否则连不上<br><code>888</code>端口是数据库管理工具<code>phpmyadmin</code>要的端口<br><code>8888</code>是控制台的端口<br><code>443</code>是<code>https</code>的端口<br><code>21</code>是<code>FTP</code>的主动端口<br><code>80</code>是普通<code>http</code>默认端口<br>这些4个端口都是需要转发到外网的<br><img src="/images/pasted-103.png" alt="upload"><br>都弄完了以后<strong>下一步</strong> 启动就好</li></ol><h2 id="安装宝塔"><a href="#安装宝塔" class="headerlink" title="安装宝塔"></a>安装<code>宝塔</code></h2><p>到容器中找到刚刚配置的镜像<br><img src="/images/pasted-104.png" alt="upload"><br>右键找到<code>详情</code><br><img src="/images/pasted-105.png" alt="upload"><br>选择终端选卡<br><img src="/images/pasted-106.png" alt="upload"><br>看到就是<code>root</code>的权限账户登录了<br>如果是配置<code>php</code>开发环境这里的<code>root</code>还有坑以后再开一篇来将<br>既然用<code>宝塔</code>那么就是发布环境，有没有<code>composer</code>都无所谓了<br>接下来都是命令行的事情了</p><pre><code>yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</code></pre><p>这段代码下去就是安装宝塔了其中需要几个<code>yes</code>通过<br>装完了就可以可以从页面访问你的<code>宝塔</code>后台了</p><h2 id="其他补充"><a href="#其他补充" class="headerlink" title="其他补充"></a>其他补充</h2><p>后台地址就是你的Nas的IP<br>如果使用使用外网就是外网地址加端口号</p><p>后台现在有一个随机的路径<br>如果不记得了初始的账号密码可以使用命令<br><code>bt</code><br>会有全部的功能解释使用<code>14</code>就可以重新查看了<br><img src="/images/pasted-107.png" alt="upload"></p><p>这里需要说明的是每次启动这个容器<br>都必须重新启动一次面板服务，否则无法访问<br>每次重启后登录面板后台必须启动各种服务，否则站点无法访问<br>重启后这些服务都是关闭的<br>我尝试过用<code>Dokerfile</code>来重新构建命令的镜像但是没有成功<br>只能放到以后再来做了<br><code>dockerhub</code>上也有镜像不过都是这毛病甚至有更差的<br>我也传了一个<code>Ubuntu</code>系统的上去，不好用过段时间就删掉<br>还是自己搭建一下比较好，起码能熟悉一下安装流程<br>也知道哪里出来问题<br>好了，如果其他的坑以后再补充</p>]]></content>
+        <content type="html"><![CDATA[<p>其实有了<code>宝塔面板</code>以后我还是使用<code>web station</code><br>原因是<code>宝塔面板</code>耗费的资源可能要比<code>web station</code>多一些<br>如果单纯使用<code>docker</code>的<code>nginx、php</code>服务要比<code>web station</code>要好很多<br>而且可以备份镜像如果服务器出现了问题立刻就可以进行续航更换<br>这个放在以后的文章中再讲<br>先讲搭建搭建<code>宝塔</code>这种整合型的套件工具</p><h2 id="选择系统"><a href="#选择系统" class="headerlink" title="选择系统"></a>选择系统</h2><p>我这里建议选择<code>centOS</code><br>虽然我也习惯了<code>Ubuntu</code>的apt<br>但是搭建<code>宝塔</code>还是<code>centOS</code>好用而<code>Ubuntu</code>有坑而且不好填<br><code>Ubuntu</code>的最新版本是使用不了<code>宝塔</code>的<code>FTP</code>的<br>为什么？我也还没有研究清楚，很多人已经反馈了<code>Ubuntu</code>使用不了<code>PureFTPd</code><br>应该是<code>PureFTPd</code>这边的问题，所以这个问题不深究了能用就行不管什么方法还是系统</p><h2 id="下载系统"><a href="#下载系统" class="headerlink" title="下载系统"></a>下载系统</h2><ol><li>注册表搜索<code>centos</code>下载<code>docker</code>官方的最新版本<br><img src="/images/pasted-100.png" alt="upload"></li><li>镜像设置<br><img src="/images/pasted-101.png" alt="upload"></li><li>设置挂载卷<br>这里要说明一下，一定要挂载到<code>wwwroot</code>下面去<br>如果图省事挂到www下，坑正在前方等着你<br>启动不了就看看是不是这个问题<br><img src="/images/pasted-102.png" alt="upload"></li><li>开放端口<br>这里重点讲一下<br>要想正常的用<code>FTP</code>从<code>3900</code>到<code>4000</code>开出任意个端口来<br>到时到配置文件中还要修改这些是被动端口可以不用转发到外网但是一定得开起来否则连不上<br><code>888</code>端口是数据库管理工具<code>phpmyadmin</code>要的端口<br><code>8888</code>是控制台的端口<br><code>443</code>是<code>https</code>的端口<br><code>21</code>是<code>FTP</code>的主动端口<br><code>80</code>是普通<code>http</code>默认端口<br>这些4个端口都是需要转发到外网的<br><img src="/images/pasted-103.png" alt="upload"><br>都弄完了以后<strong>下一步</strong> 启动就好</li></ol><h2 id="安装宝塔"><a href="#安装宝塔" class="headerlink" title="安装宝塔"></a>安装<code>宝塔</code></h2><p>到容器中找到刚刚配置的镜像<br><img src="/images/pasted-104.png" alt="upload"><br>右键找到<code>详情</code><br><img src="/images/pasted-105.png" alt="upload"><br>选择终端选卡<br><img src="/images/pasted-106.png" alt="upload"><br>看到就是<code>root</code>的权限账户登录了<br>如果是配置<code>php</code>开发环境这里的<code>root</code>还有坑以后再开一篇来将<br>既然用<code>宝塔</code>那么就是发布环境，有没有<code>composer</code>都无所谓了<br>接下来都是命令行的事情了</p><pre><code>yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</code></pre><p>这段代码下去就是安装宝塔了其中需要几个<code>yes</code>通过<br>装完了就可以可以从页面访问你的<code>宝塔</code>后台了</p><h2 id="其他补充"><a href="#其他补充" class="headerlink" title="其他补充"></a>其他补充</h2><p>后台地址就是你的Nas的IP<br>如果使用使用外网就是外网地址加端口号</p><p>后台现在有一个随机的路径<br>如果不记得了初始的账号密码可以使用命令<br><code>bt</code><br>会有全部的功能解释使用<code>14</code>就可以重新查看了<br><img src="/images/pasted-107.png" alt="upload"></p><p>这里需要说明的是每次启动这个容器<br>都必须重新启动一次面板服务，否则无法访问<br>每次重启后登录面板后台必须启动各种服务，否则站点无法访问<br>重启后这些服务都是关闭的<br>我尝试过用<code>Dokerfile</code>来重新构建命令的镜像但是没有成功<br>只能放到以后再来做了<br><code>dockerhub</code>上也有镜像不过都是这毛病甚至有更差的<br>我也传了一个<code>Ubuntu</code>系统的上去，不好用过段时间就删掉<br>还是自己搭建一下比较好，起码能熟悉一下安装流程<br>也知道哪里出来问题<br>好了，如果其他的坑以后再补充</p>]]></content>
       
       
       <categories>
@@ -496,9 +496,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
         </tags>
       
@@ -525,9 +525,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> iSCSI </tag>
             
@@ -556,9 +556,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 手机端 </tag>
             
@@ -610,11 +610,11 @@
       
         <tags>
             
-            <tag> Nas </tag>
+            <tag> 分享 </tag>
             
             <tag> 群晖 </tag>
             
-            <tag> 分享 </tag>
+            <tag> Nas </tag>
             
             <tag> 视频 </tag>
             
@@ -643,9 +643,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> Windows </tag>
             
@@ -672,9 +672,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 视频电影 </tag>
             
@@ -784,9 +784,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 价格 </tag>
             
@@ -807,9 +807,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> git </tag>
             
@@ -849,9 +849,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 网络 </tag>
             
@@ -880,9 +880,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> git </tag>
             
@@ -949,9 +949,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
         </tags>
       
@@ -976,9 +976,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 心情 </tag>
             
@@ -1005,11 +1005,11 @@
       
         <tags>
             
-            <tag> Nas </tag>
+            <tag> 分享 </tag>
             
             <tag> 群晖 </tag>
             
-            <tag> 分享 </tag>
+            <tag> Nas </tag>
             
             <tag> 下载 </tag>
             
@@ -1036,9 +1036,9 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
             <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
             <tag> 视频 </tag>
             
@@ -1096,13 +1096,13 @@
       
         <tags>
             
-            <tag> Nas </tag>
-            
-            <tag> 群晖 </tag>
-            
             <tag> 分享 </tag>
             
             <tag> 下载工具 </tag>
+            
+            <tag> 群晖 </tag>
+            
+            <tag> Nas </tag>
             
         </tags>
       
