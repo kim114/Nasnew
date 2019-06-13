@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-05-26T09:07:42.325Z</updated>
+  <updated>2019-06-13T04:07:27.930Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>quickconnect其实并不是内网使用的</title>
+    <link href="https://nas.kstu.vip/2019/06/13/quickconnect%E5%85%B6%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%86%85%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84/"/>
+    <id>https://nas.kstu.vip/2019/06/13/quickconnect其实并不是内网使用的/</id>
+    <published>2019-06-13T04:00:00.000Z</published>
+    <updated>2019-06-13T04:07:27.930Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;白群晖的&lt;code&gt;quickconnect&lt;/code&gt;很多人以为用来内网穿透的&lt;br&gt;其实真实的&lt;code&gt;quickconnect&lt;/code&gt;大多数情况并不是用来外网访问内网的&lt;br&gt;因为这的访问速度真的非常缓慢&lt;br&gt;那么举报了公网IP以后的&lt;code&gt;quick
+        
+      
+    
+    </summary>
+    
+      <category term="Nas解决" scheme="https://nas.kstu.vip/categories/Nas%E8%A7%A3%E5%86%B3/"/>
+    
+    
+      <category term="群晖Nas" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96Nas/"/>
+    
+      <category term="外网公网" scheme="https://nas.kstu.vip/tags/%E5%A4%96%E7%BD%91%E5%85%AC%E7%BD%91/"/>
+    
+  </entry>
   
   <entry>
     <title>由黑群晖数据转移到白群晖</title>
@@ -38,9 +66,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="黑群晖" scheme="https://nas.kstu.vip/tags/%E9%BB%91%E7%BE%A4%E6%99%96/"/>
-    
       <category term="群晖Nas" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96Nas/"/>
+    
+      <category term="黑群晖" scheme="https://nas.kstu.vip/tags/%E9%BB%91%E7%BE%A4%E6%99%96/"/>
     
       <category term="迁移" scheme="https://nas.kstu.vip/tags/%E8%BF%81%E7%A7%BB/"/>
     
@@ -68,9 +96,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
   </entry>
   
@@ -96,9 +124,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="同步" scheme="https://nas.kstu.vip/tags/%E5%90%8C%E6%AD%A5/"/>
     
@@ -129,9 +157,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
   </entry>
   
@@ -157,9 +185,9 @@
       <category term="Nas" scheme="https://nas.kstu.vip/categories/Nas/"/>
     
     
-      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
     
       <category term="问题" scheme="https://nas.kstu.vip/tags/%E9%97%AE%E9%A2%98/"/>
     
@@ -475,9 +503,9 @@
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
-    
       <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
     
   </entry>
   
@@ -501,9 +529,9 @@
     </summary>
     
     
-      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
-    
       <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
+      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
     
   </entry>
   
@@ -531,41 +559,11 @@
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
+    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="宝塔面板" scheme="https://nas.kstu.vip/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用WebStation建站的一些坑</title>
-    <link href="https://nas.kstu.vip/2019/01/27/%E5%88%A9%E7%94%A8WebStation%E5%BB%BA%E7%AB%99%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91/"/>
-    <id>https://nas.kstu.vip/2019/01/27/利用WebStation建站的一些坑/</id>
-    <published>2019-01-27T17:57:00.000Z</published>
-    <updated>2019-02-02T04:34:20.448Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;其实使用&lt;code&gt;web station&lt;/code&gt;来建站是非常方便&lt;br&gt;但是初次使用到朋友难免会觉得有些坑&lt;br&gt;&lt;code&gt;web
-        
-      
-    
-    </summary>
-    
-      <category term="nas应用" scheme="https://nas.kstu.vip/categories/nas%E5%BA%94%E7%94%A8/"/>
-    
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
-      <category term="webstation" scheme="https://nas.kstu.vip/tags/webstation/"/>
     
   </entry>
   
