@@ -4,11 +4,24 @@
   
     
     <entry>
-      <title>quickconnect其实并不是内网使用的</title>
-      <link href="/2019/06/13/quickconnect%E5%85%B6%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%86%85%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84/"/>
-      <url>/2019/06/13/quickconnect%E5%85%B6%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%86%85%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84/</url>
+      <title>群晖Nas做手机app服务后台</title>
+      <link href="/2019/07/24/%E7%BE%A4%E6%99%96Nas%E5%81%9A%E6%89%8B%E6%9C%BAapp%E6%9C%8D%E5%8A%A1%E5%90%8E%E5%8F%B0/"/>
+      <url>/2019/07/24/%E7%BE%A4%E6%99%96Nas%E5%81%9A%E6%89%8B%E6%9C%BAapp%E6%9C%8D%E5%8A%A1%E5%90%8E%E5%8F%B0/</url>
       
-        <content type="html"><![CDATA[<p>白群晖的<code>quickconnect</code>很多人以为用来内网穿透的<br>其实真实的<code>quickconnect</code>大多数情况并不是用来外网访问内网的<br>因为这的访问速度真的非常缓慢<br>那么举报了公网IP以后的<code>quickconnect</code>就会变成一个非常<br>便捷的登录入口，不管是应用还是访问地址<br>都不需要其记忆很长的域名或者是端口号这些<br>只需要输入<code>quickconnect</code>ID就可以进行访问了<br>当正在处于一个需要安全环境的情况下时候依然可以使用它的内网穿透来提升访问的安全性<br>虽然速度慢些，毕竟相对安全和相对速度是不可兼得的方向</p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>很多人认为群晖Nas只是单纯的存储服务器<br>它安静的默默为您提供服务<br>甚至于您似乎已经忘记了它的存在<br>当真有一天它无法运作的时候<br>您才了解到原来它是那么的重要</p></blockquote><p>Nas私有云存储服务器，首先它是一个服务器当然会具备服务器的基本功能<br>这里我就简单举例一个前不久搭建的手机app后台服务功能<br>首先我的后台程序就利用<code>PHP</code>语言构建的<br>只要是<code>群晖私有云</code>产品都对<code>PHP</code>这种语言支持对外或者对内进行http和https发布<br>说得通俗一点就是架设<code>PHP</code>语言的网站是完全没有问题的<br>当然如果是支持<code>Dokder</code>的产品就完全不同了<br>这一类产品可以支持所有语言构建软件产品包括<code>windows</code>的软件<br>当然不是说让<code>Dokder</code>去构建，而是这个类型的产品已经完全支持虚拟系统环境<br>构建<code>windows</code>平台是很容易就能办到的事情</p><p>言归正传，我这里是使用<code>PHP</code>的原因，是因为开发<code>web</code>的速度非常快而且普遍服务器都能够支持<br>当然做这类的服务需要一定要对编程有一定的了解才能很好完成<br>这里就不做详细的教程，但是可以给予一个简单的思路<br>首先我们利用<code>PHP</code>的<code>ThinkPHP5.1</code>框架搭建API后台程序给手机APP提供访问操作<br><img src="/images/pasted-158.png" alt="upload"><br>做一个简单后台界面用于和api共同管理<code>mysql</code>的数据<br>开发API接口，做好Token权限的设置<br>这些步骤都涉及到编程内容，就不详解了可以简单理解为一个带有API接口的网站程序</p><p>上述完成好，我们利用<code>群晖私有云</code>的<code>Web Station</code>搭建服务器<br>当然有能力的朋友可以利用<code>docker</code>来搭建更加复杂的服务器环境更为安全可靠些<br>但是注意如果利用<code>docker</code>搭建服务器的时候不要和<code>Web Station</code>的端口冲突了<br>如果您也是电信公网IP，那么<code>443</code>端口是可以用来搭建<code>https</code>的服务器的<br>对于做<code>微信小程序</code>的开发是非常友好的，但是一定要注意端口冲突的问题就即可</p><p>路由器做对应的端口映射，让外网能够成功的访问到服务器地址<br>下面就开始做APP的部分，我APP的部分利用<code>uniAPP</code>框架进行构建<br>这个框架是基于<code>vue</code>的<code>nodejs</code>框架上开发的<br>开发起来非常非常接近<code>微信小程序</code>的开发上手也非常简单<br>已经构建好的接口的APP界面，因为不受API的地址限制和内容信息审核限制<br>我们可以构建很多类型的手机APP，给针对的用户人群使用<br><img src="/images/pasted-159.png" alt="upload"><br>只要前端技术知识到位一样可以构建非常漂亮的APP界面<br><img src="/images/pasted-160.png" alt="upload"></p><p>综上所述，群晖私有云服务器可以发挥很多意想不到的潜能利用于生活的点点滴滴<br>跟多的技术知识，希望能与知云公司交流学习的可以联系：<code>１５６７８６０９４９４</code></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>quickconnect其实并不是内网使用的</title>
+      <link href="/2019/06/13/uickconnect%E5%85%B6%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%86%85%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84/"/>
+      <url>/2019/06/13/uickconnect%E5%85%B6%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%86%85%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84/</url>
+      
+        <content type="html"><![CDATA[<p>白群晖的<code>quickconnect</code>很多人以为用来内网穿透的<br>其实真实的<code>quickconnect</code>大多数情况并不是用来外网访问内网的<br>因为这的访问速度真的非常缓慢<br>那么申请了公网IP以后的<code>quickconnect</code>就会变成一个非常<br>便捷的登录入口，不管是应用还是访问地址<br>都不需要其记忆很长的域名或者是端口号这些<br>只需要输入<code>quickconnect</code>ID就可以进行访问了<br>当正在处于一个需要安全环境的情况下时候依然可以使用它的内网穿透来提升访问的安全性<br>虽然速度慢些，毕竟相对安全和相对速度是不可兼得的方向</p>]]></content>
       
       
       <categories>
@@ -415,9 +428,9 @@
             
             <tag> 群晖 </tag>
             
-            <tag> nas </tag>
-            
             <tag> centOS </tag>
+            
+            <tag> nas </tag>
             
         </tags>
       
@@ -436,9 +449,9 @@
       
         <tags>
             
-            <tag> nas </tag>
-            
             <tag> centOS </tag>
+            
+            <tag> nas </tag>
             
         </tags>
       
@@ -465,9 +478,9 @@
             
             <tag> 群晖 </tag>
             
-            <tag> nas </tag>
-            
             <tag> centOS </tag>
+            
+            <tag> nas </tag>
             
             <tag> 宝塔面板 </tag>
             

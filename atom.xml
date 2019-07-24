@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-06-13T04:07:27.930Z</updated>
+  <updated>2019-07-24T02:11:45.217Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>quickconnect其实并不是内网使用的</title>
-    <link href="https://nas.kstu.vip/2019/06/13/quickconnect%E5%85%B6%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%86%85%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84/"/>
-    <id>https://nas.kstu.vip/2019/06/13/quickconnect其实并不是内网使用的/</id>
-    <published>2019-06-13T04:00:00.000Z</published>
-    <updated>2019-06-13T04:07:27.930Z</updated>
+    <title>群晖Nas做手机app服务后台</title>
+    <link href="https://nas.kstu.vip/2019/07/24/%E7%BE%A4%E6%99%96Nas%E5%81%9A%E6%89%8B%E6%9C%BAapp%E6%9C%8D%E5%8A%A1%E5%90%8E%E5%8F%B0/"/>
+    <id>https://nas.kstu.vip/2019/07/24/群晖Nas做手机app服务后台/</id>
+    <published>2019-07-24T01:30:54.000Z</published>
+    <updated>2019-07-24T02:11:45.217Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,32 @@
       
         
         
-          &lt;p&gt;白群晖的&lt;code&gt;quickconnect&lt;/code&gt;很多人以为用来内网穿透的&lt;br&gt;其实真实的&lt;code&gt;quickconnect&lt;/code&gt;大多数情况并不是用来外网访问内网的&lt;br&gt;因为这的访问速度真的非常缓慢&lt;br&gt;那么举报了公网IP以后的&lt;code&gt;quick
+          &lt;blockquote&gt;
+&lt;p&gt;很多人认为群晖Nas只是单纯的存储服务器&lt;br&gt;它安静的默默为您提供服务&lt;br&gt;甚至于您似乎已经忘记了它的存在&lt;br&gt;当真有一天它无法运作的时候&lt;br&gt;您才了解到原来它是那么的重要&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nas私有云存储服务器，
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>quickconnect其实并不是内网使用的</title>
+    <link href="https://nas.kstu.vip/2019/06/13/uickconnect%E5%85%B6%E5%AE%9E%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%86%85%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84/"/>
+    <id>https://nas.kstu.vip/2019/06/13/uickconnect其实并不是内网使用的/</id>
+    <published>2019-06-13T04:00:00.000Z</published>
+    <updated>2019-07-19T09:22:15.614Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;白群晖的&lt;code&gt;quickconnect&lt;/code&gt;很多人以为用来内网穿透的&lt;br&gt;其实真实的&lt;code&gt;quickconnect&lt;/code&gt;大多数情况并不是用来外网访问内网的&lt;br&gt;因为这的访问速度真的非常缓慢&lt;br&gt;那么申请了公网IP以后的&lt;code&gt;quick
         
       
     
@@ -503,9 +528,9 @@
     
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
   </entry>
   
@@ -529,41 +554,9 @@
     </summary>
     
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
     
-  </entry>
-  
-  <entry>
-    <title>群晖Nas下的Docker套件搭建宝塔面板</title>
-    <link href="https://nas.kstu.vip/2019/01/31/%E6%99%96Nas%E4%B8%8B%E7%9A%84Docker%E5%A5%97%E4%BB%B6%E6%90%AD%E5%BB%BA%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
-    <id>https://nas.kstu.vip/2019/01/31/晖Nas下的Docker套件搭建宝塔面板/</id>
-    <published>2019-01-31T14:55:00.000Z</published>
-    <updated>2019-06-03T04:43:16.446Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;其实有了&lt;code&gt;宝塔面板&lt;/code&gt;以后我还是使用&lt;code&gt;web station&lt;/code&gt;&lt;br&gt;原因是&lt;code&gt;宝塔面板&lt;/code&gt;耗费的资源可能要比&lt;code&gt;web
-        
-      
-    
-    </summary>
-    
-      <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
-    
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
-      <category term="centOS" scheme="https://nas.kstu.vip/tags/centOS/"/>
-    
-      <category term="宝塔面板" scheme="https://nas.kstu.vip/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
