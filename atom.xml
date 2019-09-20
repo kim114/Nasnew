@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-07-31T01:54:30.234Z</updated>
+  <updated>2019-09-20T17:32:54.671Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>知云Nas系列产品</title>
+    <link href="https://nas.kstu.vip/2019/09/20/%E7%9F%A5%E4%BA%91Nas%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81/"/>
+    <id>https://nas.kstu.vip/2019/09/20/知云Nas系列产品/</id>
+    <published>2019-09-20T17:26:01.000Z</published>
+    <updated>2019-09-20T17:32:54.671Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;知云Nas产品系列选用的是世界知名品牌群晖Nas服务器系列&lt;br&gt;群晖产品使用上大大简化了交互流程，降低了使用难度&lt;br&gt;不管您是新手还是菜鸟都能轻松上手，几乎无需任何多余设置&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>分享资源的另外一种途径</title>
@@ -530,36 +555,6 @@
       <category term="命令行" scheme="https://nas.kstu.vip/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
     
       <category term="终端" scheme="https://nas.kstu.vip/tags/%E7%BB%88%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用nas构建自己的webIDE网页编辑器</title>
-    <link href="https://nas.kstu.vip/2019/02/01/%E5%88%A9%E7%94%A8nas%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84webIDE%E7%BD%91%E9%A1%B5%E7%BC%96%E8%BE%91%E5%99%A8/"/>
-    <id>https://nas.kstu.vip/2019/02/01/利用nas构建自己的webIDE网页编辑器/</id>
-    <published>2019-02-01T18:37:00.000Z</published>
-    <updated>2019-02-02T07:05:00.837Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;之前用很复杂的方式构建了各种编辑环境就是为了方便进行操作&lt;br&gt;通过不断的网络搜刮当然也有了更好的选择&lt;br&gt;当然是webIDE，国内原来有coding现在给了腾讯&lt;br&gt;很多好一点的教学站点都有自己的webIDE为了方便学员开发&lt;br&gt;配置环境真的是一件非常枯燥的事情&lt;b
-        
-      
-    
-    </summary>
-    
-      <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
-    
-    
-      <category term="webIDE" scheme="https://nas.kstu.vip/tags/webIDE/"/>
-    
-      <category term="编程" scheme="https://nas.kstu.vip/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-      <category term="cloud9" scheme="https://nas.kstu.vip/tags/cloud9/"/>
     
   </entry>
   
