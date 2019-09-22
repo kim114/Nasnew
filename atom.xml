@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-09-22T14:49:12.871Z</updated>
+  <updated>2019-09-22T15:14:26.420Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>知云系列小视频</title>
+    <link href="https://nas.kstu.vip/2019/09/22/%E7%9F%A5%E4%BA%91%E7%B3%BB%E5%88%97%E5%B0%8F%E8%A7%86%E9%A2%91/"/>
+    <id>https://nas.kstu.vip/2019/09/22/知云系列小视频/</id>
+    <published>2019-09-22T15:14:00.000Z</published>
+    <updated>2019-09-22T15:14:26.420Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这里会累计一些关于知云Nas的一些&lt;code&gt;小视频&lt;/code&gt;会让你更加明白私有云服务器的作用&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;掉了手机有Nas和没有Nas的区别&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="知云" scheme="https://nas.kstu.vip/tags/%E7%9F%A5%E4%BA%91/"/>
+    
+      <category term="技术" scheme="https://nas.kstu.vip/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>知云Nas系列产品</title>
     <link href="https://nas.kstu.vip/2019/09/20/%E7%9F%A5%E4%BA%91Nas%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81/"/>
     <id>https://nas.kstu.vip/2019/09/20/知云Nas系列产品/</id>
-    <published>2019-09-20T17:26:01.000Z</published>
-    <updated>2019-09-22T14:49:12.871Z</updated>
+    <published>2019-09-20T17:26:00.000Z</published>
+    <updated>2019-09-22T15:09:48.850Z</updated>
     
     <summary type="html">
     
@@ -38,6 +67,14 @@
     
     </summary>
     
+      <category term="知云" scheme="https://nas.kstu.vip/categories/%E7%9F%A5%E4%BA%91/"/>
+    
+    
+      <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖Nas" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96Nas/"/>
+    
+      <category term="知云" scheme="https://nas.kstu.vip/tags/%E7%9F%A5%E4%BA%91/"/>
     
   </entry>
   
@@ -175,9 +212,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="黑群晖" scheme="https://nas.kstu.vip/tags/%E9%BB%91%E7%BE%A4%E6%99%96/"/>
-    
       <category term="群晖Nas" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96Nas/"/>
+    
+      <category term="黑群晖" scheme="https://nas.kstu.vip/tags/%E9%BB%91%E7%BE%A4%E6%99%96/"/>
     
       <category term="迁移" scheme="https://nas.kstu.vip/tags/%E8%BF%81%E7%A7%BB/"/>
     
@@ -205,9 +242,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
   </entry>
   
@@ -233,9 +270,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="同步" scheme="https://nas.kstu.vip/tags/%E5%90%8C%E6%AD%A5/"/>
     
@@ -266,9 +303,9 @@
       <category term="Nas技术" scheme="https://nas.kstu.vip/categories/Nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
   </entry>
   
@@ -294,9 +331,9 @@
       <category term="Nas" scheme="https://nas.kstu.vip/categories/Nas/"/>
     
     
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
       <category term="Nas" scheme="https://nas.kstu.vip/tags/Nas/"/>
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
       <category term="问题" scheme="https://nas.kstu.vip/tags/%E9%97%AE%E9%A2%98/"/>
     
@@ -463,9 +500,9 @@
     </summary>
     
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
       <category term="活动" scheme="https://nas.kstu.vip/tags/%E6%B4%BB%E5%8A%A8/"/>
     
@@ -493,9 +530,9 @@
       <category term="nas技术" scheme="https://nas.kstu.vip/categories/nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
   </entry>
   
@@ -521,40 +558,9 @@
       <category term="nas技术" scheme="https://nas.kstu.vip/categories/nas%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
       <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
     
-  </entry>
-  
-  <entry>
-    <title>docker命令大全</title>
-    <link href="https://nas.kstu.vip/2019/02/02/docker%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/"/>
-    <id>https://nas.kstu.vip/2019/02/02/docker命令大全/</id>
-    <published>2019-02-02T08:47:00.000Z</published>
-    <updated>2019-02-02T12:46:05.803Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;code&gt;docker&lt;/code&gt; 其实很强大用得好的很少&lt;/p&gt;
-&lt;h2 id=&quot;docker命令集&quot;&gt;&lt;a href=&quot;#docker命令集&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="docker" scheme="https://nas.kstu.vip/categories/docker/"/>
-    
-    
       <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
-      <category term="命令行" scheme="https://nas.kstu.vip/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
-    
-      <category term="终端" scheme="https://nas.kstu.vip/tags/%E7%BB%88%E7%AB%AF/"/>
     
   </entry>
   
