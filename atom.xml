@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-09-26T15:51:58.499Z</updated>
+  <updated>2019-10-05T10:09:07.670Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>增强Nas的安全性</title>
+    <link href="https://nas.kstu.vip/2019/10/05/%E5%A2%9E%E5%BC%BANas%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7/"/>
+    <id>https://nas.kstu.vip/2019/10/05/增强Nas的安全性/</id>
+    <published>2019-10-05T10:08:00.000Z</published>
+    <updated>2019-10-05T10:09:07.670Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;近端时间来在国内有部分网友的Nas已然中了勒索病毒的威胁导致数据丢失，因此不管任何一个相对安全的设备都是需要进行安全的维护的。如果不进行安全维护那么就非常容易导致数据丢失&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里可能有人会问，&lt;code&gt;Na
+        
+      
+    
+    </summary>
+    
+      <category term="知云" scheme="https://nas.kstu.vip/categories/%E7%9F%A5%E4%BA%91/"/>
+    
+    
+      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
+    
+      <category term="安全" scheme="https://nas.kstu.vip/tags/%E5%AE%89%E5%85%A8/"/>
+    
+      <category term="Nas技术" scheme="https://nas.kstu.vip/tags/Nas%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电脑U盘启动快捷键总汇</title>
+    <link href="https://nas.kstu.vip/2019/09/29/%E7%94%B5%E8%84%91U%E7%9B%98%E5%90%AF%E5%8A%A8%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%80%BB%E6%B1%87/"/>
+    <id>https://nas.kstu.vip/2019/09/29/电脑U盘启动快捷键总汇/</id>
+    <published>2019-09-29T04:24:41.000Z</published>
+    <updated>2019-09-29T04:26:53.063Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;启动项目选择案例&lt;code&gt;（不包含5年前的久配置）&lt;/code&gt;：&lt;br&gt;这种启动模式多运用于系统无法启动后，需要U盘进行引导的方式&lt;br&gt;&lt;img src=&quot;/images/pasted-183.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>你的相片有多重要</title>
@@ -507,62 +562,6 @@
     
     
       <category term="win10" scheme="https://nas.kstu.vip/tags/win10/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3月优惠活动</title>
-    <link href="https://nas.kstu.vip/2019/02/17/%E7%BE%A4%E6%99%96218j%E5%8A%9F%E8%83%BD/"/>
-    <id>https://nas.kstu.vip/2019/02/17/群晖218j功能/</id>
-    <published>2019-02-17T08:38:00.000Z</published>
-    <updated>2019-03-29T03:07:15.737Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;3月订购优惠相送&quot;&gt;&lt;a href=&quot;#3月订购优惠相送&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
-    
-      <category term="活动" scheme="https://nas.kstu.vip/tags/%E6%B4%BB%E5%8A%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NAS 型号支持 Moments 的 AI 计算功能</title>
-    <link href="https://nas.kstu.vip/2019/02/17/NAS-%E5%9E%8B%E5%8F%B7%E6%94%AF%E6%8C%81-Moments-%E7%9A%84-AI-%E8%AE%A1%E7%AE%97%E5%8A%9F%E8%83%BD/"/>
-    <id>https://nas.kstu.vip/2019/02/17/NAS-型号支持-Moments-的-AI-计算功能/</id>
-    <published>2019-02-17T02:53:00.000Z</published>
-    <updated>2019-02-20T12:08:16.616Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Synology Moments 是面向个人和家庭用户打造的照片解决方案，提供直观的方法来管理在日常生活中捕捉的所有个人照片，并详细记录所有特殊时刻。此个人照片存储配备 AI 计算功能（如人脸识别、主题识别、自动校色和旋转调整以及 Moments
-        
-      
-    
-    </summary>
-    
-      <category term="nas技术" scheme="https://nas.kstu.vip/categories/nas%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="群晖" scheme="https://nas.kstu.vip/tags/%E7%BE%A4%E6%99%96/"/>
-    
-      <category term="nas" scheme="https://nas.kstu.vip/tags/nas/"/>
     
   </entry>
   
