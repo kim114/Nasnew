@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-10-06T09:06:50.905Z</updated>
+  <updated>2019-10-08T01:53:33.801Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,70 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用hexo建立一个自己喜欢的网站</title>
+    <link href="https://nas.kstu.vip/2019/10/08/%E5%88%A9%E7%94%A8hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BD%91%E7%AB%99/"/>
+    <id>https://nas.kstu.vip/2019/10/08/利用hexo建立一个自己喜欢的网站/</id>
+    <published>2019-10-08T01:49:00.000Z</published>
+    <updated>2019-10-08T01:53:33.801Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://nas.kstu.vip/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="情感" scheme="https://nas.kstu.vip/categories/%E6%8A%80%E6%9C%AF/%E6%83%85%E6%84%9F/"/>
+    
+    
+      <category term="hexo" scheme="https://nas.kstu.vip/tags/hexo/"/>
+    
+      <category term="博客" scheme="https://nas.kstu.vip/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="blog" scheme="https://nas.kstu.vip/tags/blog/"/>
+    
+      <category term="建站" scheme="https://nas.kstu.vip/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么要有墙这个东西</title>
+    <link href="https://nas.kstu.vip/2019/10/08/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%A2%99%E8%BF%99%E4%B8%AA%E4%B8%9C%E8%A5%BF/"/>
+    <id>https://nas.kstu.vip/2019/10/08/为什么要有墙这个东西/</id>
+    <published>2019-10-08T01:43:00.000Z</published>
+    <updated>2019-10-08T01:44:56.039Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我们都知道，我们现在使用的网络有墙内墙外之分，有些朋友就开始埋怨&lt;code&gt;国内局域网&lt;/code&gt;。至少之前我也是那么觉得的，现在回头仔细想想&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其实我想说，真的，我们的政策在保护你同时也在保护你的未来。为你构建了一层无形的防护盾。然
+        
+      
+    
+    </summary>
+    
+      <category term="情感" scheme="https://nas.kstu.vip/categories/%E6%83%85%E6%84%9F/"/>
+    
+    
+      <category term="情感" scheme="https://nas.kstu.vip/tags/%E6%83%85%E6%84%9F/"/>
+    
+      <category term="吐槽" scheme="https://nas.kstu.vip/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>增强Nas的安全性</title>
@@ -106,7 +170,7 @@
     <link href="https://nas.kstu.vip/2019/09/22/%E7%9F%A5%E4%BA%91%E7%B3%BB%E5%88%97%E5%B0%8F%E8%A7%86%E9%A2%91/"/>
     <id>https://nas.kstu.vip/2019/09/22/知云系列小视频/</id>
     <published>2019-09-22T15:14:00.000Z</published>
-    <updated>2019-09-22T15:14:26.420Z</updated>
+    <updated>2019-10-11T14:53:12.490Z</updated>
     
     <summary type="html">
     
@@ -135,7 +199,7 @@
     <link href="https://nas.kstu.vip/2019/09/20/%E7%9F%A5%E4%BA%91Nas%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81/"/>
     <id>https://nas.kstu.vip/2019/09/20/知云Nas系列产品/</id>
     <published>2019-09-20T17:26:00.000Z</published>
-    <updated>2019-09-22T16:25:30.465Z</updated>
+    <updated>2019-10-11T14:57:58.843Z</updated>
     
     <summary type="html">
     
@@ -511,57 +575,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>群晖之内网唤醒方案</title>
-    <link href="https://nas.kstu.vip/2019/02/24/%E7%BE%A4%E6%99%96%E4%B9%8B%E5%86%85%E7%BD%91%E5%94%A4%E9%86%92%E6%96%B9%E6%A1%88/"/>
-    <id>https://nas.kstu.vip/2019/02/24/群晖之内网唤醒方案/</id>
-    <published>2019-02-24T02:45:32.000Z</published>
-    <updated>2019-02-27T10:00:34.128Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;内网唤醒其实还是蛮简单&lt;br&gt;外网唤醒就有点需要硬件的条件限制&lt;br&gt;至少我的是小米路由器没法开通apr远程唤醒端口&lt;br&gt;没有ARP绑定功能的路由器就暂时别想了外网唤醒了&lt;/p&gt;
-&lt;h2 id=&quot;打开唤醒设置&quot;&gt;&lt;a href=&quot;#打开唤醒设置&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>火绒弹窗软件导致win10创建重命名删除不刷新页面问题</title>
-    <link href="https://nas.kstu.vip/2019/02/20/%E7%81%AB%E7%BB%92%E5%BC%B9%E7%AA%97%E8%BD%AF%E4%BB%B6%E5%AF%BC%E8%87%B4win10%E5%88%9B%E5%BB%BA%E9%87%8D%E5%91%BD%E5%90%8D%E5%88%A0%E9%99%A4%E4%B8%8D%E5%88%B7%E6%96%B0%E9%A1%B5%E9%9D%A2%E9%97%AE%E9%A2%98/"/>
-    <id>https://nas.kstu.vip/2019/02/20/火绒弹窗软件导致win10创建重命名删除不刷新页面问题/</id>
-    <published>2019-02-20T11:59:00.000Z</published>
-    <updated>2019-02-20T12:09:56.961Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;code&gt;火绒&lt;/code&gt;安全软件确实不错&lt;br&gt;不但占用内存小&lt;br&gt;最主要还有火绒剑这个专业的工具非常好用&lt;br&gt;本来火绒的弹窗拦截也是非常不错的工具&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;但是最近发现只要随系统启动后就会出现&lt;br&gt;创建、重命名或者删除文件导致页
-        
-      
-    
-    </summary>
-    
-      <category term="其他知识" scheme="https://nas.kstu.vip/categories/%E5%85%B6%E4%BB%96%E7%9F%A5%E8%AF%86/"/>
-    
-    
-      <category term="win10" scheme="https://nas.kstu.vip/tags/win10/"/>
     
   </entry>
   

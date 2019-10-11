@@ -4,6 +4,66 @@
   
     
     <entry>
+      <title>利用hexo建立一个自己喜欢的网站</title>
+      <link href="/2019/10/08/%E5%88%A9%E7%94%A8hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BD%91%E7%AB%99/"/>
+      <url>/2019/10/08/%E5%88%A9%E7%94%A8hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>其实这种<code>简书</code>写东西还是非常不错的<br>果然在<code>简书</code>这类的平台还是，最终这些文章还是难逃被锁定封锁掉了命运<br>但是有些时候还是显得不那么方便，比如有时候要写些<code>梯子</code>相关的东西<br>或者对一些事物的强烈看法，似乎就不那么好了<br>又或者希望有自己喜欢的页面和样式等等<br>我比较喜欢有阴影圆角的图片样式<br>在这里就比较难以呈现出来<br>言归正传下面就开始</p><h3 id="环境选择"><a href="#环境选择" class="headerlink" title="环境选择"></a>环境选择</h3><p>首先我选择了<a href="https://studio.dev.tencent.com" target="_blank" rel="noopener">webIDE</a>,来建设静态站点<br>但是搭建放置页面程序我选择<a href="https://github.com/" target="_blank" rel="noopener">github</a><br>为什么呢？国内局域网有些东西还是很敏感的，不能涉及的东西还是有的<br>怕万一不小心哪天打了点擦边球就不大好了<br>选择放置国外的服务器会比较稳妥一些，而且容量方面也比较好</p><p><a href="https://studio.dev.tencent.com" target="_blank" rel="noopener">webIDE</a>之前是<code>coding</code>的产物<br>现在给腾讯了，据说维护还是<code>coding</code>但是似乎话语权已经不在<code>coding</code>这边了<br>如果哪天真的出现了问题，那么真相只有一个<br><img src="https://upload-images.jianshu.io/upload_images/4771423-743ac9f8d3258f90.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>当然我们还有<code>Cloud9</code>这些更好的选择<br>以后有机会再说别的在线带环境的编辑器</p><h3 id="webIDE"><a href="#webIDE" class="headerlink" title="webIDE"></a>webIDE</h3><p>现在叫<a href="https://studio.dev.tencent.com/" target="_blank" rel="noopener">Cloud Studio</a>微信登录即可<br>注册登录好以后新建一个空间<br><img src="https://upload-images.jianshu.io/upload_images/4771423-9816aeb590bbd39b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>看到<code>Hexo</code>的环境了没？<br>勾选后创建即可<br>这个环境的在操作系统上的配置以后再说，到时我会放置个链接在这里<br>之所以选择线上已经不输好的环境就是为了避免重复配置环境的麻烦</p><blockquote><p>还有另外一种的情况<br>如果你没仓库是不能直接选择<code>运行环境</code>的<br>那么可以这样<br>起个名称选择第一项，其实其他项目也行，建议选择第一项<br><img src="https://upload-images.jianshu.io/upload_images/4771423-6c2c055d7e75ec26.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>然后进入空间后在选择操作环境<br>总共三个步骤<br><img src="https://upload-images.jianshu.io/upload_images/4771423-846f47447a408713.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p></blockquote><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><blockquote><p><code>hexo 就是一个依靠node.js渲染出html页面站点的程序，再通过插件部署(上传)到服务器上</code></p></blockquote><p>进入操作界面后<br>使用命令行，创建一个目录再进入它，目录名称是随便起的</p><pre><code>mkdir hexo &amp;&amp; cd hexo &amp;&amp; hexo init</code></pre><p>我这里的意思创建一个hexo目录然后进入这个hexo的目录<br>最后再这个目录下创建hexo脚手架<br>这一句命令就完成了，如果不明白什么意思，不要紧其实就Linux的命令和hexo的命令而已<br>但是注意了不能做根目录直接就<code>hexo init</code>命令，没有目录是直接搭建不了<code>hexo</code>的，必须新建一个目录<br>等待安装完成，当命令行就不再跳动字符了，也就是安装完成了<br>可以看到有目录下有这些文件<br>当然不是完全一样也不要紧，因为以前的<code>hexo</code>版本有些文件是没有的更新以后新增了些新的文件<br>文章是我提前写的，并不知道你现在在安装的时候会是哪个版本，但是只要能运行其实也都是一样的<br><img src="https://upload-images.jianshu.io/upload_images/4771423-fc803c01917fe7ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>不放心就运行一下这个命令</p><pre><code>hexo s</code></pre><p>出现这个地址就说明OK了<br><img src="https://upload-images.jianshu.io/upload_images/4771423-e1ed3e144d6e439a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>你可以通过右边栏上的<code>访问链接</code>就能看看站点的原始样式效果了<br><img src="https://upload-images.jianshu.io/upload_images/4771423-e6ddb50500edeff3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h3 id="修改hexo"><a href="#修改hexo" class="headerlink" title="修改hexo"></a>修改hexo</h3><p>为了适应这个webIDE我们做一下简单修改更好运行些<br>找到根目录的<code>/node_mudules</code>文件夹<br><img src="https://upload-images.jianshu.io/upload_images/4771423-a491d441a827fc99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>进去再找到<code>hexo-server</code>目录下的<code>index.js</code><br>修改里面的<code>port</code>的端口<code>4000</code>为<code>8080</code><br>主要是因为每次打开访问链接都会默认<code>8080</code><br>而每次运行<code>hexo s</code>测试服务器都是<code>4000</code>端口，需要来回修改很麻烦也很容易就忘记<br>干脆就一次性改好，以后只管运行就好了<br><img src="https://upload-images.jianshu.io/upload_images/4771423-a4b7e1d6decda7c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h3 id="新增hexo后台插件"><a href="#新增hexo后台插件" class="headerlink" title="新增hexo后台插件"></a>新增hexo后台插件</h3><p>这个插件主要是为了后面能够愉快的书写文章而不用<br>使用<code>hexo n &#39;title&#39;</code>这种命令，也是为了方便粘贴图片<br>当我们随意的一个截图操作就能方便的粘贴上文章上面去，而不用先上传图片这编写路径这样就非常麻烦<br>如果搞了那么多事情，恐怕连书写的欲望都没有了<br>言归正传<br>安装的命令是再进入<code>hexo</code>目录里面才执行的，别在目录外边就执行了<br>如果当前的命令行还出处于刚刚登录时候的根目录<br>就执行命令<code>cd hexo</code>进入目录，如果已经进入目录就不需要执行这条命令了<br>下面执行安装插件的命令</p><pre><code>npm install --save hexo-admin-ehc</code></pre><p>至于这个插件密码的问题以后再说<br>因为就你自己使用，其实不用密码也是可以的<br>后台的一些操作说明<br>篇幅问题就不在一篇文章里面讲完</p><h3 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h3><p>如何注册<code>github</code>，其实互联网上已经有很多这方面的文章可以参考<br>因为很简单<br>所以也放置到以后再详说<br>这里假设你已经有了注册好了</p><p>好，现在回到编辑器的命令行<br>先配置好全局的git名称和邮箱，否则<code>push</code>推不上服务器<br>执行两条指令，中文部分替换成你自己的<br>不是用来找回的信息，不用特别去记忆这段东西，可以理解为使用当前这个仓库的人是谁的，仅此而已</p><pre><code>git config --global user.name “用户名”git config --global user.email “邮箱”</code></pre><p>开始生成公匙<br>先在编辑器的命令行配置生成公匙</p><pre><code>ssh-keygen -t rsa</code></pre><p>执行上面命令就可以看到类似这样的命令行提示</p><pre><code>workspace ssh-keygen -t rsaGenerating public/private rsa key pair.Enter file in which to save the key (/home/coding/.ssh/id_rsa):/home/coding/.ssh/id_rsa already exists.Overwrite (y/n)? yEnter passphrase (empty for no passphrase):Enter same passphrase again:Your identification has been saved in /home/coding/.ssh/id_rsa.Your public key has been saved in /home/coding/.ssh/id_rsa.pub.The key fingerprint is:SHA256:VfhNwz9Gf7Gedj3X7jzjjqQCk7o+JkbkLdnsG0Aui9k coding@coding.ideThe key&#39;s randomart image is:+---[RSA 2048]----+|           ...   ||          ..  +o ||   .      .. o.o+||  o.     .  . .++|| .oo=   S     o *||.oo=.+ +       ==||o.E o.. o    ...+||   o =.  .  o .+.||  . +++   .. .o+=|+----[SHA256]-----+</code></pre><p>这个命令后一路回车,不用复杂设置，遇到<code>Overwrite (y/n)?</code>应该是第二步的时候<br>直接输入<code>y</code>覆盖掉原来可能存在公匙文件即可<br>注意看上的题代码其实已经能够看出来路径在哪里</p><pre><code>Your identification has been saved in /home/coding/.ssh/id_rsa.Your public key has been saved in /home/coding/.ssh/id_rsa.pub.</code></pre><p>公匙文件就是这个<code>id_rsa.pub</code>文件<br>好，还是在命令行里打开它</p><pre><code>cat /home/coding/.ssh/id_rsa.pub</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/4771423-a650ae44fe4c702f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>然后从ssh-rsa开始复制到<a href="mailto:coding@conding.ide" target="_blank" rel="noopener">coding@conding.ide</a>结束即可<br>类似下面的这段字符就是公匙字符</p><pre><code>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC14chxqJU1ty3Y1PApJ0EA6OEbfq2stwyVRKH1IORGk+r8JFRLWaKqO1+msjZH0HzOdG8Eh+bnDKu7qqrMeR7efqPZF6esNnEpBRltuSP/anPtbYD4B9MqdX6Nc4Sl0H1rsn8pckdx1JlwfOdz7ALoUOWIHxHHbIm7kSkFoVb2VQ4Li4YWhBQokXhVOckJpquSYZ4+H2+lG7w2/KPCgWg5msS0B1+LnhN1E9VdaIh6d/g7l0sEMrDqi3BGcZO0Dr8rhhO8a8Fnbn6Mz4H7qnwlbnYP3yd7QwglbkN+7iHh7QWMetnrjwIgMYhit03JabP529M3szAT5QX7yEedJD+j coding@coding.ide</code></pre><p>公匙的作用就是为了，在推送生成文件到时候不用输入密码<br>再回到<code>github</code>页面上按下图操作<br><img src="https://upload-images.jianshu.io/upload_images/4771423-c6ef8abec807d99a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>然后要配置一下你的编辑器环境的公匙<br><img src="https://upload-images.jianshu.io/upload_images/4771423-1675966f996e1472.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>点击<code>Add SSH key</code>新增公匙即可</p><p>好，开始新建个仓库<br>还是页面的右上角有个<code>+</code>符号<br><img src="https://upload-images.jianshu.io/upload_images/4771423-7edc31b0e4b39714.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>选择New rpository<br>新建仓库就如下图<br><img src="https://upload-images.jianshu.io/upload_images/4771423-a4d8ddc4bcd06930.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>新建完成后，进入这个仓库<br>选择SSH按钮，复制后面的这段git推拉（上传下载）地址，后面会在配置hexo文件中使用到<br><img src="https://upload-images.jianshu.io/upload_images/4771423-b4435b92457d8a32.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><code>github</code>的最后一步，还要回来设置<code>GitHub Pages</code><br>这里先到<code>webIDE</code>编辑器中完成<code>hexo</code>的设置再推送一次代码，让其拥有一条分支再做<code>GitHub Pages</code>的设置<br>先切换到<code>webIDE</code><br>命令行进入<code>hexo</code>目录<br>安装一下git推送插件,<code>注意一定要安装否则你推送不了代码</code>,有几次用来重复的代码让我以为不用安装这个插件导致推送的时候出现问题</p><pre><code>npm install hexo-deployer-git --save</code></pre><p>然后再找到你的<code>hexo</code>目录下的<code>_config.yml</code>hexo配置文件<br>我的是<code>/hexo/_config.yml</code> 这个目录<br>双击打开它，并且滚动到最后的项目<br><code>deploy:</code>这项编辑</p><pre><code>deploy:  type: git     repo: 刚刚复制到git的推拉（上传下载）地址  branch: 分支名称（默认建议填上master,官网文档说github会自动检测不写也行，我没试过）</code></pre><p>运行hexo指令完成一次推送</p><pre><code>hexo g &amp;&amp; hexo d &amp;&amp; hexo clean</code></pre><p>指令的意思是先渲染出文件<br>然后再推送渲染的文件到<code>github</code><br>最后再清理渲染的文件，节省空间<br>配置完成后，<code>webIDE</code>的部分就没了</p><p>最后回到刚刚没有设置好的那部分，就是设置<code>GitHub Pages</code><br>点选<code>Settings</code>设置仓库<br><img src="https://upload-images.jianshu.io/upload_images/4771423-a8731b9002fbcc4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>往下滚动滚动条找到<code>GitHubPages</code><br>按照如下设置即可<br><img src="https://upload-images.jianshu.io/upload_images/4771423-7dbefc5400ecc2e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h3 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h3><p>虽然废话很多，起码证明是个人按照大白话来写的，如果要收藏，建议剪头去尾筛捡操作部分的内容供以后查看。顺序的话，可以整理出<code>webIDE</code>的部分再一起操作，<code>github</code>的部分在一起操作，文章那么写只是为了看起来原理更明白些，节省时间的方式还是建议自己弄明白是怎么回事以后再整合一下操作的流程会更好些<br>通过上面的过程，应该就已经可以正常安装一个hexo,接下来就是如何去选择一个自己喜欢的模板，或者去修改默认主题变成自己喜欢的主题<br>请记住这里的文章内是可以直接使用<code>css</code>样式和<code>js</code>代码<br>所以我们就可以设计成我们喜欢的样子</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> 情感 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> blog </tag>
+            
+            <tag> 建站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为什么要有墙这个东西</title>
+      <link href="/2019/10/08/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%A2%99%E8%BF%99%E4%B8%AA%E4%B8%9C%E8%A5%BF/"/>
+      <url>/2019/10/08/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%E5%A2%99%E8%BF%99%E4%B8%AA%E4%B8%9C%E8%A5%BF/</url>
+      
+        <content type="html"><![CDATA[<p>我们都知道，我们现在使用的网络有墙内墙外之分，有些朋友就开始埋怨<code>国内局域网</code>。至少之前我也是那么觉得的，现在回头仔细想想</p><blockquote><p>其实我想说，真的，我们的政策在保护你同时也在保护你的未来。为你构建了一层无形的防护盾。然而你却身在福中不知福。</p></blockquote><p><img src="https://upload-images.jianshu.io/upload_images/4771423-d06214d2836cd688.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="互联网的迷幻药"></p><p>对于喜欢网络技术和计算机知识的朋友都知道最新的文档和资讯都是外面的风景更漂亮。但是如果你只是想看看新闻，聊聊天什么的，在世界网络的这种环境下我觉得是完全没有必要的。一旦一些言论可以完全自由没有了约束，<code>(这里所说的约束，其实是只是非他们国家的国家言论，当这些言论针对了米国，其实也没什么言论自由可言，一样会将你的各种言论进行封杀或者其他伤害到你的事情)</code>虽然不可否认，在世界上有一部分智慧的人愿意讲出非常有独到见解的话，但是大部分的言论和新闻都是具有利益倾向捏造出来的，让普通人看不清事情都真相和事实的积极面。尤其是刚刚改革开发没有多久到我们，很容易受到一些虚假的言论影响对自己所处环境的看法。青少年之所以非常容易被利用，也多半是这些言论和教育本身出现的问题导致一系列的社会问题。<br>就拿最近的国庆阅兵举例好了，之前我一直都不明白为什么阅兵的时候我们的战士长时间不能眨眼，后来看一则国内的新闻才知道，国外的记者永远都是喜欢拍那些对我们国家不好的东西给我们看，拍我们的战士闭眼照片，拍我们战士衣衫不整的照片等等，威武的形象少之又少，然后再给一则标题『惨无人道的训练，看他们的阅兵的士兵都在犯困』，给那些本来就不了解真相的人产生更大的误解。这些媒体整天都是歪曲各种事实，把你引导带他们希望的思路上去，然后他们在从中获取利益。<br><strong>出了国的人才会懂得更加爱国</strong>，这句话不假。</p><p>比如有些社交平台上的一些科学类新闻都是那么那么的不科学不符合常理，但是依然有人愿意去相信它。如果我们本身的文化素质不高，像小学就开始辍学的都人在30-40这个年龄层还大有人在。如果我们的老百姓看到这样的信息和视频会不会信以为真呢？比如有一则文章和视频是在一个算是比较有资历的平台展示出来，一直在发布各种『世界末日』的迹象，看到一些人的跟风评论都如此绝望，甚至有人想做出非常极端的事情来，看到的都觉得非常可怕。<br>可能讲到这里有人会反驳说我们国内也有很多这样的虚假信息，伪科学信息啊？我想说的是，这些信息我们管控得比世界互联网要好得多，这些伪科学信息在被墙掉的这些平台上太多太多，多到你都以为是真的。比较因为外面的世界太『言论自由』了。</p><p>虽然目前这种对外一刀切的方案不太好，但也是目前看来也是最有效的办法，最终我们还是希望有一天能够真正的做到，墙住那些不好的信息，让我们看到更精彩更真实世界和能接触到最新的国外科技知识。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 情感 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 情感 </tag>
+            
+            <tag> 吐槽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>增强Nas的安全性</title>
       <link href="/2019/10/05/%E5%A2%9E%E5%BC%BANas%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7/"/>
       <url>/2019/10/05/%E5%A2%9E%E5%BC%BANas%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7/</url>
@@ -983,7 +1043,7 @@
     
     
     <entry>
-      <title>九月零售热销价格</title>
+      <title>十月零售热销价格</title>
       <link href="/2019/01/05/%E9%94%80%E4%BB%B7%E6%A0%BC/"/>
       <url>/2019/01/05/%E9%94%80%E4%BB%B7%E6%A0%BC/</url>
       
