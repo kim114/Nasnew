@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nas.kstu.vip/"/>
-  <updated>2019-10-08T01:53:33.801Z</updated>
+  <updated>2019-10-17T03:13:21.902Z</updated>
   <id>https://nas.kstu.vip/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>资源下载页面</title>
+    <link href="https://nas.kstu.vip/2019/10/17/%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E9%A1%B5%E9%9D%A2/"/>
+    <id>https://nas.kstu.vip/2019/10/17/资源下载页面/</id>
+    <published>2019-10-17T03:03:00.000Z</published>
+    <updated>2019-10-17T03:13:21.902Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;有些引入的文章需要下载一些资源，各种云速度都不是很理想，于是利用Nas给大家提供下载途径，直接浏览器下载即可，用&lt;code&gt;迅雷&lt;/code&gt;之类的工具作用不大毕竟不是通用名称和通用资源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因为是聚合类页面
+        
+      
+    
+    </summary>
+    
+      <category term="下载" scheme="https://nas.kstu.vip/categories/%E4%B8%8B%E8%BD%BD/"/>
+    
+    
+      <category term="下载" scheme="https://nas.kstu.vip/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
+      <category term="资源" scheme="https://nas.kstu.vip/tags/%E8%B5%84%E6%BA%90/"/>
+    
+      <category term="聚合页面" scheme="https://nas.kstu.vip/tags/%E8%81%9A%E5%90%88%E9%A1%B5%E9%9D%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>利用hexo建立一个自己喜欢的网站</title>
@@ -547,29 +580,6 @@
         
         
           &lt;p&gt;常常使用&lt;code&gt;Video&lt;/code&gt;收藏存储电影的朋友常常会出现一些尴尬的事情&lt;br&gt;有些资源的图片无法通过&lt;code&gt;Video&lt;/code&gt;自带的搜刮器匹配图片&lt;br&gt;如果使用国内资源的话相对要好很多&lt;br&gt;开始方法&lt;br&gt;打此补丁，即可在搜索影片资料中，选
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>手机同步文件方案</title>
-    <link href="https://nas.kstu.vip/2019/02/27/%E6%89%8B%E6%9C%BA%E5%90%8C%E6%AD%A5%E6%96%87%E4%BB%B6%E6%96%B9%E6%A1%88/"/>
-    <id>https://nas.kstu.vip/2019/02/27/手机同步文件方案/</id>
-    <published>2019-02-27T07:52:00.000Z</published>
-    <updated>2019-02-27T08:12:56.383Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;之前也找过一些方法来镜像同步文件&lt;br&gt;发现同步都没有成功&lt;/p&gt;
-&lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;手机软件使用&lt;code&gt;DS
         
       
     

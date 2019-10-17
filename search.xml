@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>资源下载页面</title>
+      <link href="/2019/10/17/%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E9%A1%B5%E9%9D%A2/"/>
+      <url>/2019/10/17/%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E9%A1%B5%E9%9D%A2/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>有些引入的文章需要下载一些资源，各种云速度都不是很理想，于是利用Nas给大家提供下载途径，直接浏览器下载即可，用<code>迅雷</code>之类的工具作用不大毕竟不是通用名称和通用资源。</p></blockquote><p>因为是聚合类页面如果暂时找不到自己想要找的资源请按如下操作<br><strong>按照文章提示 按<code>Ctrl</code> +  <code>F</code> 搜索下载文件名称</strong></p><p><a href="https://nas.kstu.vip/download/DS cloud_v2.8.0_apkpure.com.apk">DS cloud_v2.8.0_apkpure.com.apk</a></p><p><a href="https://nas.kstu.vip/download/Daemon Tools虚拟磁盘工具.dmg">Daemon Tools虚拟磁盘工具.dmg</a></p><p><a href="https://nas.kstu.vip/download/i5 9400F+微星B360M 迫击炮+RX590-08-27.zip">i5 9400F+微星B360M 迫击炮+RX590-08-27.zip</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 下载 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 下载 </tag>
+            
+            <tag> 资源 </tag>
+            
+            <tag> 聚合页面 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>利用hexo建立一个自己喜欢的网站</title>
       <link href="/2019/10/08/%E5%88%A9%E7%94%A8hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BD%91%E7%AB%99/"/>
       <url>/2019/10/08/%E5%88%A9%E7%94%A8hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BD%91%E7%AB%99/</url>
